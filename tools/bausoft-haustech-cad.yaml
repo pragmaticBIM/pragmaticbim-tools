@@ -1,0 +1,23 @@
+id: bausoft-haustech-cad
+name: Bausoft Haustech CAD
+vendor: MegaCAD Schweiz AG
+url: https://www.megacad-schweiz.ch
+category: mep-design
+pricing: commercial
+countries: [ch]
+description:
+  de: Schweizer 2D/3D-CAD- und BIM-Software für Sanitär-, Heizungs- und Lüftungsplanung mit IFC-Schnittstelle.
+  fr: Logiciel suisse CAO/BIM 2D/3D pour la planification sanitaire, chauffage et ventilation avec interface IFC.
+  it: Software svizzero CAD/BIM 2D/3D per la progettazione sanitaria, riscaldamento e ventilazione con interfaccia IFC.
+  en: Swiss 2D/3D CAD and BIM software for plumbing, heating and ventilation design with IFC interface.
+use_cases:
+  - code: DES-BASIC-PIPING
+  - code: DES-MEP-SCHEM
+  - code: DES-SANITARY-FIXTURE-COORD
+  - code: QAS-MEP-DETAIL
+recommendations: []
+own: false
+status: editorial
+source: https://www.megacad-schweiz.ch/bim-gebaeudetechnik-3d/
+published: true
+last_checked: "2026-10-17"

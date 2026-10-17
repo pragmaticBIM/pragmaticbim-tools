@@ -1,0 +1,24 @@
+id: codebook
+name: CodeBook
+vendor: CodeBook International
+url: https://www.codebooksolutions.com
+category: room-data-and-briefing
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Raumbuch- und Ausstattungsdatenbank mit Anbindung an Revit und Archicad zur Modellvalidierung.
+  fr: Base de données de fiches de locaux et d'équipements reliée à Revit et Archicad pour valider les modèles.
+  it: Database di schede ambiente e attrezzature collegato a Revit e Archicad per la validazione dei modelli.
+  en: Room data sheet and FF&E asset database linked to Revit and Archicad for model validation.
+use_cases:
+  - code: BES-ROOM-PROGRAM
+  - code: DES-DOOR
+  - code: DES-FURNITURE
+  - code: QAS-OUTLET-USER
+  - code: QAS-ROOM-PROGRAM
+recommendations: []
+own: false
+status: editorial
+source: https://www.codebooksolutions.com/projectdatamanager
+published: true
+last_checked: "2026-10-17"

@@ -1,0 +1,21 @@
+id: caala
+name: CAALA
+vendor: CAALA GmbH
+url: https://www.caala.de
+category: lca
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Software für modellbasierte Ökobilanzierung, Energiebedarfsberechnung und Lebenszykluskosten über IFC und CAD-Plugins.
+  fr: Logiciel d'écobilan, de calcul énergétique et de coût du cycle de vie sur modèle via IFC et plugins CAO.
+  it: Software per ecobilancio, fabbisogno energetico e costi del ciclo di vita basati su modello tramite IFC e plugin CAD.
+  en: Software for model-based LCA, energy demand calculation and life-cycle costing via IFC and CAD plugins.
+use_cases:
+  - code: DES-LCA
+  - code: DES-MATERIAL-PASS
+recommendations: []
+own: false
+status: editorial
+source: https://help.caala.de/de/article/ueberblick-ifc-workflow-in-caala
+published: true
+last_checked: "2026-10-17"

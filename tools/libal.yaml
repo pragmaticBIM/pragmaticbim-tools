@@ -1,0 +1,50 @@
+id: libal
+name: LIBAL
+vendor: LIBAL Schweiz GmbH
+url: https://libal-tech.de
+category: facility-management
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: CDE- und BIM2FM-Plattform zur Prüfung, Strukturierung und Übergabe von Modelldaten und Dokumenten an CAFM-Systeme.
+  fr: Plateforme CDE et BIM2FM pour le contrôle, la structuration et la remise des données de modèles et documents aux systèmes CAFM.
+  it: Piattaforma CDE e BIM2FM per verifica, strutturazione e consegna di dati del modello e documenti ai sistemi CAFM.
+  en: CDE and BIM2FM platform for checking, structuring and handing over model data and documents to CAFM systems.
+use_cases:
+  - code: BES-OWNER-CDE
+  - code: HOV-COBIE
+    note:
+      de: Automatische Attributübernahme und Prüfung aus IFC-Modellen und COBie-Daten für den Betrieb.
+      fr: Reprise automatique et contrôle des attributs issus de modèles IFC et de données COBie pour l'exploitation.
+      it: Acquisizione automatica e verifica degli attributi da modelli IFC e dati COBie per l'esercizio.
+      en: Automatic attribute import and checking from IFC models and COBie data for operation.
+  - code: HOV-FM-3D
+    note:
+      de: Übergabe geprüfter 3D-Modelle, Anlagenattribute und Dokumente mit bidirektionaler CAFM-Anbindung.
+      fr: Remise de modèles 3D contrôlés, attributs d'installations et documents avec liaison CAFM bidirectionnelle.
+      it: Consegna di modelli 3D verificati, attributi degli impianti e documenti con collegamento CAFM bidirezionale.
+      en: Handover of verified 3D models, asset attributes and documents with bidirectional CAFM integration.
+  - code: HOV-FM-MIN
+    note:
+      de: Strukturierte Aufbereitung und Mapping betriebsrelevanter BIM-Daten auf gängige CAFM- und ERP-Systeme.
+      fr: Préparation structurée et mappage des données BIM utiles à l'exploitation vers les systèmes CAFM et ERP courants.
+      it: Preparazione strutturata e mappatura dei dati BIM rilevanti per l'esercizio verso i comuni sistemi CAFM ed ERP.
+      en: Structured preparation and mapping of operation-relevant BIM data to common CAFM and ERP systems.
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: none
+    why:
+      de: Das einzige mir bekannte Werkzeug, das die Datenübergabe an das Facility Management gezielt optimiert.
+      fr: Le seul outil que je connaisse qui optimise spécifiquement la remise des données au facility management.
+      it: L'unico strumento che conosco che ottimizza in modo mirato la consegna dei dati al facility management.
+      en: The only tool I know that optimizes data handover to facility management.
+    date: "2026-10-17"
+    consent: true
+own: false
+status: editorial
+source: https://libal-tech.de/leistungen.html
+published: true
+last_checked: "2026-10-17"

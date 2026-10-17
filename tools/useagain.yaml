@@ -1,0 +1,20 @@
+id: useagain
+name: useagain
+vendor: useagain.ch
+url: https://www.useagain.ch
+category: material-passport-and-reuse
+pricing: commercial
+countries: [ch]
+description:
+  de: Schweizer Vermittlungsplattform und Marktplatz für gebrauchte Bauteile, Baumaterialien und Gebäudekomponenten.
+  fr: Plateforme suisse de courtage et place de marché pour éléments de construction et matériaux de réemploi.
+  it: Piattaforma svizzera di intermediazione e marketplace per elementi edilizi e materiali da costruzione riutilizzabili.
+  en: Swiss exchange platform and marketplace for used building components, materials and elements.
+use_cases:
+  - code: BES-EXISTING-CIRCULARITY
+recommendations: []
+own: false
+status: editorial
+source: https://www.useagain.ch/de/ueber-uns
+published: true
+last_checked: "2026-10-17"

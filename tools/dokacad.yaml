@@ -1,0 +1,22 @@
+id: dokacad
+name: DokaCAD for Revit
+vendor: Doka GmbH
+url: https://www.doka.com/de/solutions/services/dfds/dfds-planning-software/dokacad-for-revit
+category: structure-and-timber
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Revit-Plugin für automatisierte 3D-Schalungsplanung mit Taktplanung, Schalplänen und Stücklisten.
+  fr: Plugin Revit pour la planification automatisée de coffrage 3D avec cycles, plans de coffrage et listes de matériel.
+  it: Plugin Revit per la progettazione automatizzata di casseforme 3D con cicli, piani di casseratura e distinte materiali.
+  en: Revit plugin for automated 3D formwork planning with cycle planning, formwork drawings and bills of materials.
+use_cases:
+  - code: CON-SHL-BWP
+  - code: DES-COMPLEX-ASSEMBLY
+  - code: QAS-SITE-LOGISTICS
+recommendations: []
+own: false
+status: editorial
+source: https://www.doka.com/de/solutions/services/dfds/dfds-planning-software/dokacad-for-revit
+published: true
+last_checked: "2026-10-17"

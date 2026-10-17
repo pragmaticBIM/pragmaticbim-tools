@@ -1,0 +1,26 @@
+id: briefbuilder
+name: BriefBuilder
+vendor: BriefBuilder B.V.
+url: https://www.briefbuilder.com
+category: room-data-and-briefing
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Webplattform für Raumprogramm, Raumbuch und Anforderungsmanagement mit IFC-Modellabgleich.
+  fr: Plateforme web pour programme des locaux, fiches de locaux et gestion des exigences avec comparaison IFC.
+  it: Piattaforma web per programma dei locali, schede ambiente e gestione dei requisiti con confronto IFC.
+  en: Web platform for room programme, room data sheets and requirements management with IFC model comparison.
+use_cases:
+  - code: BES-ROOM-PROGRAM
+  - code: DES-DOOR
+  - code: DES-MEP-USAGE-AGREEMENT
+  - code: DES-USAGE-AGREEMENT
+  - code: QAS-OUTLET-USER
+  - code: QAS-ROOM-PROGRAM
+  - code: QAS-USAGE-AGREEMENT
+recommendations: []
+own: false
+status: editorial
+source: https://support.briefbuilder.com/knowledge-base/ifc-module/
+published: true
+last_checked: "2026-10-17"

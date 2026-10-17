@@ -1,0 +1,22 @@
+id: finch
+name: Finch
+vendor: Finch 3D
+url: https://www.finch3d.com
+category: feasibility-and-massing
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Generative Grundriss-, Wohnungsmix- und Layoutplanung mit Anbindung an Rhino, Grasshopper, Revit und Forma.
+  fr: Planification générative de plans d'étage, typologies de logements et layouts reliée à Rhino, Revit et Forma.
+  it: Progettazione generativa di piante, mix di alloggi e layout collegata a Rhino, Grasshopper, Revit e Forma.
+  en: Generative floor plan, unit mix and layout design connected to Rhino, Grasshopper, Revit and Forma.
+use_cases:
+  - code: BES-FUNCTIONAL-BRIEF
+  - code: DES-APT-SCHEDULE
+  - code: DES-LAYOUT
+recommendations: []
+own: false
+status: editorial
+source: https://www.finch3d.com/product
+published: true
+last_checked: "2026-10-17"

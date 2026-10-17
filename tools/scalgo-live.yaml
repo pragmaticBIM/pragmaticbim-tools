@@ -1,0 +1,22 @@
+id: scalgo-live
+name: SCALGO Live
+vendor: SCALGO ApS
+url: https://scalgo.com
+category: gis-and-geodata
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Webplattform für Oberflächenwasser-, Starkregen- und Schwammstadtplanung auf Basis von swisstopo-Geländedaten.
+  fr: Plateforme web pour l'analyse des eaux de surface, fortes pluies et ville éponge sur la base des données swisstopo.
+  it: Piattaforma web per l'analisi delle acque superficiali, forti piogge e città spugna basata sui dati swisstopo.
+  en: Web platform for surface water, heavy rain and sponge city planning based on swisstopo elevation data.
+use_cases:
+  - code: DES-TERRAIN
+  - code: DES-UVP
+  - code: LAN-SPONGE-CITY
+recommendations: []
+own: false
+status: editorial
+source: https://scalgo.com/en-US/scalgo-live-documentation/country-specific/switzerland
+published: true
+last_checked: "2026-10-17"

@@ -1,0 +1,22 @@
+id: sablono
+name: Sablono
+vendor: Sablono GmbH
+url: https://www.sablono.com
+category: field-and-defects
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Plattform für Takt- und Ausführungssteuerung mit raum- und bauteilbezogenen Prozessvorlagen, QS-Checklisten und 3D-Bezug.
+  fr: Plateforme de suivi d'exécution et takt avec modèles de processus par local/élément, listes QA et lien 3D.
+  it: Piattaforma per il controllo dell'esecuzione e takt con modelli di processo per locale/elemento, checklist QA e 3D.
+  en: Execution and takt tracking platform with room- and element-based workflow templates, QA checklists and 3D link.
+use_cases:
+  - code: CON-DEFECT-MGMT
+  - code: CON-ROOM-LABEL
+  - code: QAS-FUNCTIONAL-ACCEPTANCE
+recommendations: []
+own: false
+status: editorial
+source: https://www.sablono.com/de/produkt/qualitaet-und-compliance/qs-protokolle
+published: true
+last_checked: "2026-10-17"

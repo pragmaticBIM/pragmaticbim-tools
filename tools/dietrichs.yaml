@@ -1,0 +1,20 @@
+id: dietrichs
+name: Dietrich's
+vendor: Dietrich's AG
+url: https://de.dietrichs.com
+category: structure-and-timber
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: 3D-CAD/CAM-Software für den Holzbau mit IFC-Konverter, Statik, Werkplanung und CNC-Maschinenansteuerung.
+  fr: Logiciel CAO/FAO 3D pour la construction bois avec convertisseur IFC, statique, plans d'exécution et pilotage CNC.
+  it: Software CAD/CAM 3D per costruzioni in legno con convertitore IFC, statica, piani esecutivi e controllo macchine CNC.
+  en: 3D CAD/CAM software for timber construction with IFC converter, structural analysis, shop drawings and CNC control.
+use_cases:
+  - code: BES-TIMBER-CONTRACTOR
+recommendations: []
+own: false
+status: editorial
+source: https://de.dietrichs.com/produkte-fuer-den-holzbau/softwareloesungen/holzbau-cad-produkte/
+published: true
+last_checked: "2026-10-17"

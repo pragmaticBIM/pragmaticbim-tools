@@ -1,0 +1,24 @@
+id: catenda-hub
+name: Catenda Hub
+vendor: Catenda AS
+url: https://catenda.com/products/catenda-hub
+category: cde
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: OpenBIM-CDE (vormals Bimsync) für föderierte IFC-Modelle, BCF-Aufgabenmanagement, Dokumentenlenkung und Prüfprozesse.
+  fr: CDE OpenBIM (anciennement Bimsync) pour modèles IFC fédérés, gestion des sujets BCF, documents et validations.
+  it: CDE OpenBIM (già Bimsync) per modelli IFC federati, gestione issue BCF, controllo documentale e approvazioni.
+  en: OpenBIM CDE (formerly Bimsync) for federated IFC models, BCF issue management, document control and approvals.
+use_cases:
+  - code: BES-OWNER-CDE
+  - code: DES-ARCH-MEP-COORD
+  - code: QAS-ARCH-STRUCT-COORD
+  - code: QAS-DESIGN-REVIEW
+  - code: QAS-EARLY-COORD
+recommendations: []
+own: false
+status: editorial
+source: https://catenda.com/products/catenda-hub
+published: true
+last_checked: "2026-10-17"

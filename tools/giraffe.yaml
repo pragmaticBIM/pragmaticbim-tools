@@ -1,0 +1,22 @@
+id: giraffe
+name: Giraffe
+vendor: Giraffe Technology
+url: https://www.giraffe.build
+category: feasibility-and-massing
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Browserbasierte Plattform für städtebauliche Massenstudien, Flächen- und Wohnungsmix-Auswertungen mit IFC-Export.
+  fr: Plateforme web pour études volumétriques urbaines, calculs de surfaces et typologies avec export IFC.
+  it: Piattaforma web per studi volumetrici urbani, calcolo superfici e mix funzionali con esportazione IFC.
+  en: Browser-based platform for urban massing studies, area and unit yield calculations with IFC export.
+use_cases:
+  - code: BES-FUNCTIONAL-BRIEF
+  - code: DES-APT-SCHEDULE
+  - code: DES-URBAN-MASS
+recommendations: []
+own: false
+status: editorial
+source: https://www.giraffe.build/architects/
+published: true
+last_checked: "2026-10-17"

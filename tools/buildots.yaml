@@ -1,0 +1,20 @@
+id: buildots
+name: Buildots
+vendor: Buildots Ltd.
+url: https://buildots.com
+category: reality-capture
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: KI-gestützte Baufortschrittskontrolle durch Abgleich von 360°-Baustellenbegehungen mit BIM-Modell und Terminplan.
+  fr: Suivi d'avancement assisté par IA comparant des visites de chantier à 360° avec le modèle BIM et le planning.
+  it: Monitoraggio dell'avanzamento lavori basato su IA che confronta riprese a 360° con modello BIM e programma lavori.
+  en: AI-based construction progress tracking comparing 360° site walks against the BIM model and schedule.
+use_cases:
+  - code: CON-PROGRESS-DOC
+recommendations: []
+own: false
+status: editorial
+source: https://buildots.com/product/
+published: true
+last_checked: "2026-10-17"

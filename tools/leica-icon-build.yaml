@@ -1,0 +1,20 @@
+id: leica-icon-build
+name: Leica iCON build
+vendor: Leica Geosystems
+url: https://leica-geosystems.com/de-de/products/construction-tps-and-gnss/software/leica-icon-build
+category: other
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Feldsoftware für robotische Totalstationen zum Abstecken und Prüfen von Bauteilen direkt aus IFC- und CAD-Modellen.
+  fr: Logiciel de terrain pour stations totales robotisées permettant d'implanter et contrôler depuis des modèles IFC et CAO.
+  it: Software da campo per stazioni totali robotizzate per tracciare e verificare elementi da modelli IFC e CAD.
+  en: Field software for robotic total stations to lay out and verify building elements directly from IFC and CAD models.
+use_cases:
+  - code: CON-ROBOT-LAYOUT
+recommendations: []
+own: false
+status: editorial
+source: https://leica-geosystems.com/de-de/products/construction-tps-and-gnss/software/leica-icon-build/structures
+published: true
+last_checked: "2026-10-17"

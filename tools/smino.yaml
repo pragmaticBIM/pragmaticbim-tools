@@ -1,0 +1,24 @@
+id: smino
+name: smino
+vendor: smino AG
+url: https://smino.com
+category: cde
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Schweizer Plattform für Bauprojektmanagement mit CDE-Projektraum, BIM-Viewer, Modellprüfung, Checklisten und Mängeln.
+  fr: Plateforme suisse de gestion de projets de construction avec CDE, visionneuse BIM, contrôle, listes et défauts.
+  it: Piattaforma svizzera di gestione progetti edilizi con CDE, visualizzatore BIM, verifica modelli, checklist e difetti.
+  en: Swiss construction project platform with CDE project space, BIM viewer, model checking, checklists and defect tracking.
+use_cases:
+  - code: BES-OWNER-CDE
+  - code: CON-DEFECT-MGMT
+  - code: CON-ROOM-LABEL
+  - code: QAS-DESIGN-REVIEW
+  - code: QAS-FUNCTIONAL-ACCEPTANCE
+recommendations: []
+own: false
+status: editorial
+source: https://smino.com/bim-software/
+published: true
+last_checked: "2026-10-17"

@@ -1,0 +1,22 @@
+id: solar-computer
+name: SOLAR-COMPUTER
+vendor: SOLAR-COMPUTER GmbH
+url: https://www.solar-computer.de
+category: mep-design
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Berechnungssoftware für Gebäudetechnik und Bauphysik mit bidirektionaler Revit- und IFC-Anbindung (GBIS).
+  fr: Logiciel de calcul pour technique du bâtiment et physique du bâtiment avec liaison bidirectionnelle Revit et IFC (GBIS).
+  it: Software di calcolo per impianti e fisica della costruzione con collegamento bidirezionale Revit e IFC (GBIS).
+  en: Calculation software for building services and building physics with bidirectional Revit and IFC link (GBIS).
+use_cases:
+  - code: DES-BASIC-PIPING
+  - code: DES-MEP-SCHEM
+  - code: DES-UNDERFLOOR-HEATING
+recommendations: []
+own: false
+status: editorial
+source: https://www.solar-computer.de/index.php?seite=produkte&software=software-cad-gbis-integral-gebaeude-revit&sub=CAD
+published: true
+last_checked: "2026-10-17"

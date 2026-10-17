@@ -1,0 +1,22 @@
+id: walraven-bim
+name: Walraven BIM Library & Revit Plugin
+vendor: Walraven
+url: https://bim.walraven.com
+category: mep-design
+pricing: free
+countries: [ch, de, at]
+description:
+  de: BIM-Bibliothek und Revit-Plugin für Walraven-Rohrhalterungen, Montageschienen und Pacifyre-Brandschutzsysteme.
+  fr: Bibliothèque BIM et plugin Revit pour supports de tubes, rails de montage et systèmes coupe-feu Pacifyre de Walraven.
+  it: Libreria BIM e plugin Revit per supporti tubi, binari di montaggio e sistemi tagliafuoco Pacifyre di Walraven.
+  en: BIM library and Revit plugin for Walraven pipe supports, mounting rails and Pacifyre firestop systems.
+use_cases:
+  - code: BES-FIRESTOP-TENDER
+  - code: BES-SEISMIC-MEP
+  - code: CON-FASTEN-SUSP
+recommendations: []
+own: false
+status: editorial
+source: https://bim.walraven.com/Walraven/International/en_GB/plugin-revit
+published: true
+last_checked: "2026-10-17"

@@ -1,0 +1,20 @@
+id: ifclca
+name: IfcLCA
+vendor: IfcLCA
+url: https://github.com/IfcLCA/IfcLCA
+category: lca
+pricing: open-source
+countries: [ch]
+description:
+  de: Webanwendung für Ökobilanzen aus IFC-Modellen mit Schweizer KBOB-Daten, eBKP-H-Amortisation und IFC-Export.
+  fr: Application web d'écobilan à partir de modèles IFC avec données suisses KBOB, amortissement eBKP-H et export IFC.
+  it: Applicazione web per ecobilanci da modelli IFC con dati svizzeri KBOB, ammortamento eBKP-H ed esportazione IFC.
+  en: Web application for LCA from IFC models using Swiss KBOB data, eBKP-H amortisation and IFC export.
+use_cases:
+  - code: DES-LCA
+recommendations: []
+own: false
+status: editorial
+source: https://github.com/IfcLCA/IfcLCA
+published: true
+last_checked: "2026-10-17"

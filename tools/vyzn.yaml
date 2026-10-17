@@ -1,0 +1,23 @@
+id: vyzn
+name: vyzn
+vendor: vyzn AG
+url: https://www.vyzn.tech
+category: lca
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Modellbasierte Gebäudeanalyse für Ökobilanz nach SIA 2032/KBOB, Energie nach SIA 380/1, Tageslicht und Kosten.
+  fr: Analyse de bâtiment sur modèle pour écobilan selon SIA 2032/KBOB, énergie selon SIA 380/1, lumière du jour et coûts.
+  it: Analisi dell'edificio basata su modello per ecobilancio SIA 2032/KBOB, energia SIA 380/1, luce diurna e costi.
+  en: Model-based building analysis for LCA to SIA 2032/KBOB, energy to SIA 380/1, daylight and early costs.
+use_cases:
+  - code: DES-ABSTRACTBIM-BPS
+  - code: DES-ELEMENT-COST-EARLY
+  - code: DES-LCA
+  - code: QAS-DAYLIGHT
+recommendations: []
+own: false
+status: editorial
+source: https://www.vyzn.tech
+published: true
+last_checked: "2026-10-17"

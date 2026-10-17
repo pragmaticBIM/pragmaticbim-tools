@@ -1,0 +1,20 @@
+id: sema
+name: SEMA
+vendor: SEMA GmbH
+url: https://www.sema-soft.com
+category: structure-and-timber
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: CAD/CAM-Software für Holzbau, Elementbau und Abbund mit IFC-Schnittstelle, Mengenermittlung und Fertigungsdaten.
+  fr: Logiciel CAO/FAO pour construction bois, préfabrication et taille avec interface IFC, métrés et données d'usinage.
+  it: Software CAD/CAM per costruzioni in legno, prefabbricazione e taglio con interfaccia IFC, computo e dati di produzione.
+  en: CAD/CAM software for timber construction, prefabrication and joinery with IFC interface, quantities and fabrication data.
+use_cases:
+  - code: BES-TIMBER-CONTRACTOR
+recommendations: []
+own: false
+status: editorial
+source: https://www.sema-soft.com/de/solutions/sema-holzsystembau-paket
+published: true
+last_checked: "2026-10-17"

@@ -1,0 +1,20 @@
+id: inframessage
+name: infraMessage
+vendor: inframeta eG
+url: https://www.inframeta.de/inframessage
+category: participation
+pricing: commercial
+countries: [de]
+description:
+  de: Web- und App-Dienst für die digitale Baustellen- und Anliegerinformation mit projektbezogenen Links und QR-Codes.
+  fr: Service web et mobile d'information numérique des riverains de chantier avec liens et codes QR par projet.
+  it: Servizio web e app per l'informazione digitale dei residenti di cantiere con link e codici QR per progetto.
+  en: Web and app service for digital construction site resident notifications using project-specific links and QR codes.
+use_cases:
+  - code: COM-QR-STAKEHOLDER-INFO
+recommendations: []
+own: false
+status: editorial
+source: https://www.inframeta.de/inframessage
+published: true
+last_checked: "2026-10-17"

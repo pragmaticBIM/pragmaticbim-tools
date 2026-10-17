@@ -1,0 +1,21 @@
+id: viride
+name: Viride
+vendor: FHNW Institut für Nachhaltigkeit und Energie am Bau (INEB)
+url: https://www.fhnw.ch/de/architektur-bau-geomatik/forschung-dienstleistungen/forschung/projekte/viride
+category: lca
+pricing: commercial
+countries: [ch]
+description:
+  de: Browserbasierte Plattform (greenDESIGN und greenBIM) für Ökobilanz und Energie nach KBOB, SIA 2032 und SIA 380/1.
+  fr: Plateforme web (greenDESIGN et greenBIM) pour écobilan et énergie selon KBOB, SIA 2032 et SIA 380/1.
+  it: Piattaforma web (greenDESIGN e greenBIM) per ecobilancio ed energia secondo KBOB, SIA 2032 e SIA 380/1.
+  en: Browser-based platform (greenDESIGN and greenBIM) for LCA and energy to KBOB, SIA 2032 and SIA 380/1.
+use_cases:
+  - code: DES-ABSTRACTBIM-BPS
+  - code: DES-LCA
+recommendations: []
+own: false
+status: editorial
+source: https://www.fhnw.ch/de/architektur-bau-geomatik/forschung-dienstleistungen/forschung/projekte/viride
+published: true
+last_checked: "2026-10-17"

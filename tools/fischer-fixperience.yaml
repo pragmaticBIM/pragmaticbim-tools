@@ -1,0 +1,22 @@
+id: fischer-fixperience
+name: fischer FiXperience
+vendor: fischerwerke GmbH & Co. KG
+url: https://www.fischer-international.com/en/project-business/software
+category: mep-design
+pricing: free
+countries: [ch, de, at]
+description:
+  de: Bemessungssoftware für Dübel, Bewehrungsanschlüsse und Installationsschienensysteme (INSTALL-FIX, Channel-FiX).
+  fr: Logiciel de dimensionnement pour chevilles, scellements d'armatures et rails d'installation (INSTALL-FIX, Channel-FiX).
+  it: Software di dimensionamento per ancoranti, riprese di getto e sistemi di binari d'installazione (INSTALL-FIX, Channel-FiX).
+  en: Design software for anchors, post-installed rebar and installation channel systems (INSTALL-FIX, Channel-FiX).
+use_cases:
+  - code: BES-SEISMIC-MEP
+  - code: CON-FASTEN-SUSP
+  - code: DES-EMBED-REINF
+recommendations: []
+own: false
+status: editorial
+source: https://www.fischer-international.com/en/project-business/software
+published: true
+last_checked: "2026-10-17"

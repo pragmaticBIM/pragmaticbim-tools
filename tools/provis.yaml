@@ -1,0 +1,24 @@
+id: provis
+name: PROVIS
+vendor: Axept Business Software AG
+url: https://www.axept.ch/provis
+category: cost-and-tendering
+pricing: commercial
+countries: [ch]
+description:
+  de: Schweizer Bauprojektmanagement- und AVA-Software mit IFC-Import, BIM-Viewer, eBKP/BKP-Kalkulation und NPK-Ausschreibung.
+  fr: Logiciel suisse de gestion de projet et d'appels d'offres avec import IFC, visionneuse BIM, devis eBKP/CFC et CAN.
+  it: Software svizzero di gestione progetti e appalti con import IFC, visualizzatore BIM, preventivo eCCC/CCC e CPN.
+  en: Swiss construction management and tendering software with IFC import, BIM viewer, eBKP/BKP costing and NPK tendering.
+use_cases:
+  - code: BES-ELEMENT-COST-POSTCALC
+  - code: BES-ELEMENT-TENDER
+  - code: CON-FINAL-MEASUREMENT
+  - code: DES-ELEMENT-COST-EARLY
+  - code: DES-ELEMENT-COST-LATE
+recommendations: []
+own: false
+status: editorial
+source: https://www.axept.ch/provis
+published: true
+last_checked: "2026-10-17"

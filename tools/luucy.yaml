@@ -1,0 +1,23 @@
+id: luucy
+name: LUUCY
+vendor: LUUCY AG
+url: https://www.luucy.ch
+category: feasibility-and-massing
+pricing: commercial
+countries: [ch]
+description:
+  de: Interaktive Schweizer 3D-Plattform für Raumentwicklung, Massenstudien, Geodaten, Wettbewerbe und digitale Mitwirkung.
+  fr: Plateforme 3D suisse interactive pour aménagement, études de volumes, géodonnées, concours et participation numérique.
+  it: Piattaforma 3D svizzera interattiva per sviluppo territoriale, studi volumetrici, geodati, concorsi e partecipazione.
+  en: Interactive Swiss 3D platform for spatial development, massing studies, geodata, competitions and digital participation.
+use_cases:
+  - code: COM-STAKEHOLDER-DIALOG
+  - code: DES-PARCELS
+  - code: DES-URBAN-MASS
+  - code: QAS-CONSTRAINT
+recommendations: []
+own: false
+status: editorial
+source: https://www.luucy.ch/loesungen/raumentwicklung/
+published: true
+last_checked: "2026-10-17"

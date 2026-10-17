@@ -1,0 +1,21 @@
+id: hilti-jaibot
+name: Hilti Jaibot
+vendor: Hilti
+url: https://www.hilti.de/content/hilti/E3/DE/de/business/business/productivity/semi-autonomer-baustellenroboter-jaibot.html
+category: other
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Semi-autonomer Baustellenroboter zum Bohren und Markieren von Decken- und Wandbefestigungen nach digitalen BIM-Plänen.
+  fr: Robot de chantier semi-autonome pour le perçage et le marquage au plafond et au mur selon les plans numériques BIM.
+  it: Robot da cantiere semi-autonomo per foratura e tracciamento a soffitto e parete secondo piani digitali BIM.
+  en: Semi-autonomous construction robot for drilling and marking ceiling and wall fixings from digital BIM plans.
+use_cases:
+  - code: CON-FASTEN-SUSP
+  - code: CON-ROBOT-LAYOUT
+recommendations: []
+own: false
+status: editorial
+source: https://www.hilti.de/content/hilti/E3/DE/de/business/business/productivity/semi-autonomer-baustellenroboter-jaibot.html
+published: true
+last_checked: "2026-10-17"

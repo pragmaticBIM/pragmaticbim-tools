@@ -1,0 +1,21 @@
+id: wuerth-technical-software
+name: Würth Technical Software
+vendor: Adolf Würth GmbH & Co. KG
+url: https://www.wuerth.de/web/de/awkg/engineering/digitale_planung/wuerth_technical_software/varifix_software.php
+category: mep-design
+pricing: free
+countries: [ch, de, at]
+description:
+  de: Bemessungssoftware für VARIFIX-Montageschienensysteme, Konsolen und Dübel mit Stücklisten und statischem Nachweis.
+  fr: Logiciel de dimensionnement pour rails de montage VARIFIX, consoles et chevilles avec listes de pièces et calcul statique.
+  it: Software di dimensionamento per binari di montaggio VARIFIX, mensole e tasselli con distinte pezzi e verifica statica.
+  en: Design software for VARIFIX mounting rail systems, brackets and anchors with bills of materials and structural proof.
+use_cases:
+  - code: BES-SEISMIC-MEP
+  - code: CON-FASTEN-SUSP
+recommendations: []
+own: false
+status: editorial
+source: https://www.wuerth.de/web/de/awkg/engineering/digitale_planung/wuerth_technical_software/varifix_software.php
+published: true
+last_checked: "2026-10-17"

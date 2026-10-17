@@ -1,0 +1,25 @@
+id: linear
+name: LINEAR
+vendor: LINEAR GmbH
+url: https://www.linear.eu
+category: mep-design
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: TGA-Planungs- und Berechnungssoftware für Revit und AutoCAD mit Netzberechnung, Schemata und Durchbruchsplanung.
+  fr: Logiciel de conception et calcul CVCSE pour Revit et AutoCAD avec calcul de réseaux, schémas et réservations.
+  it: Software di progettazione e calcolo MEP per Revit e AutoCAD con calcolo reti, schemi e forometrie.
+  en: MEP design and calculation software for Revit and AutoCAD with network sizing, schematics and void coordination.
+use_cases:
+  - code: DES-BASIC-PIPING
+  - code: DES-MEP-SCHEM
+  - code: DES-SANITARY-FIXTURE-COORD
+  - code: DES-STRUCT-MEP-OPENINGS
+  - code: DES-UNDERFLOOR-HEATING
+  - code: QAS-MEP-DETAIL
+recommendations: []
+own: false
+status: editorial
+source: https://www.linear.eu/de/home/
+published: true
+last_checked: "2026-10-17"
