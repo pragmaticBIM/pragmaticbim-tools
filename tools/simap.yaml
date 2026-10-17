@@ -7,6 +7,9 @@ pricing: free
 countries: [ch]
 description:
   de: "Plattform für öffentliche Beschaffungen in der Schweiz: Ausschreibungen publizieren und Unterlagen bereitstellen."
+  fr: "Plateforme des marchés publics en Suisse: publier des appels d'offres et mettre à disposition les documents."
+  it: "Piattaforma per gli appalti pubblici in Svizzera: pubblicare bandi e mettere a disposizione i documenti."
+  en: "Platform for public procurement in Switzerland: publish tenders and provide documents."
 use_cases:
   - code: BES-DESIGN-BUILD
   - code: BES-DESIGNER-PROCUREMENT

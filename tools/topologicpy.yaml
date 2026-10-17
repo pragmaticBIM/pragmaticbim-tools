@@ -1,0 +1,21 @@
+id: topologicpy
+name: TopologicPy
+vendor: Wassim Jabi (Topologic)
+url: https://github.com/wassimj/topologicpy
+category: feasibility-and-massing
+pricing: open-source
+countries: [ch, de, at]
+description:
+  de: Python-Bibliothek, die Gebäude und IFC-Modelle in Raumgraphen umwandelt und Nachbarschaft, Erschliessung und Wege analysiert.
+  fr: Bibliothèque Python convertissant bâtiments et modèles IFC en graphes de locaux pour analyser adjacences, accès et parcours.
+  it: Libreria Python che converte edifici e modelli IFC in grafi di locali e analizza adiacenze, accessi e percorsi.
+  en: Python library that turns buildings and IFC models into room graphs and analyses adjacency, access and circulation.
+use_cases:
+  - code: BES-ABSTRACTBIM-COMP
+  - code: BES-FUNCTIONAL-BRIEF
+  - code: DES-APT-SCHEDULE
+own: false
+status: editorial
+source: https://github.com/wassimj/topologicpy
+published: false
+last_checked: "2026-10-17"

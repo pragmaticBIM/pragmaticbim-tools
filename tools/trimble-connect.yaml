@@ -4,11 +4,19 @@ vendor: Trimble
 url: https://connect.trimble.com
 category: cde
 pricing: freemium
-countries: [ch]
+countries: [ch, de, at]
 description:
-  de: Cloud-Plattform zum Teilen und Koordinieren von Modellen, Plänen und Aufgaben.
+  de: Cloud-Plattform zum Teilen und Koordinieren von Modellen, Plänen und Aufgaben, mit Kollisionsprüfung und BCF.
+  fr: Plateforme cloud pour partager et coordonner modèles, plans et tâches, avec détection de collisions et BCF.
+  it: Piattaforma cloud per condividere e coordinare modelli, piani e compiti, con verifica delle collisioni e BCF.
+  en: Cloud platform for sharing and coordinating models, drawings and tasks, with clash detection and BCF.
 use_cases:
   - code: BES-OWNER-CDE
+  - code: DES-ARCH-MEP-COORD
+  - code: DES-CRIT-INSERT
+  - code: QAS-ARCH-STRUCT-COORD
+  - code: QAS-DESIGN-REVIEW
+  - code: QAS-EARLY-COORD
 own: false
 status: editorial
 source: https://connect.trimble.com

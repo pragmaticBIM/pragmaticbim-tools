@@ -4,9 +4,12 @@ vendor: Bentley Systems
 url: https://www.bentley.com/software/synchro
 category: 4d-and-logistics
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: 4D-Bauablaufplanung, die Terminplan und Modell für Bauphasen und Logistik verknüpft.
+  fr: Planification 4D des travaux, reliant planning et modèle pour les phases de construction et la logistique.
+  it: Pianificazione 4D dei lavori che collega programma e modello per fasi di costruzione e logistica.
+  en: 4D construction planning linking schedule and model for construction phases and logistics.
 use_cases:
   - code: DES-COMPLEX-ASSEMBLY
   - code: QAS-SITE-LOGISTICS

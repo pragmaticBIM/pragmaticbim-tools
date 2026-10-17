@@ -4,9 +4,12 @@ vendor: FARO
 url: https://www.faro.com
 category: reality-capture
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Terrestrischer Laserscanner zur Aufnahme von Gebäuden und Gelände als Punktwolke.
+  fr: Scanner laser terrestre pour le relevé de bâtiments et de terrains sous forme de nuage de points.
+  it: Laser scanner terrestre per il rilievo di edifici e terreni come nuvola di punti.
+  en: Terrestrial laser scanner for capturing buildings and terrain as a point cloud.
 use_cases:
   - code: BES-EXISTING-POINT-CLOUD
 own: false

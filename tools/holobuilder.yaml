@@ -4,9 +4,12 @@ vendor: FARO
 url: https://www.holobuilder.com
 category: reality-capture
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: 360°-Fotodokumentation des Baufortschritts auf Plänen mit zeitlichem Vergleich.
+  fr: Documentation photo 360° de l'avancement des travaux sur plans, avec comparaison dans le temps.
+  it: Documentazione fotografica a 360° dell'avanzamento lavori su piani, con confronto temporale.
+  en: 360° photo documentation of construction progress on plans with comparison over time.
 use_cases:
   - code: CON-PROGRESS-DOC
 own: false

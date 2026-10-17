@@ -4,9 +4,12 @@ vendor: QGIS.org
 url: https://qgis.org
 category: gis-and-geodata
 pricing: open-source
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Open-Source-GIS zum Laden, Bearbeiten und Analysieren von Geodaten wie amtlicher Vermessung und Kataster.
+  fr: SIG open source pour charger, éditer et analyser des géodonnées comme la mensuration officielle et le cadastre.
+  it: GIS open source per caricare, modificare e analizzare geodati come la misurazione ufficiale e il catasto.
+  en: Open-source GIS for loading, editing and analysing geodata such as official surveying and cadastre.
 use_cases:
   - code: BES-EXISTING-SITE
   - code: DES-PARCELS

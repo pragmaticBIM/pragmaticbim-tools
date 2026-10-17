@@ -51,7 +51,7 @@ slots:
   url: {required: true, range: uri, slot_uri: "schema:url", pattern: "^https://", description: "Product page; for own tools, the action page."}
   category: {required: true, range: CategoryEnum}
   pricing: {required: true, range: PricingEnum}
-  countries: {required: true, multivalued: true, pattern: "^[a-z]{2}$"}
+  countries: {required: true, multivalued: true, pattern: "^[a-z]{2}$", description: "ISO 3166-1 alpha-2 codes of the countries where the tool is sold and supported."}
   description: {required: true, range: LocalizedText, inlined: true, slot_uri: "schema:description"}
   use_cases: {required: true, multivalued: true, range: UseCaseLink, inlined_as_list: true, minimum_cardinality: 1}
   code: {required: true, pattern: "^[A-Z]{2,5}(-[A-Z0-9]+)+$"}

@@ -4,9 +4,12 @@ vendor: IfcOpenShell-Projekt
 url: https://bonsaibim.org
 category: authoring
 pricing: open-source
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Open-Source-Add-on für Blender zum direkten Erstellen und Bearbeiten von IFC-Modellen.
+  fr: Extension open source pour Blender permettant de créer et modifier directement des modèles IFC.
+  it: Add-on open source per Blender per creare e modificare direttamente modelli IFC.
+  en: Open-source add-on for Blender to create and edit IFC models directly.
 use_cases:
   - code: OPR-FM-ARCH
 own: false

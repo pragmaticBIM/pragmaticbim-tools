@@ -4,9 +4,12 @@ vendor: Graphisoft (Nemetschek)
 url: https://www.graphisoft.com/plans-and-products/ddscad/
 category: mep-design
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Gebäudetechnik-Planung für Elektro, Sanitär, Heizung und Lüftung mit IFC-Austausch.
+  fr: Conception CVSE pour électricité, sanitaire, chauffage et ventilation avec échange IFC.
+  it: Progettazione impiantistica per elettricità, sanitari, riscaldamento e ventilazione con scambio IFC.
+  en: Building services design for electrical, plumbing, heating and ventilation with IFC exchange.
 use_cases:
   - code: DES-BASIC-PIPING
   - code: DES-SANITARY-FIXTURE-COORD

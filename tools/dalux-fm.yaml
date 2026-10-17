@@ -4,9 +4,12 @@ vendor: Dalux
 url: https://www.dalux.com
 category: facility-management
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Facility-Management-System, das BIM-Modelle und Anlagendaten aus dem Bau übernimmt.
+  fr: Système de facility management reprenant les modèles BIM et les données d'installations de la construction.
+  it: Sistema di facility management che riprende modelli BIM e dati degli impianti dalla costruzione.
+  en: Facility management system that takes over BIM models and asset data from construction.
 use_cases:
   - code: HOV-FM-3D
   - code: HOV-FM-MIN

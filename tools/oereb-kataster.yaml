@@ -7,6 +7,9 @@ pricing: free
 countries: [ch]
 description:
   de: Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen je Grundstück, mit amtlichem Auszug.
+  fr: Cadastre des restrictions de droit public à la propriété foncière (RDPPF) par bien-fonds, avec extrait officiel.
+  it: Catasto delle restrizioni di diritto pubblico della proprietà (RDPP) per fondo, con estratto ufficiale.
+  en: Cadastre of public-law restrictions on landownership per parcel, with official extract.
 use_cases:
   - code: BES-EXISTING-SITE
   - code: DES-PARCELS

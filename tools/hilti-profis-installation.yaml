@@ -4,9 +4,12 @@ vendor: Hilti
 url: https://www.hilti.ch
 category: mep-design
 pricing: free
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Bemessung von Installationsabhängungen mit Hilti-Montagesystemen.
+  fr: Dimensionnement de suspensions d'installations avec les systèmes de montage Hilti.
+  it: Dimensionamento di sospensioni impiantistiche con i sistemi di montaggio Hilti.
+  en: Design of installation suspensions with Hilti mounting systems.
 use_cases:
   - code: BES-SEISMIC-MEP
 own: false

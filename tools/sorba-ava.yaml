@@ -7,6 +7,9 @@ pricing: commercial
 countries: [ch]
 description:
   de: AVA-Software für Ausschreibung, Vergabe und Abrechnung nach NPK.
+  fr: Logiciel AVA pour appels d'offres, adjudication et facturation selon NPK.
+  it: Software AVA per appalti, aggiudicazione e liquidazione secondo NPK.
+  en: AVA software for tendering, contract award and billing based on NPK.
 use_cases:
   - code: BES-DOOR-TENDER
   - code: BES-DRYWALL-TENDER

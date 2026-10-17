@@ -4,9 +4,12 @@ vendor: Dalux
 url: https://www.dalux.com
 category: field-and-defects
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Baustellen-App für Mängel, Checklisten, Pläne und Modelle vor Ort, auch mit 360°-Aufnahmen.
+  fr: App de chantier pour défauts, check-lists, plans et modèles sur place, aussi avec prises de vue à 360°.
+  it: App di cantiere per difetti, checklist, piani e modelli sul posto, anche con riprese a 360°.
+  en: Site app for defects, checklists, drawings and models on site, including 360° captures.
 use_cases:
   - code: BES-PLAN-BOX
   - code: CON-DEFECT-MGMT

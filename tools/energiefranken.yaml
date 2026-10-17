@@ -7,6 +7,9 @@ pricing: free
 countries: [ch]
 description:
   de: Suchportal für Förderprogramme zu Energie und Gebäuden je Postleitzahl in der Schweiz.
+  fr: Portail de recherche des programmes d'encouragement énergie et bâtiments par NPA en Suisse.
+  it: Portale di ricerca dei programmi di incentivazione per energia ed edifici per NPA in Svizzera.
+  en: Search portal for energy and building subsidy programmes by postcode in Switzerland.
 use_cases:
   - code: QAS-FUND
 own: false

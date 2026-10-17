@@ -4,9 +4,12 @@ vendor: Sikla
 url: https://www.sikla.com
 category: mep-design
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Planung von Sikla-Montagesystemen (siFramo) für Installationsabhängungen.
+  fr: Conception de systèmes de montage Sikla (siFramo) pour la suspension d'installations.
+  it: Progettazione di sistemi di montaggio Sikla (siFramo) per la sospensione di impianti.
+  en: Design of Sikla mounting systems (siFramo) for services suspensions.
 use_cases:
   - code: BES-SEISMIC-MEP
 own: false

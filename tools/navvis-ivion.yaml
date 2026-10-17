@@ -4,9 +4,12 @@ vendor: NavVis
 url: https://www.navvis.com
 category: reality-capture
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Webplattform zum Betrachten, Teilen und Nutzen von Punktwolken und 360°-Bildern.
+  fr: Plateforme web pour visualiser, partager et exploiter des nuages de points et des images à 360°.
+  it: Piattaforma web per visualizzare, condividere e utilizzare nuvole di punti e immagini a 360°.
+  en: Web platform for viewing, sharing and using point clouds and 360° images.
 use_cases:
   - code: BES-EXISTING-BUILDING-MEP
   - code: BES-EXISTING-POINT-CLOUD

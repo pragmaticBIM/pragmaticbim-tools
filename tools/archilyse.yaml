@@ -1,20 +1,24 @@
 id: archilyse
-name: Archilyse
-vendor: Archilyse (Dr. Matthias Standfest)
-url: https://www.archilyse.com
-category: feasibility-and-massing
-pricing: open-source
-countries: [ch]
+name: Swiss Dwellings (Archilyse)
+vendor: Archilyse AG
+url: https://zenodo.org/records/7788422
+category: other
+pricing: free
+countries: [ch, de, at]
 description:
-  de: Pipeline und Datensätze, die Grundrisse in Raumgraphen mit Simulationswerten zu Tageslicht, Sicht und Lärm umwandeln.
+  de: Offener Datensatz mit über 45'000 Schweizer Wohnungen, Raumgeometrien und Simulationswerten zu Tageslicht, Sicht und Lärm.
+  fr: Jeu de données ouvert de plus de 45 000 logements suisses avec géométries des locaux et simulations de lumière, vue et bruit.
+  it: Set di dati aperto con oltre 45 000 appartamenti svizzeri, geometrie dei locali e simulazioni di luce, vista e rumore.
+  en: Open dataset of over 45,000 Swiss apartments with room geometries and simulated daylight, view and noise values.
 use_cases:
-  - code: BES-ABSTRACTBIM-COMP
-  - code: BES-FUNCTIONAL-BRIEF
-  - code: DES-APT-SCHEDULE
   - code: QAS-BENCHMARK
-  - code: QAS-FURNISHABILITY
+    note:
+      de: Vergleichsgruppe aus realen Wohnbauten für Flächen- und Qualitätskennwerte.
+      fr: Groupe de comparaison issu de logements réels pour indicateurs de surface et de qualité.
+      it: Gruppo di confronto da edifici residenziali reali per indicatori di superficie e qualità.
+      en: Comparison group of real residential buildings for area and quality indicators.
 own: false
 status: editorial
-source: https://www.archilyse.com
+source: https://zenodo.org/records/7788422
 published: false
 last_checked: "2026-10-17"

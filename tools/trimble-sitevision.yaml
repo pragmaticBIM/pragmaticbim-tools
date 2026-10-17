@@ -4,9 +4,12 @@ vendor: Trimble
 url: https://sitevision.trimble.com
 category: visualisation
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Augmented-Reality-System mit GNSS-Positionierung zum Einblenden von Modellen vor Ort.
+  fr: Système de réalité augmentée avec positionnement GNSS pour superposer des modèles sur site.
+  it: Sistema di realtà aumentata con posizionamento GNSS per sovrapporre modelli sul posto.
+  en: Augmented reality system with GNSS positioning for overlaying models on site.
 use_cases:
   - code: QAS-URBAN-AR
 own: false

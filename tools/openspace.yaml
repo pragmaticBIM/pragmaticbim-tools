@@ -4,9 +4,12 @@ vendor: OpenSpace
 url: https://www.openspace.ai
 category: reality-capture
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: 360°-Baustellenerfassung beim Begehen, automatisch auf dem Plan verortet.
+  fr: Capture de chantier à 360° lors de la visite, localisée automatiquement sur le plan.
+  it: Rilievo del cantiere a 360° durante il sopralluogo, localizzato automaticamente sul piano.
+  en: 360° site capture while walking, automatically located on the plan.
 use_cases:
   - code: CON-PROGRESS-DOC
 own: false

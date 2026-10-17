@@ -4,9 +4,12 @@ vendor: Dalux
 url: https://www.dalux.com
 category: cde
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Gemeinsame Datenumgebung mit BIM-Viewer, Dokumentenverwaltung und Modellkoordination.
+  fr: Environnement de données commun avec visionneuse BIM, gestion documentaire et coordination de modèles.
+  it: Ambiente di condivisione dati con visualizzatore BIM, gestione documentale e coordinamento modelli.
+  en: Common data environment with BIM viewer, document management and model coordination.
 use_cases:
   - code: BES-OWNER-CDE
   - code: DES-ARCH-MEP-COORD

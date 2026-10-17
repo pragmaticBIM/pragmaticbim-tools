@@ -1,0 +1,19 @@
+id: planfabrik
+name: Planfabrik
+vendor: Planfabrik GmbH
+url: https://www.plan-fabrik.ch/de
+category: mep-design
+pricing: commercial
+countries: [ch]
+description:
+  de: Planungsdienstleister für Heiz- und Kühllastberechnungen sowie Fussbodenheizungen und TABS mit Trimble Nova.
+  fr: Prestataire de calcul des charges de chauffage et de refroidissement, de chauffage au sol et TABS avec Trimble Nova.
+  it: Fornitore di calcoli dei carichi termici e frigoriferi e di progettazione di riscaldamento a pavimento e TABS con Trimble Nova.
+  en: Design service for heating and cooling load calculations, underfloor heating and TABS with Trimble Nova.
+use_cases:
+  - code: DES-UNDERFLOOR-HEATING
+own: false
+status: editorial
+source: https://www.plan-fabrik.ch/de
+published: false
+last_checked: "2026-10-17"

@@ -4,9 +4,12 @@ vendor: hsbcad
 url: https://www.hsbcad.com
 category: structure-and-timber
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Holzbauplanung auf Basis von AutoCAD und Revit mit Detaillierung und Produktionsdaten.
+  fr: Conception bois basée sur AutoCAD et Revit avec détaillage et données de production.
+  it: Progettazione in legno basata su AutoCAD e Revit con dettagli e dati di produzione.
+  en: Timber construction design based on AutoCAD and Revit with detailing and production data.
 use_cases:
   - code: BES-TIMBER-CONTRACTOR
 own: false

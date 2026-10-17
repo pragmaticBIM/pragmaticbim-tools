@@ -4,9 +4,12 @@ vendor: Eptura
 url: https://eptura.com
 category: facility-management
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: CAFM/IWMS-System für Flächen-, Anlagen- und Instandhaltungsmanagement.
+  fr: Système CAFM/IWMS pour la gestion des surfaces, des installations et de la maintenance.
+  it: Sistema CAFM/IWMS per la gestione di superfici, impianti e manutenzione.
+  en: CAFM/IWMS system for space, asset and maintenance management.
 use_cases:
   - code: HOV-COBIE
   - code: HOV-FM-3D

@@ -4,9 +4,12 @@ vendor: MagiCAD Group
 url: https://www.magicad.com
 category: mep-design
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Gebäudetechnik-Planung in Revit und AutoCAD mit Berechnungen und Produktdaten von Herstellern.
+  fr: Conception CVSE dans Revit et AutoCAD avec calculs et données produits des fabricants.
+  it: Progettazione impiantistica in Revit e AutoCAD con calcoli e dati prodotto dei produttori.
+  en: Building services design in Revit and AutoCAD with calculations and manufacturer product data.
 use_cases:
   - code: BES-EXISTING-BUILDING-MEP
   - code: BES-FIRESTOP-TENDER

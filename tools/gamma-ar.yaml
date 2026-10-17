@@ -4,9 +4,12 @@ vendor: GAMMA Technologies
 url: https://gamma-ar.com
 category: visualisation
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: AR-App zum Einblenden von BIM-Modellen auf der Baustelle über Smartphone oder Tablet.
+  fr: App AR pour superposer des modèles BIM sur le chantier via smartphone ou tablette.
+  it: App AR per sovrapporre modelli BIM in cantiere tramite smartphone o tablet.
+  en: AR app for overlaying BIM models on site via smartphone or tablet.
 use_cases:
   - code: QAS-URBAN-AR
 own: false

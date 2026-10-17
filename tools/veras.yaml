@@ -4,9 +4,12 @@ vendor: Chaos (EvolveLAB)
 url: https://www.evolvelab.io/veras
 category: visualisation
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: KI-gestützte Visualisierung aus Modellansichten in Revit, SketchUp, Rhino und weiteren Werkzeugen.
+  fr: Visualisation assistée par IA à partir de vues de modèles dans Revit, SketchUp, Rhino et d'autres outils.
+  it: Visualizzazione basata sull'IA da viste del modello in Revit, SketchUp, Rhino e altri strumenti.
+  en: AI-based visualisation from model views in Revit, SketchUp, Rhino and other tools.
 use_cases:
   - code: DES-MODEL-VIS
   - code: QAS-DECISION-VIS

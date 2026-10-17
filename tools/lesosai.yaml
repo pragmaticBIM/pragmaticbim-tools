@@ -7,19 +7,34 @@ pricing: commercial
 countries: [ch]
 description:
   de: Energie- und Ökobilanzsoftware für SIA 380/1, Minergie und graue Energie nach SIA 2032, mit IFC- und gbXML-Import.
+  fr: Logiciel énergie et écobilan pour SIA 380/1, Minergie et énergie grise selon SIA 2032, import IFC et gbXML.
+  it: Software energia ed ecobilancio per SIA 380/1, Minergie ed energia grigia secondo SIA 2032, import IFC e gbXML.
+  en: Energy and LCA software for SIA 380/1, Minergie and embodied energy per SIA 2032, with IFC and gbXML import.
 use_cases:
   - code: DES-ABSTRACTBIM-BPS
     note:
       de: Heizwärmebedarf nach SIA 380/1 aus importiertem IFC oder gbXML.
+      fr: Besoins de chaleur pour le chauffage selon SIA 380/1 à partir d'un IFC ou gbXML importé.
+      it: Fabbisogno di calore per il riscaldamento secondo SIA 380/1 da IFC o gbXML importato.
+      en: Heating demand per SIA 380/1 from imported IFC or gbXML.
   - code: DES-LCA
     note:
       de: Graue Energie und Treibhausgase nach SIA 2032 mit KBOB-Daten.
+      fr: Énergie grise et gaz à effet de serre selon SIA 2032 avec données KBOB.
+      it: Energia grigia e gas serra secondo SIA 2032 con dati KBOB.
+      en: Embodied energy and greenhouse gases to SIA 2032 with KBOB data.
   - code: DES-PHYSICS
     note:
       de: Wärmeschutz und U-Werte nach SIA 180; Schallschutz nicht abgedeckt.
+      fr: Protection thermique et valeurs U selon SIA 180 ; protection acoustique non couverte.
+      it: Protezione termica e valori U secondo SIA 180; protezione acustica non coperta.
+      en: Thermal insulation and U-values to SIA 180; sound insulation not covered.
   - code: QAS-ACOUSTIC
     note:
       de: Prüft nur den Wärmeschutz (U-Werte); Schallschutz nicht abgedeckt.
+      fr: Vérifie uniquement la protection thermique (valeurs U); protection acoustique non couverte.
+      it: Verifica solo la protezione termica (valori U); protezione acustica non coperta.
+      en: Checks thermal insulation only (U-values); sound insulation not covered.
 own: false
 status: editorial
 source: https://lesosai.com/logiciel/?lang=de

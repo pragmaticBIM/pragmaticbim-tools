@@ -4,9 +4,12 @@ vendor: TestFit
 url: https://www.testfit.io
 category: feasibility-and-massing
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Machbarkeitsstudien mit automatisch erzeugten Gebäude-, Wohnungs- und Parkierungslayouts.
+  fr: Études de faisabilité avec plans de bâtiments, logements et parkings générés automatiquement.
+  it: Studi di fattibilità con layout di edifici, appartamenti e parcheggi generati automaticamente.
+  en: Feasibility studies with automatically generated building, unit and parking layouts.
 use_cases:
   - code: BES-FUNCTIONAL-BRIEF
   - code: DES-APT-SCHEDULE

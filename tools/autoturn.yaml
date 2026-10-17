@@ -4,9 +4,12 @@ vendor: Transoft Solutions
 url: https://www.transoftsolutions.com
 category: swept-path-and-parking
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Schleppkurven- und Wendeanalyse für Fahrzeuge in CAD-Programmen.
+  fr: Analyse des courbes de giration et des manoeuvres de véhicules dans les logiciels CAO.
+  it: Analisi delle curve di ingombro e di manovra dei veicoli nei programmi CAD.
+  en: Swept path and turning analysis for vehicles in CAD programs.
 use_cases:
   - code: DES-PARKING
   - code: DES-TRAFFIC

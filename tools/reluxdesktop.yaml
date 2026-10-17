@@ -4,9 +4,12 @@ vendor: Relux Informatik
 url: https://relux.com
 category: daylight-and-lighting
 pricing: free
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Licht- und Tageslichtplanung mit Leuchtendaten von Herstellern.
+  fr: Planification de l'éclairage et de la lumière du jour avec données de luminaires des fabricants.
+  it: Progettazione illuminotecnica e della luce diurna con dati degli apparecchi dei produttori.
+  en: Lighting and daylight design with manufacturer luminaire data.
 use_cases:
   - code: DES-LIGHTING-COORD
 own: false

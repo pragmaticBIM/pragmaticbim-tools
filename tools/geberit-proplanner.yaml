@@ -4,9 +4,12 @@ vendor: Geberit
 url: https://www.geberit.ch
 category: mep-design
 pricing: free
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Planungssoftware für Sanitärinstallationen mit Geberit-Systemen, Stücklisten und BIM-Daten.
+  fr: Logiciel de planification d'installations sanitaires avec systèmes Geberit, nomenclatures et données BIM.
+  it: Software di progettazione di impianti sanitari con sistemi Geberit, distinte materiali e dati BIM.
+  en: Design software for sanitary installations with Geberit systems, bills of materials and BIM data.
 use_cases:
   - code: DES-BASIC-PIPING
   - code: DES-SANITARY-FIXTURE-COORD

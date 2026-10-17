@@ -1,0 +1,24 @@
+id: digipara-liftdesigner
+name: DigiPara Liftdesigner
+vendor: DigiPara GmbH (Systabuild)
+url: https://www.digipara.com
+category: mep-design
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Aufzugsplanung mit automatischen 2D-Plänen und 3D-BIM-Modellen, mit Revit-Plugin und zertifizierten Herstellerbaureihen.
+  fr: Conception d'ascenseurs avec plans 2D et modèles BIM 3D automatiques, plugin Revit et séries certifiées de fabricants.
+  it: Progettazione di ascensori con piani 2D e modelli BIM 3D automatici, plugin Revit e serie certificate dei produttori.
+  en: Elevator design with automated 2D drawings and 3D BIM models, a Revit plugin and certified manufacturer series.
+use_cases:
+  - code: BES-ELEVATOR-EARLY
+    note:
+      de: Schachtabmessungen aus Baureihen von Otis, Schindler und TK Elevator ins Modell übernehmen.
+      fr: Reprendre dans le modèle les dimensions de gaine des séries Otis, Schindler et TK Elevator.
+      it: Riprendere nel modello le dimensioni del vano dalle serie Otis, Schindler e TK Elevator.
+      en: Bring shaft dimensions from Otis, Schindler and TK Elevator series into the model.
+own: false
+status: editorial
+source: https://www.digipara.com
+published: false
+last_checked: "2026-10-17"

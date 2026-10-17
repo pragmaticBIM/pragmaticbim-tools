@@ -7,6 +7,9 @@ pricing: commercial
 countries: [ch]
 description:
   de: Online-Marktplatz für wiederverwendbare Bauteile und Baumaterialien in der Schweiz.
+  fr: Place de marché en ligne pour éléments et matériaux de construction réutilisables en Suisse.
+  it: Marketplace online per elementi e materiali da costruzione riutilizzabili in Svizzera.
+  en: Online marketplace for reusable building components and materials in Switzerland.
 use_cases:
   - code: BES-EXISTING-CIRCULARITY
 own: false

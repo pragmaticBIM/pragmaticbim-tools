@@ -4,9 +4,12 @@ vendor: Kalloc Studios
 url: https://www.kalloctech.com
 category: 4d-and-logistics
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: VR- und 4D-Bauablaufsimulation mit Live-Verbindung zu Revit und Archicad.
+  fr: Simulation VR et 4D du déroulement des travaux avec connexion en direct à Revit et Archicad.
+  it: Simulazione VR e 4D delle fasi di costruzione con collegamento live a Revit e Archicad.
+  en: VR and 4D construction sequence simulation with live link to Revit and Archicad.
 use_cases:
   - code: DES-COMPLEX-ASSEMBLY
   - code: QAS-INSTALL-PATH

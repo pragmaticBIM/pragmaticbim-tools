@@ -4,9 +4,12 @@ vendor: Graphisoft (Nemetschek)
 url: https://graphisoft.com/solutions/archicad
 category: authoring
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: BIM-Autorenwerkzeug für Architektur mit Plänen, Listen und IFC-Ausgabe aus dem Modell.
+  fr: Outil auteur BIM pour l'architecture, avec plans, listes et export IFC depuis le modèle.
+  it: Strumento di authoring BIM per l'architettura con piani, elenchi ed esportazione IFC dal modello.
+  en: BIM authoring tool for architecture with drawings, schedules and IFC output from the model.
 use_cases:
   - code: BES-DOOR-TENDER
   - code: BES-DRYWALL-TENDER

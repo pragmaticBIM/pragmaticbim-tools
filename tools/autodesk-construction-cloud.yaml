@@ -4,9 +4,12 @@ vendor: Autodesk
 url: https://construction.autodesk.com
 category: cde
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Cloud-Plattform für Dokumente, Pläne, Modelle und Baustellenprozesse mit Rechteverwaltung.
+  fr: Plateforme cloud pour documents, plans, modèles et processus de chantier avec gestion des droits.
+  it: Piattaforma cloud per documenti, piani, modelli e processi di cantiere con gestione dei diritti.
+  en: Cloud platform for documents, plans, models and site processes with permission management.
 use_cases:
   - code: BES-OWNER-CDE
   - code: DES-CRIT-INSERT

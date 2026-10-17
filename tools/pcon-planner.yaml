@@ -4,9 +4,12 @@ vendor: EasternGraphics
 url: https://pcon-solutions.com/planner/
 category: product-data
 pricing: freemium
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Einrichtungsplanung mit Möbeldaten von Herstellern, Stücklisten und 3D-Darstellung.
+  fr: Aménagement intérieur avec données mobilier des fabricants, listes de pièces et rendu 3D.
+  it: Progettazione d'arredo con dati dei mobili dei produttori, distinte e rappresentazione 3D.
+  en: Interior furnishing design with manufacturer furniture data, parts lists and 3D display.
 use_cases:
   - code: DES-FURNITURE
   - code: QAS-FURNISHABILITY

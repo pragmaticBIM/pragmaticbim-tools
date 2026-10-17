@@ -4,9 +4,12 @@ vendor: DIAL
 url: https://www.dialux.com
 category: daylight-and-lighting
 pricing: freemium
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Licht- und Tageslichtplanung mit Leuchtendaten von Herstellern, Berechnung und Visualisierung.
+  fr: Planification de l'éclairage et de la lumière naturelle avec données de luminaires des fabricants, calcul et visualisation.
+  it: Progettazione illuminotecnica e della luce diurna con dati di apparecchi dei produttori, calcolo e visualizzazione.
+  en: Lighting and daylight design with manufacturer luminaire data, calculation and visualisation.
 use_cases:
   - code: DES-LIGHTING-COORD
   - code: QAS-DAYLIGHT

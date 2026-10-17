@@ -4,9 +4,12 @@ vendor: Allplan (Nemetschek)
 url: https://www.allplan.com
 category: authoring
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: BIM-Autorenwerkzeug für Architektur und Ingenieurbau mit Schal- und Bewehrungsplanung.
+  fr: Outil de modélisation BIM pour l'architecture et le génie civil, avec plans de coffrage et d'armature.
+  it: Strumento di modellazione BIM per architettura e ingegneria civile, con progettazione di casseforme e armature.
+  en: BIM authoring tool for architecture and civil engineering with formwork and reinforcement design.
 use_cases:
   - code: DES-DRAWINGS
   - code: DES-EMBED-REINF

@@ -143,6 +143,7 @@
                     "$ref": "#/$defs/CategoryEnum"
                 },
                 "countries": {
+                    "description": "ISO 3166-1 alpha-2 codes of the countries where the tool is sold and supported.",
                     "items": {
                         "pattern": "^[a-z]{2}$",
                         "type": "string"
@@ -313,6 +314,7 @@
             "$ref": "#/$defs/CategoryEnum"
         },
         "countries": {
+            "description": "ISO 3166-1 alpha-2 codes of the countries where the tool is sold and supported.",
             "items": {
                 "pattern": "^[a-z]{2}$",
                 "type": "string"

@@ -4,9 +4,12 @@ vendor: Flai
 url: https://www.flai.ai
 category: reality-capture
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: KI-gestützte Klassifizierung von Punktwolken in Objektklassen als Webdienst.
+  fr: Classification de nuages de points en classes d'objets assistée par IA, comme service web.
+  it: Classificazione di nuvole di punti in classi di oggetti basata sull'IA, come servizio web.
+  en: AI-based classification of point clouds into object classes as a web service.
 use_cases:
   - code: OPR-FM-PC
 own: false

@@ -4,9 +4,12 @@ vendor: RIB Software
 url: https://www.rib-software.com
 category: cost-and-tendering
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Mengen- und Kostenermittlung aus 2D-Plänen und BIM-Modellen.
+  fr: Métrés et estimation des coûts à partir de plans 2D et de modèles BIM.
+  it: Computo delle quantità e stima dei costi da piani 2D e modelli BIM.
+  en: Quantity take-off and cost estimating from 2D drawings and BIM models.
 use_cases:
   - code: BES-ELEMENT-COST-POSTCALC
   - code: BES-ELEMENT-TENDER

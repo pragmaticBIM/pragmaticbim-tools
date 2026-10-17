@@ -4,9 +4,12 @@ vendor: Pointly
 url: https://pointly.ai
 category: reality-capture
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Webbasierte Klassifizierung von Punktwolken mit KI-Unterstützung.
+  fr: Classification web de nuages de points assistée par IA.
+  it: Classificazione web di nuvole di punti con supporto IA.
+  en: Web-based AI-assisted point cloud classification.
 use_cases:
   - code: OPR-FM-PC
 own: false

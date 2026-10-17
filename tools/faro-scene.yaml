@@ -4,9 +4,12 @@ vendor: FARO
 url: https://www.faro.com
 category: reality-capture
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Software zur Registrierung und Aufbereitung von Laserscans zu Punktwolken.
+  fr: Logiciel d'enregistrement et de traitement de scans laser en nuages de points.
+  it: Software per la registrazione e l'elaborazione di scansioni laser in nuvole di punti.
+  en: Software for registering and processing laser scans into point clouds.
 use_cases:
   - code: BES-EXISTING-POINT-CLOUD
 own: false

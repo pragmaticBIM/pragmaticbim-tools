@@ -7,6 +7,9 @@ pricing: commercial
 countries: [ch]
 description:
   de: CAD für Bauplanung mit Mengenermittlung zur Übergabe an die AVA.
+  fr: CAO pour la planification avec métrés pour transfert vers les appels d'offres (AVA).
+  it: CAD per la progettazione con computo delle quantità da trasferire agli appalti (AVA).
+  en: CAD for building design with quantity take-off for handover to tendering (AVA).
 use_cases:
   - code: BES-DOOR-TENDER
   - code: BES-DRYWALL-TENDER

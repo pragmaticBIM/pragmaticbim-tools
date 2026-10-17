@@ -4,9 +4,12 @@ vendor: BIMcollab
 url: https://www.bimcollab.com
 category: coordination
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Cloud-Plattform für BCF-Issues und Koordination über mehrere Autoren- und Prüfwerkzeuge.
+  fr: Plateforme cloud pour les issues BCF et la coordination entre plusieurs outils de modélisation et de contrôle.
+  it: Piattaforma cloud per issue BCF e coordinamento tra più strumenti di modellazione e verifica.
+  en: Cloud platform for BCF issues and coordination across multiple authoring and checking tools.
 use_cases:
   - code: BES-OWNER-CDE
   - code: DES-ARCH-MEP-COORD

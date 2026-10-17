@@ -4,9 +4,12 @@ vendor: Solibri (Nemetschek)
 url: https://www.solibri.com
 category: model-checking
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Regelbasierte Prüfung von IFC-Modellen auf Kollisionen, Modellqualität und Anforderungen.
+  fr: "Contrôle basé sur des règles des modèles IFC: collisions, qualité du modèle et exigences."
+  it: Verifica basata su regole dei modelli IFC per collisioni, qualità del modello e requisiti.
+  en: Rule-based checking of IFC models for clashes, model quality and requirements.
 use_cases:
   - code: BES-AWARD-INTERFACE
   - code: BES-COST-INTERFACE

@@ -4,9 +4,12 @@ vendor: xBIM-Projekt
 url: https://docs.xbim.net
 category: other
 pricing: open-source
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Open-Source-Bibliothek für .NET zum Lesen und Schreiben von IFC, mit COBie-Export.
+  fr: Bibliothèque open source pour .NET pour lire et écrire de l'IFC, avec export COBie.
+  it: Libreria open source per .NET per leggere e scrivere IFC, con esportazione COBie.
+  en: Open-source .NET library for reading and writing IFC, with COBie export.
 use_cases:
   - code: HOV-COBIE
 own: false

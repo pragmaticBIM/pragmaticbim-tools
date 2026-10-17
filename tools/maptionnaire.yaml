@@ -4,9 +4,12 @@ vendor: Maptionnaire
 url: https://maptionnaire.com
 category: participation
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Kartenbasierte Online-Umfragen und Beteiligungsplattform für Planungsverfahren.
+  fr: Sondages en ligne cartographiques et plateforme de participation pour procédures de planification.
+  it: Sondaggi online su mappa e piattaforma di partecipazione per procedure di pianificazione.
+  en: Map-based online surveys and participation platform for planning processes.
 use_cases:
   - code: COM-STAKEHOLDER-DIALOG
 own: false

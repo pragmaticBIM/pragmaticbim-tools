@@ -4,9 +4,12 @@ vendor: Autodesk
 url: https://www.autodesk.com/solutions/pointfuse
 category: scan-to-bim
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Wandelt Punktwolken automatisch in segmentierte Netz- und Flächenmodelle für BIM um.
+  fr: Convertit automatiquement les nuages de points en modèles maillés et surfaciques segmentés pour le BIM.
+  it: Converte automaticamente nuvole di punti in modelli mesh e di superficie segmentati per il BIM.
+  en: Automatically converts point clouds into segmented mesh and surface models for BIM.
 use_cases:
   - code: BES-EXISTING-STRUCTURE
 own: false

@@ -4,22 +4,37 @@ vendor: abstract ag
 url: https://www.abstractbim.com
 category: other
 pricing: freemium
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Leitet aus Räumen, Fenstern und Türen eines IFC-Modells bereinigte Geometrie, Mengen und gbXML ab.
+  fr: Dérive des locaux, fenêtres et portes d'un modèle IFC une géométrie épurée, des quantités et du gbXML.
+  it: Ricava da locali, finestre e porte di un modello IFC geometria pulita, quantità e gbXML.
+  en: Derives cleaned geometry, quantities and gbXML from the rooms, windows and doors of an IFC model.
 use_cases:
   - code: BES-ABSTRACTBIM-COMP
     note:
       de: Führt die Raummodelle aller Wettbewerbsbeiträge zu einem einheitlichen Datensatz zusammen.
+      fr: Fusionne les modèles de locaux de tous les projets du concours en un jeu de données uniforme.
+      it: Unisce i modelli dei locali di tutti i progetti del concorso in un set di dati uniforme.
+      en: Merges the room models of all competition entries into a single consistent dataset.
   - code: DES-ABSTRACTBIM-BPS
     note:
       de: Erzeugt gbXML und IFC für Lesosai, IDA ICE und weitere Energiewerkzeuge.
+      fr: Génère des fichiers gbXML et IFC pour Lesosai, IDA ICE et d'autres outils énergétiques.
+      it: Genera file gbXML e IFC per Lesosai, IDA ICE e altri strumenti energetici.
+      en: Generates gbXML and IFC for Lesosai, IDA ICE and other energy tools.
   - code: DES-WALL-REQUIREMENTS
     note:
       de: Ordnet jeder Wand die angrenzenden Räume zu und leitet Anforderungen regelbasiert ab.
+      fr: Attribue à chaque mur les locaux adjacents et en déduit les exigences selon des règles.
+      it: Assegna a ogni parete i locali adiacenti e ne deriva i requisiti in base a regole.
+      en: Assigns adjacent rooms to each wall and derives requirements based on rules.
   - code: QAS-BENCHMARK
     note:
       de: Vergleich mit Kennwerten aus über 3000 Modellen; Vergleichsgruppe nach Angebot.
+      fr: Comparaison avec des valeurs de référence de plus de 3000 modèles; groupe de comparaison selon l'offre.
+      it: Confronto con valori di riferimento da oltre 3000 modelli; gruppo di confronto secondo l'offerta.
+      en: Comparison with benchmarks from over 3000 models; comparison group depends on plan.
 own: true
 status: editorial
 source: https://www.abstractbim.com

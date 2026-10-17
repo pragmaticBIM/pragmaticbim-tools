@@ -4,9 +4,12 @@ vendor: Autodesk
 url: https://www.autodesk.com/products/vehicle-tracking
 category: swept-path-and-parking
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Schleppkurvenanalyse und Parkplatzplanung in AutoCAD und Civil 3D.
+  fr: Analyse des courbes de giration et planification de parkings dans AutoCAD et Civil 3D.
+  it: Analisi delle curve di ingombro e progettazione di parcheggi in AutoCAD e Civil 3D.
+  en: Swept path analysis and parking layout design in AutoCAD and Civil 3D.
 use_cases:
   - code: DES-PARKING
   - code: DES-TRAFFIC

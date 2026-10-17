@@ -4,9 +4,12 @@ vendor: Bluebeam (Nemetschek)
 url: https://www.bluebeam.com
 category: coordination
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: PDF-Werkzeug für Planprüfung, Markierungen, Planvergleich und Mengenermittlung mit Cloud-Zusammenarbeit.
+  fr: Outil PDF pour contrôle de plans, annotations, comparaison de plans et métrés, avec collaboration cloud.
+  it: Strumento PDF per verifica e confronto di piani, annotazioni e computo quantità, con collaborazione cloud.
+  en: PDF tool for plan review, markups, plan comparison and quantity takeoff with cloud collaboration.
 use_cases:
   - code: BES-PLAN-BOX
   - code: QAS-CONTRACTOR-DESIGN

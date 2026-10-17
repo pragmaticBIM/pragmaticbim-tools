@@ -4,9 +4,12 @@ vendor: PlanRadar
 url: https://www.planradar.com
 category: field-and-defects
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Cloud-App für Mängel, Aufgaben und Baudokumentation auf Plänen und BIM-Modellen.
+  fr: App cloud pour défauts, tâches et documentation de chantier sur plans et modèles BIM.
+  it: App cloud per difetti, compiti e documentazione di cantiere su piani e modelli BIM.
+  en: Cloud app for defects, tasks and site documentation on plans and BIM models.
 use_cases:
   - code: BES-PLAN-BOX
   - code: CON-DEFECT-MGMT

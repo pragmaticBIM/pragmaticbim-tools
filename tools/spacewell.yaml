@@ -4,9 +4,12 @@ vendor: Spacewell (Nemetschek)
 url: https://spacewell.com
 category: facility-management
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Software für Facility-, Flächen- und Immobilienmanagement mit Sensordaten.
+  fr: Logiciel de gestion des installations, des surfaces et immobilière avec données de capteurs.
+  it: Software per facility management, gestione delle superfici e immobiliare con dati di sensori.
+  en: Software for facility, space and real estate management with sensor data.
 use_cases:
   - code: HOV-FM-3D
   - code: HOV-FM-MIN

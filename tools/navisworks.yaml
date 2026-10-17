@@ -4,9 +4,12 @@ vendor: Autodesk
 url: https://www.autodesk.com/products/navisworks
 category: coordination
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Föderierte Modellprüfung mit Kollisionsprüfung, 4D-Simulation und Mengenermittlung.
+  fr: Contrôle de modèles fédérés avec détection de collisions, simulation 4D et métrés.
+  it: Verifica di modelli federati con rilevamento collisioni, simulazione 4D e computo quantità.
+  en: Federated model review with clash detection, 4D simulation and quantity takeoff.
 use_cases:
   - code: BES-AWARD-INTERFACE
   - code: DES-ARCH-MEP-COORD

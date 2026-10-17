@@ -4,9 +4,12 @@ vendor: Ladybug Tools
 url: https://www.ladybug.tools
 category: daylight-and-lighting
 pricing: open-source
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Open-Source-Plug-ins für Grasshopper zur Klima-, Tageslicht- und Energiesimulation (Ladybug, Honeybee).
+  fr: "Plug-ins open source pour Grasshopper: simulation climatique, lumière du jour et énergie (Ladybug, Honeybee)."
+  it: Plug-in open source per Grasshopper per simulazione climatica, luce diurna ed energia (Ladybug, Honeybee).
+  en: Open-source Grasshopper plug-ins for climate, daylight and energy simulation (Ladybug, Honeybee).
 use_cases:
   - code: QAS-DAYLIGHT
 own: false

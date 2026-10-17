@@ -4,9 +4,12 @@ vendor: Revizto
 url: https://revizto.com
 category: coordination
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Koordinations- und Issue-Plattform für föderierte BIM-Modelle und Pläne mit Kollisionsprüfung.
+  fr: Plateforme de coordination et d'issues pour modèles BIM fédérés et plans, avec détection de collisions.
+  it: Piattaforma di coordinamento e issue per modelli BIM federati e piani, con verifica delle collisioni.
+  en: Coordination and issue platform for federated BIM models and drawings with clash detection.
 use_cases:
   - code: DES-ARCH-MEP-COORD
   - code: QAS-ARCH-STRUCT-COORD

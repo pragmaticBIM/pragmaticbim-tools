@@ -4,9 +4,12 @@ vendor: ClearEdge3D (Trimble)
 url: https://www.clearedge3d.com
 category: scan-to-bim
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Halbautomatische Modellierung von Bauteilen und Leitungen aus Punktwolken für Revit.
+  fr: Modélisation semi-automatique d'éléments et de conduites à partir de nuages de points pour Revit.
+  it: Modellazione semiautomatica di elementi e condotte da nuvole di punti per Revit.
+  en: Semi-automatic modelling of components and pipes from point clouds for Revit.
 use_cases:
   - code: BES-EXISTING-BUILDING-MEP
   - code: BES-EXISTING-STRUCTURE

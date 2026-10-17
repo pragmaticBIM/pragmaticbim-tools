@@ -4,16 +4,25 @@ vendor: docu tools GmbH
 url: https://docu-tools.com
 category: field-and-defects
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: "Planbasierte Baudokumentation: Mängel, Aufgaben und Fotos auf dem Plan verorten, Berichte aus den Einträgen."
+  fr: "Documentation de chantier sur plan : localiser défauts, tâches et photos sur le plan, rapports à partir des saisies."
+  it: "Documentazione di cantiere su pianta: localizzare difetti, compiti e foto sul piano, rapporti dalle registrazioni."
+  en: "Plan-based site documentation: locate defects, tasks and photos on the plan, reports from the entries."
 use_cases:
   - code: CON-DEFECT-MGMT
     note:
       de: Mängel auf dem digitalen Plan verorten, zuweisen und als Bericht ausgeben.
+      fr: Localiser les défauts sur le plan numérique, les attribuer et les éditer en rapport.
+      it: Localizzare i difetti sul piano digitale, assegnarli ed esportarli come rapporto.
+      en: Locate defects on the digital plan, assign them and output them as a report.
   - code: OPR-FIRESTOP-MAINT
     note:
       de: Brandschutzbegehungen mit eigenen Kategorien dokumentieren; kein eigenes Brandschott-Modul.
+      fr: Documenter les visites de protection incendie avec catégories propres; pas de module dédié aux obturations coupe-feu.
+      it: Documentare sopralluoghi antincendio con categorie proprie; nessun modulo dedicato alle compartimentazioni.
+      en: Document fire safety inspections with custom categories; no dedicated firestop module.
 own: false
 status: editorial
 source: https://docu-tools.com/brandschutzdokumentation-in-der-praxis/

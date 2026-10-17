@@ -4,9 +4,12 @@ vendor: Solemma
 url: https://www.solemma.com
 category: daylight-and-lighting
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Tageslicht-, Blendungs- und Energiesimulation als Plug-in für Rhino.
+  fr: Simulation de lumière du jour, d'éblouissement et énergétique, plug-in pour Rhino.
+  it: Simulazione di luce diurna, abbagliamento ed energia come plug-in per Rhino.
+  en: Daylight, glare and energy simulation as a plug-in for Rhino.
 use_cases:
   - code: QAS-DAYLIGHT
 own: false

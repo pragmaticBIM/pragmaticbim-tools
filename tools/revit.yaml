@@ -4,9 +4,12 @@ vendor: Autodesk
 url: https://www.autodesk.com/products/revit
 category: authoring
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: BIM-Autorenwerkzeug für Architektur, Tragwerk und Gebäudetechnik mit Plänen und Mengen aus dem Modell.
+  fr: Outil auteur BIM pour architecture, structure et technique du bâtiment, avec plans et métrés depuis le modèle.
+  it: Strumento di authoring BIM per architettura, strutture e impiantistica, con piani e quantità dal modello.
+  en: BIM authoring tool for architecture, structure and building services with drawings and quantities from the model.
 use_cases:
   - code: BES-DOOR-TENDER
   - code: BES-DRYWALL-TENDER

@@ -4,13 +4,19 @@ vendor: One Click LCA Ltd
 url: https://www.oneclicklca.com
 category: lca
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Ökobilanz und graue Energie mit KBOB-Daten, Minergie-akkreditiert.
+  fr: Écobilan et énergie grise avec données KBOB, accrédité Minergie.
+  it: Ecobilancio ed energia grigia con dati KBOB, accreditato Minergie.
+  en: LCA and embodied energy with KBOB data, Minergie-accredited.
 use_cases:
   - code: DES-LCA
     note:
       de: Graue Energie nach Minergie mit KBOB-Daten.
+      fr: Énergie grise selon Minergie avec données KBOB.
+      it: Energia grigia secondo Minergie con dati KBOB.
+      en: Embodied energy to Minergie with KBOB data.
 own: false
 status: editorial
 source: https://help.oneclicklca.com/en/articles/663332

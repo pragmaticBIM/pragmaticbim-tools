@@ -4,9 +4,12 @@ vendor: Schindler
 url: https://www.schindler.ch
 category: product-data
 pricing: free
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Online-Planungshilfen und BIM-Daten für Schindler-Aufzüge zur Schachtplanung.
+  fr: Aides de planification en ligne et données BIM pour ascenseurs Schindler, pour la conception des gaines.
+  it: Strumenti di progettazione online e dati BIM per ascensori Schindler per la progettazione del vano.
+  en: Online planning aids and BIM data for Schindler lifts for shaft design.
 use_cases:
   - code: BES-ELEVATOR-EARLY
 own: false

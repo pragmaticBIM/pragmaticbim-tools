@@ -1,0 +1,30 @@
+id: campos
+name: Campos
+vendor: ICFM AG
+url: https://www.campos.ch
+category: facility-management
+pricing: commercial
+countries: [ch]
+description:
+  de: Webbasierte CAFM-Plattform für Flächen-, Instandhaltungs-, Vertrags- und Dokumentenmanagement, mit Übernahme von BIM-Daten.
+  fr: Plateforme CAFM web pour la gestion des surfaces, de la maintenance, des contrats et des documents, avec reprise de données BIM.
+  it: Piattaforma CAFM web per gestione di superfici, manutenzione, contratti e documenti, con ripresa di dati BIM.
+  en: Web-based CAFM platform for space, maintenance, contract and document management, with import of BIM data.
+use_cases:
+  - code: HOV-FM-3D
+    note:
+      de: Übernimmt betriebsrelevante geometrische und alphanumerische Daten und Dokumente aus dem BIM-Modell.
+      fr: Reprend de la maquette BIM les données géométriques et alphanumériques et les documents utiles à l'exploitation.
+      it: Riprende dal modello BIM i dati geometrici e alfanumerici e i documenti rilevanti per l'esercizio.
+      en: Imports operation-relevant geometric and alphanumeric data and documents from the BIM model.
+  - code: HOV-FM-MIN
+    note:
+      de: Führt Flächen je Raum nach SIA 416 oder DIN 277 und Energiebezugsflächen nach SIA 380.
+      fr: Gère les surfaces par local selon SIA 416 ou DIN 277 et les surfaces de référence énergétique selon SIA 380.
+      it: Gestisce le superfici per locale secondo SIA 416 o DIN 277 e le superfici di riferimento energetico secondo SIA 380.
+      en: Manages areas per room according to SIA 416 or DIN 277 and energy reference areas according to SIA 380.
+own: false
+status: editorial
+source: https://www.campos.ch/module
+published: false
+last_checked: "2026-10-17"

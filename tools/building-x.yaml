@@ -4,9 +4,12 @@ vendor: Siemens
 url: https://www.siemens.com/buildingx
 category: building-operation
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Cloud-Plattform zur Überwachung und Optimierung von Gebäuden und gebäudetechnischen Anlagen.
+  fr: Plateforme cloud de surveillance et d'optimisation des bâtiments et des installations techniques.
+  it: Piattaforma cloud per il monitoraggio e l'ottimizzazione di edifici e impianti tecnici.
+  en: Cloud platform for monitoring and optimising buildings and building services systems.
 use_cases:
   - code: OPR-BUILDING-PERFORMANCE
 own: false

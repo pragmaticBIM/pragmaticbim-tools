@@ -4,9 +4,12 @@ vendor: thinkproject
 url: https://www.thinkproject.com
 category: cde
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Gemeinsame Datenumgebung für Dokumente, Pläne und Prozesse mit Rechteverwaltung.
+  fr: Environnement de données commun pour documents, plans et processus avec gestion des droits.
+  it: Ambiente di dati condiviso per documenti, piani e processi con gestione dei diritti.
+  en: Common data environment for documents, drawings and processes with rights management.
 use_cases:
   - code: BES-OWNER-CDE
   - code: DES-CRIT-INSERT

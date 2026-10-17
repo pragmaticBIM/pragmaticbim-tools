@@ -4,9 +4,12 @@ vendor: Autodesk
 url: https://www.autodesk.com/products/revit
 category: facility-management
 pricing: free
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Erweiterung für Revit zum Erfassen und Exportieren von Betriebsdaten im COBie-Format.
+  fr: Extension Revit pour saisir et exporter les données d'exploitation au format COBie.
+  it: Estensione per Revit per rilevare ed esportare i dati di esercizio in formato COBie.
+  en: Revit extension for capturing and exporting operational data in COBie format.
 use_cases:
   - code: HOV-COBIE
 own: false

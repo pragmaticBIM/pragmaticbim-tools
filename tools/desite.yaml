@@ -4,9 +4,12 @@ vendor: thinkproject
 url: https://www.thinkproject.com
 category: model-checking
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Modellprüfung und -auswertung mit Einfärbung nach Eigenschaften und Mengenermittlung.
+  fr: Contrôle et évaluation de modèles avec coloration selon les propriétés et métrés.
+  it: Verifica e analisi di modelli con colorazione per proprietà e computo quantità.
+  en: Model checking and analysis with property-based colouring and quantity takeoff.
 use_cases:
   - code: BES-AWARD-INTERFACE
   - code: BES-COST-INTERFACE

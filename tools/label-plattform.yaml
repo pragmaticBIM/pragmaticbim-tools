@@ -7,10 +7,16 @@ pricing: commercial
 countries: [ch]
 description:
   de: Online-Plattform für Nachweis und Zertifizierung von Minergie-Gebäuden, mit Dokumentenablage je Projekt.
+  fr: Plateforme en ligne pour justificatifs et certification de bâtiments Minergie, avec dépôt de documents par projet.
+  it: Piattaforma online per verifica e certificazione di edifici Minergie, con archivio documenti per progetto.
+  en: Online platform for Minergie building verification and certification, with document storage per project.
 use_cases:
   - code: QAS-FUND
     note:
       de: Führt Minergie-Nachweise und -Zertifikate bis zur definitiven Zertifizierung.
+      fr: Gère les justificatifs et certificats Minergie jusqu'à la certification définitive.
+      it: Gestisce le verifiche e i certificati Minergie fino alla certificazione definitiva.
+      en: Manages Minergie verifications and certificates through to final certification.
 own: false
 status: editorial
 source: https://www.minergie.ch/de/zertifizieren/ablauf/

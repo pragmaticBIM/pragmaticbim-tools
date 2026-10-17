@@ -4,9 +4,12 @@ vendor: Trimble
 url: https://www.tekla.com
 category: structure-and-timber
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Tragwerksmodellierung für Stahl-, Beton- und Holzbau mit Werkstatt- und Bewehrungsdetails.
+  fr: Modélisation de structures acier, béton et bois avec détails d'atelier et d'armature.
+  it: Modellazione strutturale per acciaio, calcestruzzo e legno con dettagli d'officina e di armatura.
+  en: Structural modelling for steel, concrete and timber with shop and reinforcement details.
 use_cases:
   - code: BES-STEELWORK-TENDER
   - code: DES-EMBED-REINF

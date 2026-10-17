@@ -4,13 +4,19 @@ vendor: EQUA Simulation AB
 url: https://www.equa.se/en/ida-ice
 category: energy-and-simulation
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Dynamische Mehrzonen-Simulation von Raumklima und Energiebedarf ganzer Gebäude, mit IFC-Import.
+  fr: Simulation dynamique multizone du climat intérieur et des besoins énergétiques de bâtiments, avec import IFC.
+  it: Simulazione dinamica multizona di clima interno e fabbisogno energetico di interi edifici, con import IFC.
+  en: Dynamic multi-zone simulation of indoor climate and energy demand of whole buildings, with IFC import.
 use_cases:
   - code: DES-ABSTRACTBIM-BPS
     note:
       de: Übernimmt die Gebäudegeometrie aus IFC für die Energiesimulation.
+      fr: Reprend la géométrie du bâtiment depuis l'IFC pour la simulation énergétique.
+      it: Acquisisce la geometria dell'edificio dall'IFC per la simulazione energetica.
+      en: Imports the building geometry from IFC for energy simulation.
 own: false
 status: editorial
 source: https://www.equa.se/en/ida-ice

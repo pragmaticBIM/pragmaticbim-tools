@@ -4,9 +4,12 @@ vendor: NavVis
 url: https://www.navvis.com
 category: reality-capture
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Tragbarer mobiler Laserscanner zur Aufnahme von Gebäuden als Punktwolke mit Panoramabildern.
+  fr: Scanner laser mobile portable pour le relevé de bâtiments en nuage de points avec images panoramiques.
+  it: Laser scanner mobile portatile per il rilievo di edifici come nuvola di punti con immagini panoramiche.
+  en: Wearable mobile laser scanner for capturing buildings as a point cloud with panoramic images.
 use_cases:
   - code: BES-EXISTING-BUILDING-MEP
   - code: BES-EXISTING-POINT-CLOUD

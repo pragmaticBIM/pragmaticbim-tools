@@ -35,6 +35,7 @@ A tool is listed when it is:
 - Write descriptions from the vendor's own documentation. If a function can't be confirmed there, leave it out.
 - `own: true` is reserved for tools and actions by abstract ag. Their `url` points to the action page. If you are the vendor of the tool you propose, say so in the pull request.
 - `pricing` reflects the vendor's website. If it is unclear, use `commercial`.
+- `countries` lists where the tool is sold and supported, as lowercase ISO codes. Use `[ch, de, at]` for tools available across the German-speaking market and `[ch]` only for tools bound to Swiss standards, authorities or sales.
 - Dates in quotes: `last_checked: "2026-10-17"`. Update `last_checked` whenever you confirm an entry; entries older than 12 months get a warning.
 
 ## Review

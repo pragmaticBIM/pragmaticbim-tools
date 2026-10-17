@@ -4,9 +4,12 @@ vendor: Hilti
 url: https://www.fieldwire.com
 category: field-and-defects
 pricing: freemium
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Baustellen-App für Aufgaben, Mängel, Checklisten und Pläne, mit Vorlage für Brandschutzdokumentation.
+  fr: App de chantier pour tâches, défauts, checklists et plans, avec modèle pour documentation protection incendie.
+  it: App di cantiere per compiti, difetti, checklist e piani, con modello per documentazione antincendio.
+  en: Site app for tasks, defects, checklists and plans, with a template for fire safety documentation.
 use_cases:
   - code: CON-DEFECT-MGMT
   - code: QAS-FUNCTIONAL-ACCEPTANCE

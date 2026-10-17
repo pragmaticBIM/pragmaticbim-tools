@@ -4,9 +4,12 @@ vendor: Autodesk
 url: https://www.autodesk.com/products/forma
 category: feasibility-and-massing
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Cloudbasierte frühe Planung mit Volumenstudien und Analysen zu Sonne, Wind und Lärm.
+  fr: Planification précoce dans le cloud avec études volumétriques et analyses d'ensoleillement, de vent et de bruit.
+  it: Progettazione preliminare nel cloud con studi volumetrici e analisi di sole, vento e rumore.
+  en: Cloud-based early-stage planning with massing studies and sun, wind and noise analyses.
 use_cases:
   - code: DES-URBAN-MASS
   - code: QAS-CONSTRAINT

@@ -4,9 +4,12 @@ vendor: Epic Games
 url: https://www.twinmotion.com
 category: visualisation
 pricing: freemium
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Echtzeit-Visualisierung auf Basis der Unreal Engine mit Anbindung an gängige BIM-Autorenwerkzeuge.
+  fr: Visualisation en temps réel basée sur Unreal Engine, connectée aux outils de création BIM courants.
+  it: Visualizzazione in tempo reale basata su Unreal Engine, collegata ai comuni strumenti di authoring BIM.
+  en: Real-time visualisation based on Unreal Engine with links to common BIM authoring tools.
 use_cases:
   - code: COM-STAKEHOLDER-DIALOG
   - code: DES-MODEL-VIS

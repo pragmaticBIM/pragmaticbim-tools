@@ -4,9 +4,12 @@ vendor: BIMcollab
 url: https://www.bimcollab.com
 category: model-checking
 pricing: freemium
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: IFC-Viewer und Modellprüfung mit Regeln, Einfärbung nach Eigenschaften und BCF-Issues.
+  fr: Visionneuse IFC et contrôle de modèles avec règles, coloration par propriétés et issues BCF.
+  it: Visualizzatore IFC e verifica modelli con regole, colorazione per proprietà e issue BCF.
+  en: IFC viewer and model checking with rules, colouring by properties and BCF issues.
 use_cases:
   - code: BES-AWARD-INTERFACE
   - code: BES-COST-INTERFACE

@@ -4,9 +4,12 @@ vendor: Robert McNeel & Associates
 url: https://www.rhino3d.com
 category: authoring
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: 3D-Freiformmodellierung mit integriertem Grasshopper für parametrische Geometrie.
+  fr: Modélisation 3D de formes libres avec Grasshopper intégré pour la géométrie paramétrique.
+  it: Modellazione 3D a forma libera con Grasshopper integrato per la geometria parametrica.
+  en: 3D freeform modelling with integrated Grasshopper for parametric geometry.
 use_cases:
   - code: DES-FACADE
   - code: DES-URBAN-MASS

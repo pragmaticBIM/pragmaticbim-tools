@@ -4,9 +4,12 @@ vendor: RIB Software
 url: https://www.rib-software.com
 category: cost-and-tendering
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Modellbasierte Kostenplanung, Ausschreibung und Projektsteuerung (5D).
+  fr: Planification des coûts, appel d'offres et pilotage de projet basés sur le modèle (5D).
+  it: Pianificazione dei costi, appalti e gestione del progetto basati sul modello (5D).
+  en: Model-based cost planning, tendering and project control (5D).
 use_cases:
   - code: BES-ELEMENT-COST-POSTCALC
   - code: BES-ELEMENT-TENDER

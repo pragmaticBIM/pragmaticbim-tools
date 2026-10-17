@@ -4,9 +4,12 @@ vendor: Leica Geosystems (Hexagon)
 url: https://leica-geosystems.com
 category: reality-capture
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Software zur Registrierung, Bearbeitung und Auswertung von Laserscan-Punktwolken.
+  fr: Logiciel d'enregistrement, de traitement et d'analyse de nuages de points de scans laser.
+  it: Software per registrazione, elaborazione e analisi di nuvole di punti da laser scanner.
+  en: Software for registering, processing and analysing laser scan point clouds.
 use_cases:
   - code: BES-EXISTING-POINT-CLOUD
 own: false

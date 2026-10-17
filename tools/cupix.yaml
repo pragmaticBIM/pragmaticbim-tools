@@ -4,9 +4,12 @@ vendor: Cupix
 url: https://www.cupix.com
 category: reality-capture
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: 360°-Baustellenaufnahmen als digitaler Zwilling mit Vergleich zum BIM-Modell.
+  fr: Relevés de chantier à 360° comme jumeau numérique, avec comparaison au modèle BIM.
+  it: Rilievi di cantiere a 360° come gemello digitale con confronto con il modello BIM.
+  en: 360° site captures as a digital twin with comparison to the BIM model.
 use_cases:
   - code: CON-PROGRESS-DOC
 own: false

@@ -4,9 +4,12 @@ vendor: Vectorworks (Nemetschek)
 url: https://www.vectorworks.net
 category: authoring
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: CAD- und BIM-Werkzeug für Landschaftsarchitektur mit Geländemodell, Pflanzen und Bäumen.
+  fr: Outil CAO et BIM pour l'architecture du paysage avec modèle de terrain, plantes et arbres.
+  it: Strumento CAD e BIM per l'architettura del paesaggio con modello del terreno, piante e alberi.
+  en: CAD and BIM tool for landscape architecture with terrain model, plants and trees.
 use_cases:
   - code: DES-HUMUS
   - code: DES-TERRAIN

@@ -7,19 +7,34 @@ pricing: commercial
 countries: [ch]
 description:
   de: Kennwerte von über 1000 abgerechneten Schweizer Bauten nach eBKP-H, BKP und SIA 416, mit Objektvergleich.
+  fr: Valeurs de référence de plus de 1000 bâtiments suisses décomptés selon eBKP-H, BKP et SIA 416, avec comparaison d'objets.
+  it: Parametri di oltre 1000 edifici svizzeri liquidati secondo eBKP-H, BKP e SIA 416, con confronto tra oggetti.
+  en: Benchmarks from over 1000 completed Swiss buildings by eBKP-H, BKP and SIA 416, with project comparison.
 use_cases:
   - code: BES-ELEMENT-COST-POSTCALC
     note:
       de: Eigene Projekte erfassen und auswerten; BKP-Kosten auf eBKP-H umschlüsseln.
+      fr: Saisir et évaluer ses propres projets; convertir les coûts CFC en eBKP-H.
+      it: Rilevare e valutare i propri progetti; convertire i costi CCC in eBKP-H.
+      en: Record and evaluate own projects; map BKP costs to eBKP-H.
   - code: DES-ELEMENT-COST-EARLY
     note:
       de: Kosten aus dem 3D-Modell mit eBKP-H-Kalkulator und BFS-Kennwerten.
+      fr: Coûts à partir du modèle 3D avec calculateur eBKP-H et valeurs de référence OFS.
+      it: Costi dal modello 3D con calcolatore eBKP-H e valori di riferimento UST.
+      en: Costs from the 3D model with eBKP-H calculator and FSO benchmarks.
   - code: QAS-BENCHMARK
     note:
       de: Vergleich mit abgerechneten Objekten nach Kosten-, Flächen- und Energiekennwerten.
+      fr: Comparaison avec des objets décomptés selon des indicateurs de coûts, de surfaces et d'énergie.
+      it: Confronto con oggetti consuntivati secondo indicatori di costi, superfici ed energia.
+      en: Comparison with completed projects by cost, area and energy benchmarks.
   - code: QAS-COST-PLAUS
     note:
       de: NPK-Einheitspreise und Elementkennwerte des BFS als Vergleichswerte.
+      fr: Prix unitaires NPK et valeurs de référence par élément de l'OFS comme valeurs de comparaison.
+      it: Prezzi unitari NPK e parametri per elemento dell'UST come valori di confronto.
+      en: NPK unit prices and FSO element benchmarks as comparison values.
 own: false
 status: editorial
 source: https://www.crb.ch/de/normen-standards/kennwerte-objektarten/web-applikation-werk-material-online

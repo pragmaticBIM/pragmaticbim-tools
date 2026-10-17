@@ -7,6 +7,9 @@ pricing: commercial
 countries: [ch]
 description:
   de: Erzeugt aus IFC-Modell und CRB-IDS ein vorläufiges NPK-Leistungsverzeichnis zur Fertigstellung in der AVA.
+  fr: Génère à partir du modèle IFC et de l'IDS CRB un descriptif NPK provisoire, à finaliser dans le logiciel AVA.
+  it: Genera da modello IFC e IDS CRB un elenco prestazioni NPK provvisorio, da completare nel software AVA.
+  en: Generates a draft NPK bill of quantities from an IFC model and CRB IDS, to be completed in the AVA software.
 use_cases:
   - code: BES-ELEMENT-TENDER
   - code: BES-MASONRY-TENDER

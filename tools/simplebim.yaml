@@ -4,9 +4,12 @@ vendor: Datacubist
 url: https://simplebim.com
 category: model-checking
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Bearbeitung, Bereinigung und Anreicherung von IFC-Modellen mit regelbasierten Vorlagen.
+  fr: Édition, nettoyage et enrichissement de modèles IFC avec des modèles basés sur des règles.
+  it: Modifica, pulizia e arricchimento di modelli IFC con template basati su regole.
+  en: Editing, cleaning and enriching IFC models with rule-based templates.
 use_cases:
   - code: DES-WALL-REQUIREMENTS
   - code: OPR-FM-ARCH

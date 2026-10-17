@@ -4,22 +4,37 @@ vendor: Madaster Schweiz
 url: https://madaster.ch
 category: material-passport-and-reuse
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Plattform für Gebäuderessourcenpässe aus IFC oder Excel, mit Angaben zu Trennbarkeit, CO2 und Wiederverwendung.
+  fr: Plateforme de passeports de ressources de bâtiments à partir d'IFC ou Excel, avec séparabilité, CO2 et réemploi.
+  it: Piattaforma per passaporti delle risorse degli edifici da IFC o Excel, con separabilità, CO2 e riutilizzo.
+  en: Platform for building resource passports from IFC or Excel, with data on separability, CO2 and reuse.
 use_cases:
   - code: BES-EXISTING-CIRCULARITY
     note:
       de: Bestandsobjekte erfassen und Wiederverwendbarkeit der Bauteile auswerten.
+      fr: Saisir des bâtiments existants et évaluer la réutilisabilité des éléments.
+      it: Rilevare edifici esistenti e valutare la riutilizzabilità degli elementi costruttivi.
+      en: Record existing buildings and evaluate the reusability of components.
   - code: DES-MATERIAL-PASS
     note:
       de: Gebäuderessourcenpass aus dem IFC-Modell.
+      fr: Passeport des ressources du bâtiment à partir du modèle IFC.
+      it: Passaporto delle risorse dell'edificio dal modello IFC.
+      en: Building resource passport from the IFC model.
   - code: HOV-PRODUCT-PASS-GTIN
     note:
       de: Übernimmt die GTIN je Bauteil aus dem IFC-Import.
+      fr: Reprend le GTIN de chaque élément depuis l'import IFC.
+      it: Acquisisce il GTIN di ogni elemento dall'importazione IFC.
+      en: Takes the GTIN per element from the IFC import.
   - code: HOV-PRODUCT-PASS-SERIAL
     note:
       de: Übernimmt GTIN und Seriennummer je Bauteil aus dem IFC-Import.
+      fr: Reprend le GTIN et le numéro de série de chaque élément depuis l'import IFC.
+      it: Riprende GTIN e numero di serie per ogni elemento dall'importazione IFC.
+      en: Takes over GTIN and serial number per element from the IFC import.
 own: false
 status: editorial
 source: https://madaster.ch

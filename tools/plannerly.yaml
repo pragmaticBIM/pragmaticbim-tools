@@ -4,9 +4,12 @@ vendor: Plannerly
 url: https://plannerly.com
 category: other
 pricing: freemium
-countries: [ch]
+countries: [ch, de, at]
 description:
-  de: Webplattform für BIM-Anforderungen, Leistungsumfang und Verantwortlichkeiten.
+  de: Webplattform für die BIM-Abwicklung gemäss ISO 19650.
+  fr: Plateforme web pour la gestion BIM selon ISO 19650.
+  it: Piattaforma web per la gestione BIM secondo ISO 19650.
+  en: Web platform for BIM project delivery according to ISO 19650.
 use_cases:
   - code: BES-DESIGNER-PROCUREMENT
 own: false

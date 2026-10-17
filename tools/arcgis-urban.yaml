@@ -4,9 +4,12 @@ vendor: Esri
 url: https://www.esri.com/en-us/arcgis/products/arcgis-urban/overview
 category: feasibility-and-massing
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Webbasierte 3D-Stadtplanung mit Zonierung, Szenarien und Kennzahlen auf GIS-Basis.
+  fr: Urbanisme 3D en ligne avec zonage, scénarios et indicateurs sur base SIG.
+  it: Pianificazione urbana 3D web con azzonamento, scenari e indicatori su base GIS.
+  en: Web-based 3D urban planning with zoning, scenarios and key figures on a GIS basis.
 use_cases:
   - code: DES-URBAN-MASS
   - code: DES-UVP

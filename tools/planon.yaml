@@ -4,9 +4,12 @@ vendor: Planon (Schneider Electric)
 url: https://planonsoftware.com
 category: facility-management
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: CAFM/IWMS-Software für Flächen-, Instandhaltungs- und Immobilienmanagement.
+  fr: Logiciel CAFM/IWMS pour la gestion des surfaces, de la maintenance et de l'immobilier.
+  it: Software CAFM/IWMS per la gestione di superfici, manutenzione e immobili.
+  en: CAFM/IWMS software for space, maintenance and real estate management.
 use_cases:
   - code: HOV-COBIE
   - code: HOV-FM-3D

@@ -4,9 +4,12 @@ vendor: Uponor
 url: https://www.uponor.com
 category: mep-design
 pricing: free
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Planungssoftware für Flächenheizung und Trinkwasserinstallationen mit Uponor-Systemen.
+  fr: Logiciel de planification pour chauffage de surface et installations d'eau potable avec systèmes Uponor.
+  it: Software di progettazione per riscaldamento a superficie e impianti di acqua potabile con sistemi Uponor.
+  en: Design software for surface heating and drinking water installations with Uponor systems.
 use_cases:
   - code: DES-UNDERFLOOR-HEATING
 own: false

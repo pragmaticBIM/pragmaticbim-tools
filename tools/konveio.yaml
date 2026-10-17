@@ -4,9 +4,12 @@ vendor: Konveio
 url: https://www.konveio.com
 category: participation
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Online-Plattform zum Kommentieren von Dokumenten und Plänen in Beteiligungsverfahren.
+  fr: Plateforme en ligne pour commenter documents et plans dans les procédures participatives.
+  it: Piattaforma online per commentare documenti e piani nei processi partecipativi.
+  en: Online platform for commenting on documents and drawings in public participation processes.
 use_cases:
   - code: COM-STAKEHOLDER-DIALOG
 own: false

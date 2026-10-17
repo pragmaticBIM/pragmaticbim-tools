@@ -4,9 +4,12 @@ vendor: Capmo
 url: https://www.capmo.com
 category: field-and-defects
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Bauprojektmanagement mit Mängeln, Aufgaben, Bautagebuch und Plänen in einer App.
+  fr: Gestion de projets de construction avec défauts, tâches, journal de chantier et plans dans une app.
+  it: Gestione di progetti edili con difetti, compiti, giornale dei lavori e piani in un'unica app.
+  en: Construction project management with defects, tasks, site diary and plans in one app.
 use_cases:
   - code: CON-DEFECT-MGMT
   - code: CON-ROOM-LABEL

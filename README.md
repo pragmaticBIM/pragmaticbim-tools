@@ -43,7 +43,7 @@ vendor: One Click LCA Ltd
 url: https://www.oneclicklca.com
 category: lca
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Ökobilanz und graue Energie mit KBOB-Daten, Minergie-akkreditiert.
 use_cases:

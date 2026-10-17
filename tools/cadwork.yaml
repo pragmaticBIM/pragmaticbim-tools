@@ -4,9 +4,12 @@ vendor: cadwork informatik
 url: https://cadwork.ch
 category: structure-and-timber
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: CAD/CAM für den Holzbau mit 3D-Konstruktion, Abbund und Produktionsdaten.
+  fr: CAO/FAO pour la construction bois avec conception 3D, taille et données de production.
+  it: CAD/CAM per la costruzione in legno con progettazione 3D, carpenteria e dati di produzione.
+  en: CAD/CAM for timber construction with 3D design, joinery and production data.
 use_cases:
   - code: BES-TIMBER-CONTRACTOR
 own: false

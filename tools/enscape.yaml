@@ -4,9 +4,12 @@ vendor: Chaos
 url: https://www.chaos.com
 category: visualisation
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Echtzeit-Rendering als Plug-in für Revit, Archicad, SketchUp, Rhino und Vectorworks.
+  fr: Rendu en temps réel comme plug-in pour Revit, Archicad, SketchUp, Rhino et Vectorworks.
+  it: Rendering in tempo reale come plug-in per Revit, Archicad, SketchUp, Rhino e Vectorworks.
+  en: Real-time rendering as a plug-in for Revit, Archicad, SketchUp, Rhino and Vectorworks.
 use_cases:
   - code: DES-MODEL-VIS
   - code: QAS-DECISION-VIS

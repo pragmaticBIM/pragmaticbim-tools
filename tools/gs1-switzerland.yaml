@@ -7,6 +7,9 @@ pricing: commercial
 countries: [ch]
 description:
   de: Vergabe von GTIN und GS1 Digital Link zur eindeutigen Identifikation von Produkten.
+  fr: Attribution de GTIN et GS1 Digital Link pour l'identification univoque des produits.
+  it: Assegnazione di GTIN e GS1 Digital Link per l'identificazione univoca dei prodotti.
+  en: Issuing of GTIN and GS1 Digital Link for unique product identification.
 use_cases:
   - code: HOV-PRODUCT-PASS-GTIN
   - code: HOV-PRODUCT-PASS-SERIAL

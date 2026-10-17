@@ -4,9 +4,12 @@ vendor: Chaos
 url: https://www.chaos.com
 category: visualisation
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Echtzeit-Visualisierung mit Raytracing für grosse Szenen aus 3D- und BIM-Modellen.
+  fr: Visualisation en temps réel avec raytracing pour grandes scènes issues de modèles 3D et BIM.
+  it: Visualizzazione in tempo reale con raytracing per grandi scene da modelli 3D e BIM.
+  en: Real-time ray-traced visualisation for large scenes from 3D and BIM models.
 use_cases:
   - code: DES-MODEL-VIS
   - code: QAS-DECISION-VIS

@@ -4,9 +4,12 @@ vendor: dRofus (Nemetschek)
 url: https://www.drofus.com
 category: room-data-and-briefing
 pricing: commercial
-countries: [ch]
+countries: [ch, de, at]
 description:
   de: Datenbank für Raumprogramm, Raumanforderungen und Ausstattung, abgeglichen mit BIM-Modellen.
+  fr: Base de données pour programme des locaux, exigences des locaux et équipement, synchronisée avec les modèles BIM.
+  it: Database per programma dei locali, requisiti dei locali e arredo, allineato con i modelli BIM.
+  en: Database for room programme, room requirements and equipment, reconciled with BIM models.
 use_cases:
   - code: BES-FUNCTIONAL-BRIEF
   - code: BES-ROOM-PROGRAM
