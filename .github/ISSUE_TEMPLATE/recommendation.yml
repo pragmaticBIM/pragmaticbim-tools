@@ -1,0 +1,73 @@
+name: Recommendation
+description: Recommend a listed tool, as a named practitioner.
+title: "Recommendation: "
+labels: ["recommendation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A maintainer adds your recommendation to the tool entry in `tools/` and shows it on [pragmaticbim.ch/de/werkzeuge](https://pragmaticbim.ch/de/werkzeuge). Recommendations are published with your name, role and organisation. Issues are public.
+  - type: input
+    id: tool
+    attributes:
+      label: Tool id
+      description: The id of the entry, as in the address pragmaticbim.ch/de/werkzeuge#id.
+      placeholder: bimvision
+    validations:
+      required: true
+  - type: input
+    id: use_case
+    attributes:
+      label: Use case code (optional)
+      description: Fill in only if your recommendation is about one use case.
+      placeholder: QAS-QTO
+  - type: input
+    id: name
+    attributes:
+      label: Your name
+    validations:
+      required: true
+  - type: input
+    id: role
+    attributes:
+      label: Your role
+      placeholder: Architect, BIM manager
+    validations:
+      required: true
+  - type: input
+    id: organisation
+    attributes:
+      label: Your organisation
+    validations:
+      required: true
+  - type: input
+    id: profile
+    attributes:
+      label: Public profile (optional)
+      description: A page that confirms who you are, for example LinkedIn.
+      placeholder: https://
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Your relation to the vendor
+      options:
+        - No commercial relation
+        - Paying customer or user
+        - Implementation, consulting or sales partner
+        - Employed by or acting for the vendor
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why do you recommend it?
+      description: One or two sentences, at most 140 characters, in German or English.
+    validations:
+      required: true
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: Consent
+      options:
+        - label: I agree that my name, role, organisation and recommendation are published on pragmaticbim.ch and in this repository.
+          required: true
