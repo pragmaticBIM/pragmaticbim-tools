@@ -1,0 +1,33 @@
+id: sketchup
+name: SketchUp
+vendor: Trimble
+url: https://www.sketchup.com
+category: authoring
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Direkte 3D-Modellierung mit Flächen und Körpern, IFC-Klassifizierung von Komponenten und IFC-Export.
+  fr: Modélisation 3D directe par faces et volumes, classification IFC des composants et export IFC.
+  it: Modellazione 3D diretta con superfici e solidi, classificazione IFC dei componenti ed esportazione IFC.
+  en: Direct 3D modelling with faces and solids, IFC classification of components and IFC export.
+use_cases:
+  - code: DES-LAYOUT
+  - code: DES-URBAN-MASS
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: none
+    why:
+      de: Ich empfehle SketchUp für einfache Modelle in frühen Phasen als Entscheidungsgrundlage. Man kann damit genau arbeiten und IFC exportieren.
+      fr: Je recommande SketchUp pour des modèles simples en phase initiale, comme base de décision. Il est précis et exporte en IFC.
+      it: Consiglio SketchUp per modelli semplici nelle fasi iniziali, come base decisionale. È preciso ed esporta in IFC.
+      en: I recommend SketchUp for simple models in early phases to support decisions. You can work precisely in it and export IFC.
+    date: "2026-10-17"
+    consent: true
+own: false
+status: editorial
+source: https://help.sketchup.com/en/importing-and-exporting-ifc-files
+published: true
+last_checked: "2026-10-17"

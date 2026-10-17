@@ -11,10 +11,33 @@ description:
   it: Strumento di modellazione BIM per architettura e ingegneria civile, con progettazione di casseforme e armature.
   en: BIM authoring tool for architecture and civil engineering with formwork and reinforcement design.
 use_cases:
+  - code: BES-CONCRETE-TENDER
+  - code: CON-PRECAST-ORDER
+  - code: CON-REINF-EXEC
+    note:
+      de: Bewehrungsmodellierung mit lageweiser Layer-Struktur, Allplan-Attributen und Stahllisten.
+      fr: Modélisation des armatures avec structure de calques par lit, attributs Allplan et listes d'acier.
+      it: Modellazione delle armature con struttura di layer per strato, attributi Allplan e liste acciaio.
+      en: Reinforcement modelling with layer structure per rebar layer, Allplan attributes and steel schedules.
+  - code: CON-SHL-BWP
+    note:
+      de: Schal- und Bewehrungspläne aus dem Tragwerks- und Bewehrungsmodell.
+      fr: Plans de coffrage et d'armature issus du modèle structurel et d'armatures.
+      it: Piani di cassero e d'armatura ricavati dal modello strutturale e delle armature.
+      en: Formwork and reinforcement drawings from the structural and reinforcement model.
   - code: DES-DRAWINGS
   - code: DES-EMBED-REINF
+  - code: DES-KV
   - code: DES-STRUCT-MASONRY
+  - code: DES-STRUCT-MEP-OPENINGS
+    note:
+      de: Wandelt importierte IFC-Aussparungsvorschläge in Durchbrüche und Schlitze in Wänden, Decken und Bodenplatten.
+      fr: Convertit les propositions de réservations IFC importées en percements et saignées dans murs, dalles et radiers.
+      it: Converte le proposte di forometria IFC importate in aperture e tracce in pareti, solai e platee.
+      en: Converts imported IFC opening proposals into openings and slots in walls, slabs and base plates.
   - code: QAS-ARCH-STRUCT-ADOPT
+  - code: QAS-EXCL-ZONE
+recommendations: []
 own: false
 status: editorial
 source: https://www.allplan.com

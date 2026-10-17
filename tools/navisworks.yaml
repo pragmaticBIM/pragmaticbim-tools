@@ -12,15 +12,18 @@ description:
   en: Federated model review with clash detection, 4D simulation and quantity takeoff.
 use_cases:
   - code: BES-AWARD-INTERFACE
+  - code: BES-ICE-SESSION
   - code: DES-ARCH-MEP-COORD
   - code: DES-COMPLEX-ASSEMBLY
   - code: QAS-ARCH-STRUCT-COORD
   - code: QAS-COORD-ZONE
   - code: QAS-EARLY-COORD
+  - code: QAS-EXCL-ZONE
   - code: QAS-FALL-PROTECTION
   - code: QAS-INSTALL-PATH
   - code: QAS-MAINT-SPACE
   - code: QAS-SITE-LOGISTICS
+recommendations: []
 own: false
 status: editorial
 source: https://www.autodesk.com/products/navisworks

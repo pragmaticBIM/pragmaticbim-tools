@@ -1,0 +1,25 @@
+id: telani
+name: telani Next
+vendor: telani GmbH
+url: https://telani.net
+category: mep-design
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Software zur grafischen Entwicklung, Prüfung und Dokumentation von Brandfallsteuermatrizen und Prüfplänen.
+  fr: Logiciel de création graphique, de contrôle et de documentation des matrices d'asservissement incendie et plans d'essai.
+  it: Software per lo sviluppo grafico, la verifica e la documentazione di matrici di comando antincendio e piani di prova.
+  en: Software for graphical development, checking and documentation of fire cause-and-effect matrices and test plans.
+use_cases:
+  - code: DES-FIRE-MATRIX
+    note:
+      de: Grafische Entwicklung und Wirk-Prinzip-Prüfung von Brandfallsteuermatrizen mit Prüfplan-Export.
+      fr: Développement graphique et contrôle de principe des matrices de commande incendie avec export de plan d'essai.
+      it: Sviluppo grafico e verifica funzionale delle matrici di comando antincendio con esportazione del piano di prova.
+      en: Graphical development and cause-and-effect checking of fire matrices with test plan export.
+recommendations: []
+own: false
+status: editorial
+source: https://telani.net/produkte/
+published: true
+last_checked: "2026-10-17"

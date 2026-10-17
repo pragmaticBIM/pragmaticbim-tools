@@ -11,6 +11,7 @@ description:
   it: CAD per la progettazione con computo delle quantità da trasferire agli appalti (AVA).
   en: CAD for building design with quantity take-off for handover to tendering (AVA).
 use_cases:
+  - code: BES-CONCRETE-TENDER
   - code: BES-DOOR-TENDER
   - code: BES-DRYWALL-TENDER
   - code: BES-ELEMENT-TENDER
@@ -21,6 +22,9 @@ use_cases:
   - code: BES-TILING-TENDER
   - code: BES-WINDOW-TENDER
   - code: CON-FINAL-MEASUREMENT
+  - code: CON-PRECAST-ORDER
+  - code: DES-KV
+recommendations: []
 own: false
 status: editorial
 source: https://www.messerli.ch

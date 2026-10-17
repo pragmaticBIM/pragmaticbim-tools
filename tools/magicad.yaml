@@ -20,6 +20,7 @@ use_cases:
   - code: DES-SANITARY-FIXTURE-COORD
   - code: DES-UNDERFLOOR-HEATING
   - code: QAS-MAINT-SPACE
+recommendations: []
 own: false
 status: editorial
 source: https://www.magicad.com

@@ -35,6 +35,7 @@ use_cases:
       fr: Vérifie uniquement la protection thermique (valeurs U); protection acoustique non couverte.
       it: Verifica solo la protezione termica (valori U); protezione acustica non coperta.
       en: Checks thermal insulation only (U-values); sound insulation not covered.
+recommendations: []
 own: false
 status: editorial
 source: https://lesosai.com/logiciel/?lang=de

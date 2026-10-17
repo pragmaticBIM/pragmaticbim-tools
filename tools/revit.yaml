@@ -11,6 +11,7 @@ description:
   it: Strumento di authoring BIM per architettura, strutture e impiantistica, con piani e quantità dal modello.
   en: BIM authoring tool for architecture, structure and building services with drawings and quantities from the model.
 use_cases:
+  - code: BES-CONCRETE-TENDER
   - code: BES-DOOR-TENDER
   - code: BES-DRYWALL-TENDER
   - code: BES-EXISTING-STRUCTURE
@@ -19,6 +20,14 @@ use_cases:
   - code: BES-PAINTING-TENDER
   - code: BES-TILING-TENDER
   - code: BES-WINDOW-TENDER
+  - code: CON-PRECAST-ORDER
+  - code: CON-REINF-EXEC
+  - code: CON-SHL-BWP
+    note:
+      de: Bewehrungsmodellierung mit Bewehrungsplänen und Biegelisten aus dem Modell.
+      fr: Modélisation des armatures avec plans de ferraillage et listes de façonnage issus du modèle.
+      it: Modellazione delle armature con piani d'armatura e distinte di piegatura dal modello.
+      en: Rebar modelling with reinforcement drawings and bending schedules from the model.
   - code: DES-CEILING-MIRROR
   - code: DES-D0165
   - code: DES-DOOR
@@ -26,17 +35,39 @@ use_cases:
   - code: DES-DRYWALL-REINF
   - code: DES-EMBED-REINF
   - code: DES-FACADE
+  - code: DES-FIRE-MATRIX
   - code: DES-FLOORING
   - code: DES-FURNITURE
   - code: DES-GFA
+  - code: DES-KV
   - code: DES-LAYOUT
+  - code: DES-MEP-SCHEM
+    note:
+      de: TGA-Modell mit Systemen für Heizung, Lüftung, Sanitär und Elektro als Grundlage der Schemata.
+      fr: Modèle CVCSE avec systèmes de chauffage, ventilation, sanitaire et électricité comme base des schémas.
+      it: Modello MEP con sistemi di riscaldamento, ventilazione, sanitari ed elettrici come base degli schemi.
+      en: MEP model with heating, ventilation, plumbing and electrical systems as the basis for schematics.
   - code: DES-PERMIT
   - code: DES-SIA416
   - code: DES-STRUCT-MASONRY
+  - code: DES-STRUCT-MEP-OPENINGS
+    note:
+      de: Übernimmt Aussparungen als Wand- und Deckenöffnungen im Tragwerksmodell.
+      fr: Reprend les réservations comme ouvertures de murs et de dalles dans le modèle structurel.
+      it: Riprende le forometrie come aperture di pareti e solai nel modello strutturale.
+      en: Adopts openings as wall and slab openings in the structural model.
   - code: HOV-NATIVE
   - code: QAS-ARCH-STRUCT-ADOPT
   - code: QAS-DET-REF
+  - code: QAS-EXCL-ZONE
+  - code: QAS-MEP-DETAIL
+    note:
+      de: Ausführungsnahe TGA-Modellierung mit Export typisierter IFC-Objekte.
+      fr: Modélisation CVCSE proche de l'exécution avec export d'objets IFC typés.
+      it: Modellazione MEP esecutiva con esportazione di oggetti IFC tipizzati.
+      en: Execution-level MEP modelling with export of typed IFC objects.
   - code: QAS-VORSATZ
+recommendations: []
 own: false
 status: editorial
 source: https://www.autodesk.com/products/revit

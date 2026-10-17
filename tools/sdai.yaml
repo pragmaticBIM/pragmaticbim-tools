@@ -1,0 +1,25 @@
+id: sdai
+name: sdai.ch
+vendor: sdai.ch
+url: https://sdai.ch/de/logiciel-detection-incendie
+category: mep-design
+pricing: commercial
+countries: [ch]
+description:
+  de: Schweizer Web-Software für Brandfallsteuermatrizen, BMA-Pläne, periodische Kontrollen und Dokumentation nach VKF.
+  fr: Logiciel web suisse pour matrices de commande incendie, plans BMA, contrôles périodiques et documentation selon AEAI.
+  it: Software web svizzero per matrici di comando antincendio, piani BMA, controlli periodici e documentazione secondo AICAA.
+  en: Swiss web software for fire cause-and-effect matrices, fire alarm plans, periodic checks and VKF documentation.
+use_cases:
+  - code: DES-FIRE-MATRIX
+    note:
+      de: Erstellt Brandfallsteuermatrizen nach VKF und BSE 108-15 mit Konfliktmeldung und Freigabeportal.
+      fr: Crée des matrices de commande incendie selon AEAI et BSE 108-15 avec détection de conflits et portail de validation.
+      it: Crea matrici di comando antincendio secondo AICAA e BSE 108-15 con segnalazione conflitti e portale di approvazione.
+      en: Creates fire cause-and-effect matrices to VKF and BSE 108-15 with conflict detection and approval portal.
+recommendations: []
+own: false
+status: editorial
+source: https://sdai.ch/de/logiciel-detection-incendie
+published: true
+last_checked: "2026-10-17"

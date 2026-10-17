@@ -12,6 +12,7 @@ description:
   en: Search portal for energy and building subsidy programmes by postcode in Switzerland.
 use_cases:
   - code: QAS-FUND
+recommendations: []
 own: false
 status: editorial
 source: https://www.energiefranken.ch

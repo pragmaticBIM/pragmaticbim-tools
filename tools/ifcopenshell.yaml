@@ -12,6 +12,7 @@ description:
   en: Open-source library and tools for reading, editing and merging IFC files.
 use_cases:
   - code: OPR-FM-ARCH
+recommendations: []
 own: false
 status: editorial
 source: https://ifcopenshell.org

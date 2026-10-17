@@ -15,6 +15,7 @@ use_cases:
   - code: DES-TERRAIN
   - code: LAN-SPONGE-CITY
   - code: QAS-TREE-PRESERVE
+recommendations: []
 own: false
 status: editorial
 source: https://www.vectorworks.net

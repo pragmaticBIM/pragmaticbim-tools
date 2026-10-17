@@ -14,6 +14,7 @@ use_cases:
   - code: BES-PLAN-BOX
   - code: QAS-CONTRACTOR-DESIGN
   - code: QAS-DESIGN-REVIEW
+recommendations: []
 own: false
 status: editorial
 source: https://www.bluebeam.com

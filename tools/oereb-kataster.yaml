@@ -14,6 +14,7 @@ use_cases:
   - code: BES-EXISTING-SITE
   - code: DES-PARCELS
   - code: QAS-CONSTRAINT
+recommendations: []
 own: false
 status: editorial
 source: https://www.cadastre.ch

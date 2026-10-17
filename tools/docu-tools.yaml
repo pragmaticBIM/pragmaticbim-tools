@@ -23,6 +23,7 @@ use_cases:
       fr: Documenter les visites de protection incendie avec catégories propres; pas de module dédié aux obturations coupe-feu.
       it: Documentare sopralluoghi antincendio con categorie proprie; nessun modulo dedicato alle compartimentazioni.
       en: Document fire safety inspections with custom categories; no dedicated firestop module.
+recommendations: []
 own: false
 status: editorial
 source: https://docu-tools.com/brandschutzdokumentation-in-der-praxis/

@@ -15,6 +15,7 @@ use_cases:
   - code: DES-HUMUS
   - code: DES-TERRAIN
   - code: LAN-SPONGE-CITY
+recommendations: []
 own: false
 status: editorial
 source: https://www.autodesk.com/products/civil-3d

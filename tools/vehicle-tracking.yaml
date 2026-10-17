@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: DES-PARKING
   - code: DES-TRAFFIC
+recommendations: []
 own: false
 status: editorial
 source: https://www.autodesk.com/products/vehicle-tracking

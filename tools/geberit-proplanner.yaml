@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: DES-BASIC-PIPING
   - code: DES-SANITARY-FIXTURE-COORD
+recommendations: []
 own: false
 status: editorial
 source: https://www.geberit.ch

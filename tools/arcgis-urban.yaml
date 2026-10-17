@@ -14,6 +14,7 @@ use_cases:
   - code: DES-URBAN-MASS
   - code: DES-UVP
   - code: QAS-CONSTRAINT
+recommendations: []
 own: false
 status: editorial
 source: https://www.esri.com/en-us/arcgis/products/arcgis-urban/overview

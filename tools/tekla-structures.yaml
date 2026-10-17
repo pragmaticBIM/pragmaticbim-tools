@@ -11,8 +11,30 @@ description:
   it: Modellazione strutturale per acciaio, calcestruzzo e legno con dettagli d'officina e di armatura.
   en: Structural modelling for steel, concrete and timber with shop and reinforcement details.
 use_cases:
+  - code: BES-CONCRETE-TENDER
   - code: BES-STEELWORK-TENDER
+  - code: CON-PRECAST-ORDER
+  - code: CON-REINF-EXEC
+    note:
+      de: Parametrische Bewehrungsmodelle mit IFC4-Export nach dem Use Case «Bewehrung verlegen».
+      fr: Modèles d'armatures paramétriques avec export IFC4 selon le cas d'usage «Bewehrung verlegen».
+      it: Modelli d'armatura parametrici con export IFC4 secondo il caso d'uso «Bewehrung verlegen».
+      en: Parametric reinforcement models with IFC4 export for the 'Bewehrung verlegen' use case.
+  - code: CON-SHL-BWP
+    note:
+      de: Schal- und Bewehrungszeichnungen aus dem Betonmodell mit Bewehrungsdetails.
+      fr: Plans de coffrage et d'armatures issus du modèle béton avec détails de ferraillage.
+      it: Disegni di cassero e d'armatura dal modello in calcestruzzo con dettagli dei ferri.
+      en: Formwork and reinforcement drawings from the concrete model with rebar details.
   - code: DES-EMBED-REINF
+  - code: DES-STRUCT-MEP-OPENINGS
+    note:
+      de: Hole Reservation Manager übernimmt IFC-Aussparungsvorschläge mit Freigabestatus als Öffnungen.
+      fr: Hole Reservation Manager reprend les propositions de réservations IFC comme ouvertures avec statut d'approbation.
+      it: Hole Reservation Manager riprende le proposte di forometria IFC come aperture con stato di approvazione.
+      en: Hole Reservation Manager adopts IFC opening proposals as openings, with an approval status per hole.
+  - code: QAS-EXCL-ZONE
+recommendations: []
 own: false
 status: editorial
 source: https://www.tekla.com

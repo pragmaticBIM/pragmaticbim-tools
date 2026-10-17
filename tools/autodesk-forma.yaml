@@ -14,6 +14,7 @@ use_cases:
   - code: DES-URBAN-MASS
   - code: QAS-CONSTRAINT
   - code: QAS-URBAN-AR
+recommendations: []
 own: false
 status: editorial
 source: https://www.autodesk.com/products/forma

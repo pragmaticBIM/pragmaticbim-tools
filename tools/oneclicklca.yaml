@@ -17,6 +17,7 @@ use_cases:
       fr: Énergie grise selon Minergie avec données KBOB.
       it: Energia grigia secondo Minergie con dati KBOB.
       en: Embodied energy to Minergie with KBOB data.
+recommendations: []
 own: false
 status: editorial
 source: https://help.oneclicklca.com/en/articles/663332

@@ -12,6 +12,7 @@ description:
   en: Cloud platform for monitoring and optimising buildings and building services systems.
 use_cases:
   - code: OPR-BUILDING-PERFORMANCE
+recommendations: []
 own: false
 status: editorial
 source: https://www.siemens.com/buildingx

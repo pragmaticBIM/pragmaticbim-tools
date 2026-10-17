@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: BES-EXISTING-CIRCULARITY
   - code: DES-MATERIAL-PASS
+recommendations: []
 own: false
 status: editorial
 source: https://concular.de

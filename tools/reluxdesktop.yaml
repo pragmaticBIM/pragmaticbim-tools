@@ -12,6 +12,7 @@ description:
   en: Lighting and daylight design with manufacturer luminaire data.
 use_cases:
   - code: DES-LIGHTING-COORD
+recommendations: []
 own: false
 status: editorial
 source: https://relux.com

@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: BES-EXISTING-BUILDING-MEP
   - code: BES-EXISTING-STRUCTURE
+recommendations: []
 own: false
 status: editorial
 source: https://www.clearedge3d.com

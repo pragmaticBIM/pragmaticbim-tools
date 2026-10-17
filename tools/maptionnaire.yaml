@@ -12,6 +12,7 @@ description:
   en: Map-based online surveys and participation platform for planning processes.
 use_cases:
   - code: COM-STAKEHOLDER-DIALOG
+recommendations: []
 own: false
 status: editorial
 source: https://maptionnaire.com

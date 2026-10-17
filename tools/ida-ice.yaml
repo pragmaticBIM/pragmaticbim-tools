@@ -17,6 +17,19 @@ use_cases:
       fr: Reprend la géométrie du bâtiment depuis l'IFC pour la simulation énergétique.
       it: Acquisisce la geometria dell'edificio dall'IFC per la simulazione energetica.
       en: Imports the building geometry from IFC for energy simulation.
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: none
+    why:
+      de: Ich empfehle IDA ICE für thermische Gebäudesimulationen auf wissenschaftlichem Niveau.
+      fr: Je recommande IDA ICE pour des simulations thermiques de bâtiments de niveau scientifique.
+      it: Consiglio IDA ICE per simulazioni termiche degli edifici a livello scientifico.
+      en: I recommend IDA ICE for thermal building simulation at a scientific level.
+    date: "2026-10-17"
+    consent: true
 own: false
 status: editorial
 source: https://www.equa.se/en/ida-ice

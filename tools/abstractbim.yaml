@@ -35,6 +35,7 @@ use_cases:
       fr: Comparaison avec des valeurs de référence de plus de 3000 modèles; groupe de comparaison selon l'offre.
       it: Confronto con valori di riferimento da oltre 3000 modelli; gruppo di confronto secondo l'offerta.
       en: Comparison with benchmarks from over 3000 models; comparison group depends on plan.
+recommendations: []
 own: true
 status: editorial
 source: https://www.abstractbim.com

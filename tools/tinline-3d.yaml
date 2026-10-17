@@ -1,0 +1,38 @@
+id: tinline-3d
+name: TinLine 3D
+vendor: TinLine GmbH
+url: https://tinline.ch/
+category: mep-design
+pricing: commercial
+countries: [ch]
+description:
+  de: Revit-Erweiterung für Elektro, Heizung, Lüftung und Sanitär mit Bauteilen nach Schweizer Normen.
+  fr: Extension Revit pour électricité, chauffage, ventilation et sanitaire, avec composants selon les normes suisses.
+  it: Estensione di Revit per elettrico, riscaldamento, ventilazione e sanitario con componenti secondo norme svizzere.
+  en: Revit extension for electrical, heating, ventilation and plumbing with components to Swiss standards.
+use_cases:
+  - code: DES-FIRE-MATRIX
+  - code: DES-MEP-SCHEM
+    note:
+      de: Erzeugt Prinzipschema Elektro und Strangschema Heizung aus dem Modell.
+      fr: Génère le schéma de principe électrique et le schéma de colonne de chauffage à partir du modèle.
+      it: Genera lo schema di principio elettrico e lo schema di colonna di riscaldamento dal modello.
+      en: Generates electrical principle schematics and heating riser diagrams from the model.
+  - code: DES-STRUCT-MEP-OPENINGS
+    note:
+      de: Aussparungstool setzt Aussparungen im TGA-Modell als Vorgabe für die Tragwerksplanung.
+      fr: L'outil de réservation place les réservations dans le modèle CVCSE comme données pour la structure.
+      it: Lo strumento forometrie inserisce le aperture nel modello MEP come indicazione per la progettazione strutturale.
+      en: Openings tool places openings in the MEP model as input for the structural designer.
+  - code: QAS-MEP-DETAIL
+    note:
+      de: Modelliert Elektro- und HLS-Installationen ausführungsnah in Revit.
+      fr: Modélise les installations électriques et CVCS au niveau d'exécution dans Revit.
+      it: Modella gli impianti elettrici e HVAC/sanitari a livello esecutivo in Revit.
+      en: Models electrical and HVAC/plumbing installations in Revit at execution level.
+recommendations: []
+own: false
+status: editorial
+source: https://lp.tinline.ch/tinline26-3d-tlr
+published: true
+last_checked: "2026-10-17"

@@ -17,6 +17,7 @@ use_cases:
       fr: Groupe de comparaison issu de logements réels pour indicateurs de surface et de qualité.
       it: Gruppo di confronto da edifici residenziali reali per indicatori di superficie e qualità.
       en: Comparison group of real residential buildings for area and quality indicators.
+recommendations: []
 own: false
 status: editorial
 source: https://zenodo.org/records/7788422

@@ -14,8 +14,10 @@ use_cases:
   - code: BES-AWARD-INTERFACE
   - code: BES-COST-INTERFACE
   - code: BES-FIRESTOP-TENDER
+  - code: BES-ICE-SESSION
   - code: DES-ARCH-MEP-COORD
   - code: DES-FIRE-CONCEPT
+  - code: DES-KV
   - code: DES-PHYSICS
   - code: DES-PLANNING-INTERFACE
   - code: DES-USAGE-AGREEMENT
@@ -28,6 +30,7 @@ use_cases:
   - code: QAS-CONTRACTOR-DESIGN
   - code: QAS-DET-REF
   - code: QAS-ELEMENT-PERF
+  - code: QAS-EXCL-ZONE
   - code: QAS-FALL-PROTECTION
   - code: QAS-FIRE
   - code: QAS-INSTALL-PATH
@@ -36,6 +39,19 @@ use_cases:
   - code: QAS-TREE-PRESERVE
   - code: QAS-USAGE-AGREEMENT
   - code: QAS-VORSATZ
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: none
+    why:
+      de: Der Porsche unter den Regelcheckern. Ich empfehle Solibri, wenn IDS für Datenchecks nicht reicht und Projektqualität zählt.
+      fr: La Porsche des vérificateurs de règles. Je recommande Solibri quand l'IDS ne suffit plus et que la qualité du projet compte.
+      it: La Porsche dei rule checker. Consiglio Solibri quando l'IDS non basta più e conta la qualità del progetto.
+      en: The Porsche of rule checkers. I recommend Solibri when IDS data checks are no longer enough and project quality matters.
+    date: "2026-10-17"
+    consent: true
 own: false
 status: editorial
 source: https://www.solibri.com

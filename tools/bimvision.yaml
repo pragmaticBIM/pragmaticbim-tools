@@ -1,0 +1,37 @@
+id: bimvision
+name: BIMvision
+vendor: Datacomp IT
+url: https://bimvision.eu
+category: model-checking
+pricing: free
+countries: [ch, de, at]
+description:
+  de: Kostenloser IFC-Viewer für Windows mit Messwerkzeugen für Längen, Flächen und Volumen sowie Plugin-Schnittstelle.
+  fr: Visionneuse IFC gratuite pour Windows avec outils de mesure des longueurs, surfaces et volumes et interface de plugins.
+  it: Visualizzatore IFC gratuito per Windows con strumenti di misura di lunghezze, superfici e volumi e interfaccia plugin.
+  en: Free IFC viewer for Windows with tools to measure lengths, areas and volumes, and a plugin interface.
+use_cases:
+  - code: QAS-VORSATZ
+    note:
+      de: Flächen mehrerer Elemente direkt im Modell anklicken und summieren.
+      fr: Cliquer sur les surfaces de plusieurs éléments directement dans le modèle et les additionner.
+      it: Cliccare le superfici di più elementi direttamente nel modello e sommarle.
+      en: Click the areas of several elements directly in the model and sum them.
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: none
+    why:
+      de: Ich empfehle Büros, BIMvision auf allen Rechnern zu installieren. Flächen im Modell anklicken, summieren, plausibilisieren.
+      fr: Je conseille aux bureaux d'installer BIMvision sur tous les postes. Cliquer les surfaces, les additionner, les vérifier.
+      it: Consiglio agli studi di installare BIMvision su tutti i PC. Cliccare le superfici nel modello, sommarle, verificarle.
+      en: I advise practices to install BIMvision on every machine. Click areas in the model, sum them, check quantities.
+    date: "2026-10-17"
+    consent: true
+own: false
+status: editorial
+source: https://bimvision.eu/products-and-functionalities/3d-take-offs-in-the-bimvision-browser/
+published: true
+last_checked: "2026-10-17"

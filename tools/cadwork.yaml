@@ -12,6 +12,7 @@ description:
   en: CAD/CAM for timber construction with 3D design, joinery and production data.
 use_cases:
   - code: BES-TIMBER-CONTRACTOR
+recommendations: []
 own: false
 status: editorial
 source: https://cadwork.ch

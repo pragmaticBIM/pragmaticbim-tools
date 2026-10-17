@@ -1,0 +1,26 @@
+id: hilti-profis-engineering
+name: Hilti PROFIS Engineering
+vendor: Hilti
+url: https://www.hilti.ch
+category: structure-and-timber
+pricing: freemium
+countries: [ch, de, at]
+description:
+  de: Bemessungssoftware für Dübel, Ankerplatten, Befestigungen und nachträgliche Bewehrungsanschlüsse mit BIM/CAD-Export.
+  fr: Logiciel de dimensionnement pour chevilles, platines d'ancrage, fixations et scellements d'armatures avec export BIM/CAO.
+  it: Software di calcolo per tasselli, piastre di base, fissaggi e riprese di armatura post-installate con export BIM/CAD.
+  en: Design software for anchors, base plates, fastenings and post-installed rebar connections with BIM/CAD export.
+use_cases:
+  - code: CON-FASTEN-SUSP
+    note:
+      de: Bemessung von Dübeln, Ankerplatten und Befestigungen mit Lastimport und 2D-/3D-BIM/CAD-Export.
+      fr: Dimensionnement de chevilles, platines et fixations avec import de charges et export BIM/CAO 2D/3D.
+      it: Calcolo di tasselli, piastre e fissaggi con importazione dei carichi ed esportazione BIM/CAD 2D/3D.
+      en: Design of anchors, base plates and fastenings with load import and 2D/3D BIM/CAD export.
+  - code: DES-EMBED-REINF
+recommendations: []
+own: false
+status: editorial
+source: https://www.hilti.de/content/hilti/E3/DE/de/engineering/software/profis-engineering-suite.html
+published: true
+last_checked: "2026-10-17"

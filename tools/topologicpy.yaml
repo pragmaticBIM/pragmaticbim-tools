@@ -14,6 +14,7 @@ use_cases:
   - code: BES-ABSTRACTBIM-COMP
   - code: BES-FUNCTIONAL-BRIEF
   - code: DES-APT-SCHEDULE
+recommendations: []
 own: false
 status: editorial
 source: https://github.com/wassimj/topologicpy

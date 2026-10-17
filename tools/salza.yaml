@@ -12,6 +12,7 @@ description:
   en: Online marketplace for reusable building components and materials in Switzerland.
 use_cases:
   - code: BES-EXISTING-CIRCULARITY
+recommendations: []
 own: false
 status: editorial
 source: https://salza.ch

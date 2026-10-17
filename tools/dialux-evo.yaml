@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: DES-LIGHTING-COORD
   - code: QAS-DAYLIGHT
+recommendations: []
 own: false
 status: editorial
 source: https://www.dialux.com

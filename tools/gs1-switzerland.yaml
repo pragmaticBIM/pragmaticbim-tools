@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: HOV-PRODUCT-PASS-GTIN
   - code: HOV-PRODUCT-PASS-SERIAL
+recommendations: []
 own: false
 status: editorial
 source: https://www.gs1.ch

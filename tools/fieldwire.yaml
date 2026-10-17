@@ -14,6 +14,7 @@ use_cases:
   - code: CON-DEFECT-MGMT
   - code: QAS-FUNCTIONAL-ACCEPTANCE
   - code: OPR-FIRESTOP-MAINT
+recommendations: []
 own: false
 status: editorial
 source: https://help.fieldwire.com/hc/en-us/articles/24193589901457-Practical-Guide-How-to-Use-Fieldwire-for-Fire-Protection-Documentation

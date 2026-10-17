@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: BES-AWARD-INTERFACE
   - code: BES-COST-INTERFACE
+  - code: CON-REINF-EXEC
   - code: DES-ARCH-MEP-COORD
   - code: DES-FIRE-CONCEPT
   - code: DES-PLANNING-INTERFACE
@@ -23,8 +24,10 @@ use_cases:
   - code: QAS-COORD-ZONE
   - code: QAS-EARLY-COORD
   - code: QAS-ELEMENT-PERF
+  - code: QAS-EXCL-ZONE
   - code: QAS-FIRE
   - code: QAS-HAZMAT-CHECK
+recommendations: []
 own: false
 status: editorial
 source: https://www.bimcollab.com

@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: CON-DEFECT-MGMT
   - code: CON-ROOM-LABEL
+recommendations: []
 own: false
 status: editorial
 source: https://www.capmo.com

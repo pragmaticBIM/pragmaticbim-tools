@@ -12,6 +12,7 @@ description:
   en: Terrestrial laser scanner for capturing buildings and terrain as a point cloud.
 use_cases:
   - code: BES-EXISTING-POINT-CLOUD
+recommendations: []
 own: false
 status: editorial
 source: https://www.faro.com

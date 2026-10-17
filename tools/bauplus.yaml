@@ -1,0 +1,34 @@
+id: bauplus
+name: BauPlus
+vendor: Heiniger & Partner AG
+url: https://www.bauplus.ch
+category: cost-and-tendering
+pricing: commercial
+countries: [ch]
+description:
+  de: Bauadministrations- und AVA-Software für Baukosten nach BKP/eBKP, Ausschreibung nach NPK, Vergabe und Ausmass.
+  fr: Logiciel d'administration et AVA pour coûts selon CFC/eBKP, appels d'offres NPK, adjudication et métrés.
+  it: Software di amministrazione e AVA per costi secondo CCC/eBKP, appalti NPK, aggiudicazione e computo.
+  en: Construction administration and AVA software for costs to BKP/eBKP, NPK tendering, award and measurement.
+use_cases:
+  - code: BES-CONCRETE-TENDER
+  - code: BES-DOOR-TENDER
+  - code: BES-DRYWALL-TENDER
+  - code: BES-ELEMENT-COST-POSTCALC
+  - code: BES-ELEMENT-TENDER
+  - code: BES-FLOORING-TENDER
+  - code: BES-MASONRY-TENDER
+  - code: BES-PAINTING-TENDER
+  - code: BES-STEELWORK-TENDER
+  - code: BES-TILING-TENDER
+  - code: BES-WINDOW-TENDER
+  - code: CON-FINAL-MEASUREMENT
+  - code: CON-PRECAST-ORDER
+  - code: DES-ELEMENT-COST-LATE
+  - code: DES-KV
+recommendations: []
+own: false
+status: editorial
+source: https://www.bauplus.ch/bauadministration_gesamt.html
+published: true
+last_checked: "2026-10-17"

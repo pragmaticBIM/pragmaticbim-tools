@@ -1,0 +1,24 @@
+id: bexel-manager
+name: BEXEL Manager
+vendor: BEXEL Consulting
+url: https://bexelmanager.com/bexel-manager/
+category: coordination
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: openBIM-Plattform für Kollisionsprüfung, IDS-Prüfung, Mengenermittlung, 4D/5D-Simulation und Baufortschrittskontrolle.
+  fr: Plateforme openBIM pour détection de collisions, contrôle IDS, métrés, simulation 4D/5D et suivi de l'avancement.
+  it: Piattaforma openBIM per rilevamento collisioni, verifica IDS, computo quantità, simulazione 4D/5D e avanzamento lavori.
+  en: openBIM platform for clash detection, IDS checking, quantity takeoff, 4D/5D simulation and construction progress tracking.
+use_cases:
+  - code: DES-ARCH-MEP-COORD
+  - code: DES-COMPLEX-ASSEMBLY
+  - code: QAS-ARCH-STRUCT-COORD
+  - code: QAS-DESIGN-REVIEW
+  - code: QAS-EARLY-COORD
+recommendations: []
+own: false
+status: editorial
+source: https://bexelmanager.com/bexel-manager/
+published: true
+last_checked: "2026-10-17"

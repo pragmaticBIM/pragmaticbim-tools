@@ -12,6 +12,7 @@ description:
   en: Design service for heating and cooling load calculations, underfloor heating and TABS with Trimble Nova.
 use_cases:
   - code: DES-UNDERFLOOR-HEATING
+recommendations: []
 own: false
 status: editorial
 source: https://www.plan-fabrik.ch/de

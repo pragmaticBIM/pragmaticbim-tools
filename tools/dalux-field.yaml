@@ -14,9 +14,11 @@ use_cases:
   - code: BES-PLAN-BOX
   - code: CON-DEFECT-MGMT
   - code: CON-PROGRESS-DOC
+  - code: CON-REINF-EXEC
   - code: CON-ROOM-LABEL
   - code: QAS-FUNCTIONAL-ACCEPTANCE
   - code: QAS-HAZMAT-CHECK
+recommendations: []
 own: false
 status: editorial
 source: https://www.dalux.com

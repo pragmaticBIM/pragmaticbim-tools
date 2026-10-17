@@ -12,6 +12,7 @@ description:
   en: AR app for overlaying BIM models on site via smartphone or tablet.
 use_cases:
   - code: QAS-URBAN-AR
+recommendations: []
 own: false
 status: editorial
 source: https://gamma-ar.com

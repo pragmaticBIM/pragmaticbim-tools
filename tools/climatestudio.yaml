@@ -12,6 +12,7 @@ description:
   en: Daylight, glare and energy simulation as a plug-in for Rhino.
 use_cases:
   - code: QAS-DAYLIGHT
+recommendations: []
 own: false
 status: editorial
 source: https://www.solemma.com

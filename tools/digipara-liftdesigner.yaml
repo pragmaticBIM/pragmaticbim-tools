@@ -17,6 +17,7 @@ use_cases:
       fr: Reprendre dans le modèle les dimensions de gaine des séries Otis, Schindler et TK Elevator.
       it: Riprendere nel modello le dimensioni del vano dalle serie Otis, Schindler e TK Elevator.
       en: Bring shaft dimensions from Otis, Schindler and TK Elevator series into the model.
+recommendations: []
 own: false
 status: editorial
 source: https://www.digipara.com

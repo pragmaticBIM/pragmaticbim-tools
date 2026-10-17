@@ -12,6 +12,7 @@ description:
   en: AI-based classification of point clouds into object classes as a web service.
 use_cases:
   - code: OPR-FM-PC
+recommendations: []
 own: false
 status: editorial
 source: https://www.flai.ai

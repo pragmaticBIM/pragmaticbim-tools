@@ -12,6 +12,13 @@ description:
   en: Design of installation suspensions with Hilti mounting systems.
 use_cases:
   - code: BES-SEISMIC-MEP
+  - code: CON-FASTEN-SUSP
+    note:
+      de: 3D-Planung von Installationsabhängungen mit statischem Nachweis, Stückliste und BIM/CAD-Export.
+      fr: Conception 3D de suspensions d'installations avec note de calcul, liste de matériel et export BIM/CAO.
+      it: Progettazione 3D di sospensioni d'impianti con verifica statica, distinta materiali ed export BIM/CAD.
+      en: 3D design of installation suspensions with structural calculation, bill of materials and BIM/CAD export.
+recommendations: []
 own: false
 status: editorial
 source: https://www.hilti.ch

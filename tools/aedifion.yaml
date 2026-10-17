@@ -12,6 +12,7 @@ description:
   en: Cloud platform for analysing and optimising building operation from metering and plant data.
 use_cases:
   - code: OPR-BUILDING-PERFORMANCE
+recommendations: []
 own: false
 status: editorial
 source: https://www.aedifion.com

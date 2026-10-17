@@ -16,6 +16,7 @@ use_cases:
   - code: DES-LAYOUT
   - code: DES-PARKING
   - code: DES-URBAN-MASS
+recommendations: []
 own: false
 status: editorial
 source: https://www.testfit.io

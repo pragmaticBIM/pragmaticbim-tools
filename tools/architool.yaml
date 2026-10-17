@@ -1,0 +1,33 @@
+id: architool
+name: ARCHITOOL
+vendor: ARCHITOOL GmbH
+url: https://www.architool.ch
+category: cost-and-tendering
+pricing: commercial
+countries: [ch]
+description:
+  de: Webbasierte Baukostendatenbank mit Schweizer Marktpreisen nach BKP, eigenen Kennwerten und Export nach eBKP-H und Excel.
+  fr: Base de données web des coûts de construction avec prix du marché suisse selon CFC, valeurs propres et export eBKP-H et Excel.
+  it: Banca dati web dei costi di costruzione con prezzi di mercato svizzeri secondo CCC, parametri propri ed export eBKP-H ed Excel.
+  en: Web-based construction cost database with Swiss market prices by BKP, own benchmarks and export to eBKP-H and Excel.
+use_cases:
+  - code: QAS-BENCHMARK
+  - code: QAS-COST-PLAUS
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: none
+    why:
+      de: Ich empfehle ARCHITOOL für Schweizer Kostenkennwerte, die am Markt verheben.
+      fr: Je recommande ARCHITOOL pour des valeurs de coûts suisses qui tiennent face au marché.
+      it: Consiglio ARCHITOOL per parametri di costo svizzeri che reggono il confronto con il mercato.
+      en: I recommend ARCHITOOL for Swiss cost benchmarks that hold up in the market.
+    date: "2026-10-17"
+    consent: true
+own: false
+status: editorial
+source: https://www.architool.ch/faq
+published: true
+last_checked: "2026-10-17"

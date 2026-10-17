@@ -15,6 +15,7 @@ use_cases:
   - code: HOV-FM-3D
   - code: HOV-FM-MIN
   - code: OPR-SIGNAGE-ROOM
+recommendations: []
 own: false
 status: editorial
 source: https://planonsoftware.com

@@ -12,6 +12,7 @@ description:
   en: Web-based AI-assisted point cloud classification.
 use_cases:
   - code: OPR-FM-PC
+recommendations: []
 own: false
 status: editorial
 source: https://pointly.ai

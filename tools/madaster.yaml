@@ -35,6 +35,7 @@ use_cases:
       fr: Reprend le GTIN et le numéro de série de chaque élément depuis l'import IFC.
       it: Riprende GTIN e numero di serie per ogni elemento dall'importazione IFC.
       en: Takes over GTIN and serial number per element from the IFC import.
+recommendations: []
 own: false
 status: editorial
 source: https://madaster.ch

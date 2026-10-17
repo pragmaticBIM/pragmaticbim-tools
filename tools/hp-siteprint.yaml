@@ -17,6 +17,7 @@ use_cases:
       fr: Imprime des tracés à partir de DXF ; un modèle 3D doit d'abord être converti en DXF 2D.
       it: Stampa tracciamenti da DXF; un modello 3D va prima convertito in DXF 2D.
       en: Prints layouts from DXF; a 3D model is first converted to 2D DXF.
+recommendations: []
 own: false
 status: editorial
 source: https://www.hp.com/us-en/printers/site-print/layout-robot.html

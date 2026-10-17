@@ -28,6 +28,7 @@ use_cases:
   - code: DES-FLOORING
   - code: DES-FURNITURE
   - code: DES-GFA
+  - code: DES-KV
   - code: DES-LAYOUT
   - code: DES-PERMIT
   - code: DES-SIA416
@@ -35,6 +36,7 @@ use_cases:
   - code: QAS-ARCH-STRUCT-ADOPT
   - code: QAS-DET-REF
   - code: QAS-VORSATZ
+recommendations: []
 own: false
 status: editorial
 source: https://graphisoft.com/solutions/archicad

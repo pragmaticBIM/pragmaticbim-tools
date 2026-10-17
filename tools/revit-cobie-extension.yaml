@@ -12,6 +12,7 @@ description:
   en: Revit extension for capturing and exporting operational data in COBie format.
 use_cases:
   - code: HOV-COBIE
+recommendations: []
 own: false
 status: editorial
 source: https://www.autodesk.com/products/revit

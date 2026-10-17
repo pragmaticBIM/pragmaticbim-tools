@@ -21,7 +21,7 @@ classes:
     class_uri: schema:SoftwareApplication
     description: One software tool or own action, with the use cases it serves.
     slots: [id, name, vendor, url, category, pricing, countries, description, use_cases,
-            own, status, source, verified_on, verified_version, published, last_checked]
+            recommendations, own, status, source, verified_on, verified_version, published, last_checked]
     rules:
       - description: Editorial entries need a source page.
         preconditions:
@@ -40,7 +40,13 @@ classes:
             verified_version: {required: true}
   UseCaseLink:
     description: A use case the tool serves, with an optional note on how.
-    slots: [code, note]
+    slots: [code, note, recommendations]
+  Recommendation:
+    description: A named practitioner's recommendation for a tool or use case.
+    slots: [by, affiliation, why, date, consent, submitted_via]
+  Recommender:
+    description: Person recommending the tool.
+    slots: [name, role, organisation, profile]
   LocalizedText:
     description: Short text per language, at most 140 characters each.
     slots: [de, fr, it, en]
@@ -56,6 +62,16 @@ slots:
   use_cases: {required: true, multivalued: true, range: UseCaseLink, inlined_as_list: true, minimum_cardinality: 1}
   code: {required: true, pattern: "^[A-Z]{2,5}(-[A-Z0-9]+)+$"}
   note: {range: LocalizedText, inlined: true}
+  recommendations: {multivalued: true, range: Recommendation, inlined_as_list: true}
+  by: {required: true, range: Recommender, inlined: true}
+  role: {required: true}
+  organisation: {required: true}
+  profile: {range: uri, pattern: "^https://", description: "Optional public profile URL for verification."}
+  affiliation: {required: true, range: AffiliationEnum}
+  why: {required: true, range: LocalizedText, inlined: true}
+  date: {required: true, range: date}
+  consent: {required: true, range: boolean, description: "Explicit consent by the recommender to publish name, role, organisation and quote."}
+  submitted_via: {range: uri, pattern: "^https://", description: "Issue or pull request URL where the recommendation was submitted."}
   own: {required: true, range: boolean, description: "True only for tools and actions by abstract ag."}
   status: {required: true, range: StatusEnum}
   source: {range: uri, pattern: "^https://"}
@@ -68,6 +84,12 @@ slots:
   it: {pattern: "^.{1,140}$"}
   en: {pattern: "^.{1,140}$"}
 enums:
+  AffiliationEnum:
+    permissible_values:
+      none: {description: "No commercial affiliation with the vendor."}
+      customer: {description: "Paying customer or user of the tool."}
+      partner: {description: "Implementation, consulting or sales partner of the vendor."}
+      vendor-employee: {description: "Employed by or acting on behalf of the vendor."}
   StatusEnum:
     permissible_values:
       editorial: {description: "Added by pragmaticBIM; function confirmed from the vendor's documentation."}

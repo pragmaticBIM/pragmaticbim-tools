@@ -12,7 +12,11 @@ description:
   en: BIM and CAD authoring tool for architecture with drawings from the model.
 use_cases:
   - code: DES-DRAWINGS
+  - code: DES-GFA
+  - code: DES-KV
   - code: DES-PERMIT
+  - code: DES-SIA416
+recommendations: []
 own: false
 status: editorial
 source: https://www.vectorworks.net

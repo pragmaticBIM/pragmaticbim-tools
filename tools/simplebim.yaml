@@ -11,9 +11,23 @@ description:
   it: Modifica, pulizia e arricchimento di modelli IFC con template basati su regole.
   en: Editing, cleaning and enriching IFC models with rule-based templates.
 use_cases:
+  - code: DES-KV
   - code: DES-WALL-REQUIREMENTS
   - code: OPR-FM-ARCH
   - code: QAS-ELEMENT-PERF
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: customer
+    why:
+      de: Ich empfehle Simplebim für Data Wrangling ohne Programmieren. Lange mein Werkzeug für IFC-Daten, bis ich selbst programmierte.
+      fr: Je recommande Simplebim pour préparer des données sans programmer. Longtemps mon outil IFC, jusqu'à ce que je programme.
+      it: Consiglio Simplebim per elaborare dati senza programmare. A lungo il mio strumento IFC, finché ho iniziato a programmare.
+      en: I recommend Simplebim for data wrangling without code. Long my tool of choice for IFC data, until I started programming.
+    date: "2026-10-17"
+    consent: true
 own: false
 status: editorial
 source: https://simplebim.com

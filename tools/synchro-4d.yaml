@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: DES-COMPLEX-ASSEMBLY
   - code: QAS-SITE-LOGISTICS
+recommendations: []
 own: false
 status: editorial
 source: https://www.bentley.com/software/synchro

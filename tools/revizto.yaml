@@ -11,12 +11,27 @@ description:
   it: Piattaforma di coordinamento e issue per modelli BIM federati e piani, con verifica delle collisioni.
   en: Coordination and issue platform for federated BIM models and drawings with clash detection.
 use_cases:
+  - code: BES-ICE-SESSION
   - code: DES-ARCH-MEP-COORD
   - code: QAS-ARCH-STRUCT-COORD
   - code: QAS-CONTRACTOR-DESIGN
   - code: QAS-COORD-ZONE
   - code: QAS-DESIGN-REVIEW
   - code: QAS-EARLY-COORD
+  - code: QAS-EXCL-ZONE
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: none
+    why:
+      de: Ich empfehle Revizto BIM-Koordinatoren in Grossprojekten, um die Koordination zu führen und alle Beteiligten einzubeziehen.
+      fr: Je recommande Revizto aux coordinateurs BIM de grands projets pour mener la coordination et impliquer tous les acteurs.
+      it: Consiglio Revizto ai coordinatori BIM di grandi progetti per guidare il coordinamento e coinvolgere tutti gli attori.
+      en: I recommend Revizto to BIM coordinators on large projects to run coordination and bring every stakeholder in.
+    date: "2026-10-17"
+    consent: true
 own: false
 status: editorial
 source: https://revizto.com

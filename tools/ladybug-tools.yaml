@@ -12,6 +12,7 @@ description:
   en: Open-source Grasshopper plug-ins for climate, daylight and energy simulation (Ladybug, Honeybee).
 use_cases:
   - code: QAS-DAYLIGHT
+recommendations: []
 own: false
 status: editorial
 source: https://www.ladybug.tools

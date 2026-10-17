@@ -12,6 +12,7 @@ description:
   en: Augmented reality system with GNSS positioning for overlaying models on site.
 use_cases:
   - code: QAS-URBAN-AR
+recommendations: []
 own: false
 status: editorial
 source: https://sitevision.trimble.com

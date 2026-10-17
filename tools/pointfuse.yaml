@@ -12,6 +12,7 @@ description:
   en: Automatically converts point clouds into segmented mesh and surface models for BIM.
 use_cases:
   - code: BES-EXISTING-STRUCTURE
+recommendations: []
 own: false
 status: editorial
 source: https://www.autodesk.com/solutions/pointfuse

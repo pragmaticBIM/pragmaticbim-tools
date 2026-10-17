@@ -17,12 +17,19 @@ use_cases:
       fr: Saisir et évaluer ses propres projets; convertir les coûts CFC en eBKP-H.
       it: Rilevare e valutare i propri progetti; convertire i costi CCC in eBKP-H.
       en: Record and evaluate own projects; map BKP costs to eBKP-H.
+  - code: BES-IPD
+    note:
+      de: Referenzkosten und Kennwerte abgerechneter Schweizer Bauten nach eBKP-H und BKP.
+      fr: Coûts de référence et valeurs d'objets suisses décomptés selon eBKP-H et CFC.
+      it: Costi di riferimento e parametri di edifici svizzeri liquidati secondo eBKP-H e CCC.
+      en: Reference costs and benchmarks of completed Swiss buildings by eBKP-H and BKP.
   - code: DES-ELEMENT-COST-EARLY
     note:
       de: Kosten aus dem 3D-Modell mit eBKP-H-Kalkulator und BFS-Kennwerten.
       fr: Coûts à partir du modèle 3D avec calculateur eBKP-H et valeurs de référence OFS.
       it: Costi dal modello 3D con calcolatore eBKP-H e valori di riferimento UST.
       en: Costs from the 3D model with eBKP-H calculator and FSO benchmarks.
+  - code: DES-KV
   - code: QAS-BENCHMARK
     note:
       de: Vergleich mit abgerechneten Objekten nach Kosten-, Flächen- und Energiekennwerten.
@@ -35,6 +42,7 @@ use_cases:
       fr: Prix unitaires NPK et valeurs de référence par élément de l'OFS comme valeurs de comparaison.
       it: Prezzi unitari NPK e parametri per elemento dell'UST come valori di confronto.
       en: NPK unit prices and FSO element benchmarks as comparison values.
+recommendations: []
 own: false
 status: editorial
 source: https://www.crb.ch/de/normen-standards/kennwerte-objektarten/web-applikation-werk-material-online

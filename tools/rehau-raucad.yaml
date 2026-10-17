@@ -12,6 +12,7 @@ description:
   en: CAD design software for REHAU surface heating and installation systems.
 use_cases:
   - code: DES-UNDERFLOOR-HEATING
+recommendations: []
 own: false
 status: editorial
 source: https://www.rehau.com

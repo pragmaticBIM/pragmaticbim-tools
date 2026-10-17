@@ -12,11 +12,30 @@ description:
   en: Cloud platform for sharing and coordinating models, drawings and tasks, with clash detection and BCF.
 use_cases:
   - code: BES-OWNER-CDE
+  - code: CON-REINF-EXEC
+    note:
+      de: Visualisiert und filtert Bewehrungsmodelle auf der Baustelle lageweise nach dem Use Case «Bewehrung verlegen».
+      fr: Visualise et filtre par lit les modèles d'armatures sur le chantier selon le cas d'usage «Bewehrung verlegen».
+      it: Visualizza e filtra per strato i modelli d'armatura in cantiere secondo il caso d'uso «Bewehrung verlegen».
+      en: Visualises and filters reinforcement models layer by layer on site to the 'Bewehrung verlegen' use case.
   - code: DES-ARCH-MEP-COORD
   - code: DES-CRIT-INSERT
   - code: QAS-ARCH-STRUCT-COORD
   - code: QAS-DESIGN-REVIEW
   - code: QAS-EARLY-COORD
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: none
+    why:
+      de: Ich empfehle Trimble Connect als Einstiegs-CDE. Teams sind damit schnell an Bord.
+      fr: Je recommande Trimble Connect comme CDE d'entrée de gamme. Les équipes sont vite opérationnelles.
+      it: Consiglio Trimble Connect come CDE di base. I team sono subito operativi.
+      en: I recommend Trimble Connect as an entry-level CDE. Teams get on board quickly.
+    date: "2026-10-17"
+    consent: true
 own: false
 status: editorial
 source: https://connect.trimble.com

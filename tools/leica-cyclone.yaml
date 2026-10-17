@@ -12,6 +12,7 @@ description:
   en: Software for registering, processing and analysing laser scan point clouds.
 use_cases:
   - code: BES-EXISTING-POINT-CLOUD
+recommendations: []
 own: false
 status: editorial
 source: https://leica-geosystems.com

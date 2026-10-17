@@ -12,6 +12,7 @@ description:
   en: Robot that prints floor plan layouts from BIM or CAD data onto the bare slab.
 use_cases:
   - code: CON-ROBOT-LAYOUT
+recommendations: []
 own: false
 status: editorial
 source: https://www.dustyrobotics.com

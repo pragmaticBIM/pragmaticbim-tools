@@ -1,0 +1,25 @@
+id: valoya-connect
+name: Valoya Connect
+vendor: Valoya GmbH
+url: https://valoya.ch/de/vermietung/
+category: other
+pricing: commercial
+countries: [ch]
+description:
+  de: Mietbares WLAN-Set für Baustellen mit 5G-Router, Daten-SIM, vier Accesspoints und externer Antenne.
+  fr: Kit WLAN de location pour chantiers avec routeur 5G, carte SIM data, quatre points d'accès et antenne externe.
+  it: Kit WLAN a noleggio per cantieri con router 5G, SIM dati, quattro access point e antenna esterna.
+  en: Rental WLAN kit for construction sites with 5G router, data SIM, four access points and an external antenna.
+use_cases:
+  - code: BES-SITE-WLAN
+    note:
+      de: Accesspoints mit 25 und 50 m LAN-Kabel; Lieferung und Abholung durch den Anbieter, kein Internetanschluss nötig.
+      fr: Points d'accès avec câbles LAN de 25 et 50 m; livraison et reprise par le fournisseur, sans raccordement internet.
+      it: Access point con cavi LAN da 25 e 50 m; consegna e ritiro dal fornitore, senza allacciamento internet necessario.
+      en: Access points with 25 and 50 m LAN cables; delivered and collected by the vendor, no internet connection needed.
+recommendations: []
+own: false
+status: editorial
+source: https://valoya.ch/de/vermietung/
+published: true
+last_checked: "2026-10-17"

@@ -1,0 +1,25 @@
+id: wlan-pro
+name: WLAN-Vermietung
+vendor: wlan pro ag
+url: https://wlan-pro.ch/
+category: other
+pricing: commercial
+countries: [ch]
+description:
+  de: Temporäre WLAN-Infrastruktur für Bauprojekte mit Access Points, Switches, Verkabelung, Planung und Betreuung.
+  fr: Infrastructure WLAN temporaire pour chantiers avec points d'accès, switches, câblage, planification et suivi.
+  it: Infrastruttura WLAN temporanea per cantieri con access point, switch, cablaggio, pianificazione e assistenza.
+  en: Temporary WLAN infrastructure for construction projects with access points, switches, cabling, planning and support.
+use_cases:
+  - code: BES-SITE-WLAN
+    note:
+      de: Planung und Messung der Abdeckung sowie Betreuung während der Nutzung.
+      fr: Planification et mesure de la couverture ainsi que suivi pendant l'utilisation.
+      it: Pianificazione e misurazione della copertura nonché assistenza durante l'utilizzo.
+      en: Coverage planning and measurement, plus support during use.
+recommendations: []
+own: false
+status: editorial
+source: https://wlan-pro.ch/
+published: true
+last_checked: "2026-10-17"

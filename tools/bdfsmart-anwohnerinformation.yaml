@@ -1,0 +1,25 @@
+id: bdfsmart-anwohnerinformation
+name: Digitale Anwohnerinformation
+vendor: BDFsmart GmbH
+url: https://www.bdfsmart.ch/l%C3%B6sungen/digitale-anwohnerinformation-1/
+category: participation
+pricing: commercial
+countries: [ch]
+description:
+  de: Webbasierte Plattform, die Anwohner über Bauprojekt, Termine, Einschränkungen und Ausweichmöglichkeiten informiert.
+  fr: Plateforme web qui informe les riverains sur le chantier, les dates, les restrictions et les alternatives.
+  it: Piattaforma web che informa i residenti su cantiere, scadenze, limitazioni e alternative.
+  en: Web platform that informs residents about the construction project, dates, restrictions and alternatives.
+use_cases:
+  - code: COM-QR-STAKEHOLDER-INFO
+    note:
+      de: Anwohner informieren sich selbst über mobile Geräte und erhalten kurzfristige Änderungen im Bauablauf.
+      fr: Les riverains s'informent sur appareils mobiles et reçoivent les changements à court terme du chantier.
+      it: I residenti si informano su dispositivi mobili e ricevono le modifiche a breve termine del cantiere.
+      en: Residents check the platform on mobile devices and receive short-notice changes to the construction schedule.
+recommendations: []
+own: false
+status: editorial
+source: https://www.bdfsmart.ch/l%C3%B6sungen/digitale-anwohnerinformation-1/
+published: true
+last_checked: "2026-10-17"

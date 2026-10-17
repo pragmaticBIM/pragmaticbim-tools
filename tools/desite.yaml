@@ -13,7 +13,10 @@ description:
 use_cases:
   - code: BES-AWARD-INTERFACE
   - code: BES-COST-INTERFACE
+  - code: DES-KV
   - code: DES-PLANNING-INTERFACE
+  - code: QAS-EXCL-ZONE
+recommendations: []
 own: false
 status: editorial
 source: https://www.thinkproject.com

@@ -12,10 +12,12 @@ description:
   en: Common data environment with BIM viewer, document management and model coordination.
 use_cases:
   - code: BES-OWNER-CDE
+  - code: CON-REINF-EXEC
   - code: DES-ARCH-MEP-COORD
   - code: DES-CRIT-INSERT
   - code: QAS-DESIGN-REVIEW
   - code: QAS-EARLY-COORD
+recommendations: []
 own: false
 status: editorial
 source: https://www.dalux.com

@@ -11,12 +11,17 @@ description:
   it: Computo delle quantità e stima dei costi da piani 2D e modelli BIM.
   en: Quantity take-off and cost estimating from 2D drawings and BIM models.
 use_cases:
+  - code: BES-CONCRETE-TENDER
   - code: BES-ELEMENT-COST-POSTCALC
   - code: BES-ELEMENT-TENDER
+  - code: BES-IPD
   - code: CON-FINAL-MEASUREMENT
+  - code: CON-PRECAST-ORDER
   - code: DES-ELEMENT-COST-EARLY
   - code: DES-ELEMENT-COST-LATE
+  - code: DES-KV
   - code: QAS-COST-PLAUS
+recommendations: []
 own: false
 status: editorial
 source: https://www.rib-software.com

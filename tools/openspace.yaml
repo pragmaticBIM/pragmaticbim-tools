@@ -12,6 +12,7 @@ description:
   en: 360° site capture while walking, automatically located on the plan.
 use_cases:
   - code: CON-PROGRESS-DOC
+recommendations: []
 own: false
 status: editorial
 source: https://www.openspace.ai

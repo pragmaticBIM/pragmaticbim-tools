@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: DES-FURNITURE
   - code: QAS-FURNISHABILITY
+recommendations: []
 own: false
 status: editorial
 source: https://pcon-solutions.com/planner/

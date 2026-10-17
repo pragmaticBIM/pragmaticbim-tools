@@ -11,6 +11,7 @@ description:
   it: Software AVA per appalti, aggiudicazione e liquidazione secondo NPK.
   en: AVA software for tendering, contract award and billing based on NPK.
 use_cases:
+  - code: BES-CONCRETE-TENDER
   - code: BES-DOOR-TENDER
   - code: BES-DRYWALL-TENDER
   - code: BES-ELEMENT-COST-POSTCALC
@@ -22,7 +23,10 @@ use_cases:
   - code: BES-TILING-TENDER
   - code: BES-WINDOW-TENDER
   - code: CON-FINAL-MEASUREMENT
+  - code: CON-PRECAST-ORDER
   - code: DES-ELEMENT-COST-LATE
+  - code: DES-KV
+recommendations: []
 own: false
 status: editorial
 source: https://www.messerli.ch

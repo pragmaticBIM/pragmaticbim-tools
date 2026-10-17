@@ -12,8 +12,10 @@ description:
   en: Database for room programme, room requirements and equipment, reconciled with BIM models.
 use_cases:
   - code: BES-FUNCTIONAL-BRIEF
+  - code: BES-IPD
   - code: BES-ROOM-PROGRAM
   - code: DES-DOOR
+  - code: DES-FIRE-MATRIX
   - code: DES-MEP-USAGE-AGREEMENT
   - code: DES-USAGE-AGREEMENT
   - code: QAS-BUILD-SEC
@@ -21,6 +23,7 @@ use_cases:
   - code: QAS-ROOM-PROGRAM
   - code: QAS-SPECIAL-ROOM-USER
   - code: QAS-USAGE-AGREEMENT
+recommendations: []
 own: false
 status: editorial
 source: https://www.drofus.com

@@ -12,6 +12,7 @@ description:
   en: 360° photo documentation of construction progress on plans with comparison over time.
 use_cases:
   - code: CON-PROGRESS-DOC
+recommendations: []
 own: false
 status: editorial
 source: https://www.holobuilder.com

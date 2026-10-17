@@ -12,6 +12,8 @@ description:
   en: Web platform for BIM project delivery according to ISO 19650.
 use_cases:
   - code: BES-DESIGNER-PROCUREMENT
+  - code: BES-ICE-SESSION
+recommendations: []
 own: false
 status: editorial
 source: https://plannerly.com

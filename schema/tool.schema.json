@@ -1,5 +1,16 @@
 {
     "$defs": {
+        "AffiliationEnum": {
+            "description": "",
+            "enum": [
+                "none",
+                "customer",
+                "partner",
+                "vendor-employee"
+            ],
+            "title": "AffiliationEnum",
+            "type": "string"
+        },
         "CategoryEnum": {
             "description": "",
             "enum": [
@@ -80,6 +91,78 @@
             ],
             "title": "PricingEnum",
             "type": "string"
+        },
+        "Recommendation": {
+            "additionalProperties": false,
+            "description": "A named practitioner's recommendation for a tool or use case.",
+            "properties": {
+                "affiliation": {
+                    "$ref": "#/$defs/AffiliationEnum"
+                },
+                "by": {
+                    "$ref": "#/$defs/Recommender"
+                },
+                "consent": {
+                    "description": "Explicit consent by the recommender to publish name, role, organisation and quote.",
+                    "type": "boolean"
+                },
+                "date": {
+                    "format": "date",
+                    "type": "string"
+                },
+                "submitted_via": {
+                    "description": "Issue or pull request URL where the recommendation was submitted.",
+                    "format": "uri",
+                    "pattern": "^https://",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "why": {
+                    "$ref": "#/$defs/LocalizedText"
+                }
+            },
+            "required": [
+                "by",
+                "affiliation",
+                "why",
+                "date",
+                "consent"
+            ],
+            "title": "Recommendation",
+            "type": "object"
+        },
+        "Recommender": {
+            "additionalProperties": false,
+            "description": "Person recommending the tool.",
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "organisation": {
+                    "type": "string"
+                },
+                "profile": {
+                    "description": "Optional public profile URL for verification.",
+                    "format": "uri",
+                    "pattern": "^https://",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "role": {
+                    "type": "string"
+                }
+            },
+            "required": [
+                "name",
+                "role",
+                "organisation"
+            ],
+            "title": "Recommender",
+            "type": "object"
         },
         "StatusEnum": {
             "description": "",
@@ -175,6 +258,15 @@
                 "published": {
                     "type": "boolean"
                 },
+                "recommendations": {
+                    "items": {
+                        "$ref": "#/$defs/Recommendation"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
+                },
                 "source": {
                     "format": "uri",
                     "pattern": "^https://",
@@ -251,6 +343,15 @@
                             "type": "null"
                         }
                     ]
+                },
+                "recommendations": {
+                    "items": {
+                        "$ref": "#/$defs/Recommendation"
+                    },
+                    "type": [
+                        "array",
+                        "null"
+                    ]
                 }
             },
             "required": [
@@ -308,7 +409,7 @@
         }
     ],
     "description": "One software tool or own action, with the use cases it serves.",
-    "metamodel_version": "1.12.0",
+    "metamodel_version": "1.11.0",
     "properties": {
         "category": {
             "$ref": "#/$defs/CategoryEnum"
@@ -345,6 +446,15 @@
         },
         "published": {
             "type": "boolean"
+        },
+        "recommendations": {
+            "items": {
+                "$ref": "#/$defs/Recommendation"
+            },
+            "type": [
+                "array",
+                "null"
+            ]
         },
         "source": {
             "format": "uri",

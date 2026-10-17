@@ -12,6 +12,7 @@ description:
   en: Open-source add-on for Blender to create and edit IFC models directly.
 use_cases:
   - code: OPR-FM-ARCH
+recommendations: []
 own: false
 status: editorial
 source: https://bonsaibim.org

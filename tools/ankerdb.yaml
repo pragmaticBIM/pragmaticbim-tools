@@ -1,0 +1,55 @@
+id: ankerdb
+name: AnkerDB
+vendor: AnkerDB AS
+url: https://ankerdb.com
+category: model-checking
+pricing: commercial
+countries: ["no"]
+description:
+  de: Webplattform, die IFC- und Revit-Modelle per Regeln und IDS prüft, Klassifikationen und Eigenschaften ergänzt und Mengen auswertet.
+  fr: Plateforme web qui contrôle les modèles IFC et Revit par règles et IDS, complète classifications et propriétés et évalue les quantités.
+  it: Piattaforma web che verifica modelli IFC e Revit con regole e IDS, completa classificazioni e proprietà e valuta le quantità.
+  en: Web platform that checks IFC and Revit models against rules and IDS, populates classifications and properties, and evaluates quantities.
+use_cases:
+  - code: DES-EBKP-H
+    note:
+      de: Setzt Klassifikationen regelbasiert aus Bauteileigenschaften; eBKP-H ist als eigener Standard einzurichten.
+      fr: Attribue les classifications par règles à partir des propriétés des éléments; l'eBKP-H doit être configuré comme standard propre.
+      it: Assegna le classificazioni con regole dalle proprietà degli elementi; l'eBKP-H va configurato come standard proprio.
+      en: Assigns classifications by rules from element properties; eBKP-H must be set up as a custom standard.
+  - code: DES-ELEMENT-COST-EARLY
+    note:
+      de: Verknüpft Modellmengen über einen Katalog mit Einheitspreisen; Kosten werden bei jeder Modellrevision nachgeführt.
+      fr: Relie les quantités du modèle à des prix unitaires via un catalogue; les coûts sont mis à jour à chaque révision du modèle.
+      it: Collega le quantità del modello ai prezzi unitari tramite un catalogo; i costi si aggiornano a ogni revisione del modello.
+      en: Links model quantities to unit prices through a catalogue; costs update with every model revision.
+  - code: DES-ELEMENT-COST-LATE
+    note:
+      de: Katalog führt den Aufbau je Bauteiltyp mit Kosten und CO₂; nicht modellierte Leistungen als virtuelle Elemente.
+      fr: Le catalogue décrit la composition de chaque type d'élément avec coûts et CO₂; prestations non modélisées en éléments virtuels.
+      it: Il catalogo descrive la composizione di ogni tipo di elemento con costi e CO₂; prestazioni non modellate come elementi virtuali.
+      en: The catalogue holds each component type's build-up with costs and CO₂; unmodelled work is added as virtual elements.
+  - code: QAS-ELEMENT-PERF
+    note:
+      de: Prüft jede Modellrevision gegen Projektanforderungen und zeigt je Element erfüllte, nicht erfüllte und fehlende Werte.
+      fr: Contrôle chaque révision selon les exigences du projet et indique par élément les valeurs conformes, non conformes et manquantes.
+      it: Verifica ogni revisione rispetto ai requisiti e indica per elemento valori soddisfatti, non soddisfatti e mancanti.
+      en: Checks every model revision against project requirements and shows passed, failed and missing values per element.
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: none
+    why:
+      de: Ich empfehle AnkerDB grossen Organisationen, die Datenpipelines aufbauen müssen, ohne dafür selbst zu programmieren.
+      fr: Je recommande AnkerDB aux grandes organisations qui doivent bâtir des pipelines de données sans programmer elles-mêmes.
+      it: Consiglio AnkerDB alle grandi organizzazioni che devono costruire pipeline di dati senza programmare in proprio.
+      en: I recommend AnkerDB to large organisations that need to build data pipelines without writing code themselves.
+    date: "2026-10-17"
+    consent: true
+own: false
+status: editorial
+source: https://ankerdb.com/features
+published: true
+last_checked: "2026-10-17"

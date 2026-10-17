@@ -12,6 +12,7 @@ description:
   en: Design software for surface heating and drinking water installations with Uponor systems.
 use_cases:
   - code: DES-UNDERFLOOR-HEATING
+recommendations: []
 own: false
 status: editorial
 source: https://www.uponor.com

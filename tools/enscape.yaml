@@ -15,6 +15,7 @@ use_cases:
   - code: QAS-DECISION-VIS
   - code: QAS-FURNISHABILITY
   - code: QAS-SPECIAL-ROOM-USER
+recommendations: []
 own: false
 status: editorial
 source: https://www.chaos.com

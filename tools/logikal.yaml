@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: BES-WINDOW-TENDER
   - code: DES-FACADE
+recommendations: []
 own: false
 status: editorial
 source: https://www.logikal-software.com

@@ -23,6 +23,19 @@ use_cases:
       fr: Gère les surfaces par local selon SIA 416 ou DIN 277 et les surfaces de référence énergétique selon SIA 380.
       it: Gestisce le superfici per locale secondo SIA 416 o DIN 277 e le superfici di riferimento energetico secondo SIA 380.
       en: Manages areas per room according to SIA 416 or DIN 277 and energy reference areas according to SIA 380.
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: none
+    why:
+      de: Das FM-Werkzeug für die Schweiz, mit dem man alle Immobilien im Griff hat.
+      fr: L'outil FM pour la Suisse, qui permet de garder la maîtrise de tout son parc immobilier.
+      it: Lo strumento FM per la Svizzera, con cui si tiene sotto controllo tutto il patrimonio immobiliare.
+      en: The FM tool for Switzerland that keeps your entire property portfolio under control.
+    date: "2026-10-17"
+    consent: true
 own: false
 status: editorial
 source: https://www.campos.ch/module

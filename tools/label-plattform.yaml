@@ -17,6 +17,7 @@ use_cases:
       fr: Gère les justificatifs et certificats Minergie jusqu'à la certification définitive.
       it: Gestisce le verifiche e i certificati Minergie fino alla certificazione definitiva.
       en: Manages Minergie verifications and certificates through to final certification.
+recommendations: []
 own: false
 status: editorial
 source: https://www.minergie.ch/de/zertifizieren/ablauf/

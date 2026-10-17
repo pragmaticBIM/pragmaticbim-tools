@@ -12,6 +12,7 @@ description:
   en: Open-source .NET library for reading and writing IFC, with COBie export.
 use_cases:
   - code: HOV-COBIE
+recommendations: []
 own: false
 status: editorial
 source: https://docs.xbim.net

@@ -13,6 +13,7 @@ description:
 use_cases:
   - code: BES-EXISTING-POINT-CLOUD
   - code: OPR-FM-PC
+recommendations: []
 own: false
 status: editorial
 source: https://matterport.com

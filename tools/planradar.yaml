@@ -15,6 +15,7 @@ use_cases:
   - code: CON-DEFECT-MGMT
   - code: CON-ROOM-LABEL
   - code: QAS-FUNCTIONAL-ACCEPTANCE
+recommendations: []
 own: false
 status: editorial
 source: https://www.planradar.com

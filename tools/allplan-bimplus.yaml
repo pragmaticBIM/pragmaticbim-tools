@@ -1,0 +1,30 @@
+id: allplan-bimplus
+name: Allplan Bimplus
+vendor: Allplan (Nemetschek)
+url: https://www.allplan.com/ch_de/produkte/allplan-bimplus/
+category: cde
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: Cloudbasierte OpenBIM-Plattform (CDE) für Modellkoordination, Aufgabenmanagement und Baustellenvisualisierung.
+  fr: Plateforme cloud OpenBIM (CDE) pour la coordination de modèles, la gestion des tâches et la visualisation sur chantier.
+  it: Piattaforma cloud OpenBIM (CDE) per coordinamento modelli, gestione attività e visualizzazione in cantiere.
+  en: Cloud-based OpenBIM platform (CDE) for model coordination, task management and site visualisation.
+use_cases:
+  - code: BES-OWNER-CDE
+  - code: CON-PRECAST-ORDER
+  - code: CON-REINF-EXEC
+    note:
+      de: Visualisiert und filtert Bewehrungsmodelle auf der Baustelle lageweise nach dem Use Case «Bewehrung verlegen».
+      fr: Visualise et filtre par lit les modèles d'armatures sur le chantier selon le cas d'usage «Bewehrung verlegen».
+      it: Visualizza e filtra per strato i modelli d'armatura in cantiere secondo il caso d'uso «Bewehrung verlegen».
+      en: Visualises and filters reinforcement models layer by layer on site to the 'Bewehrung verlegen' use case.
+  - code: DES-ARCH-MEP-COORD
+  - code: QAS-ARCH-STRUCT-COORD
+  - code: QAS-DESIGN-REVIEW
+recommendations: []
+own: false
+status: editorial
+source: https://www.allplan.com/fileadmin/user_upload/countries/switzerland-de/pdfs/references/Modellbasierte_Ausfuehrung_mit_der_Christen_AG.pdf
+published: true
+last_checked: "2026-10-17"

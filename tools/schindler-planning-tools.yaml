@@ -12,6 +12,7 @@ description:
   en: Online planning aids and BIM data for Schindler lifts for shaft design.
 use_cases:
   - code: BES-ELEVATOR-EARLY
+recommendations: []
 own: false
 status: editorial
 source: https://www.schindler.ch

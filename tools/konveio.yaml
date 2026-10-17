@@ -12,6 +12,7 @@ description:
   en: Online platform for commenting on documents and drawings in public participation processes.
 use_cases:
   - code: COM-STAKEHOLDER-DIALOG
+recommendations: []
 own: false
 status: editorial
 source: https://www.konveio.com

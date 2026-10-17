@@ -1,0 +1,38 @@
+id: trimble-nova
+name: Trimble Nova
+vendor: Trimble
+url: https://www.trimble.com/de/products/trimble-nova
+category: mep-design
+pricing: commercial
+countries: [ch, de, at]
+description:
+  de: CAD/CAE für Gebäudetechnik (früher Plancal nova) mit 3D-Modell, Berechnungen und Konfliktprüfung.
+  fr: CAD/CAE pour le génie technique du bâtiment (anciennement Plancal nova) avec modèle 3D, calculs et contrôle des conflits.
+  it: CAD/CAE per impiantistica (già Plancal nova) con modello 3D, calcoli e controllo delle interferenze.
+  en: CAD/CAE for building services (formerly Plancal nova) with 3D model, calculations and clash detection.
+use_cases:
+  - code: DES-FIRE-MATRIX
+  - code: DES-MEP-SCHEM
+    note:
+      de: Erstellt schematische Einlinien- und Strangschemata aus dem TGA-Netz.
+      fr: Crée des schémas unifilaires et de colonne schématiques à partir du réseau CVCSE.
+      it: Crea schemi unifilari e di colonna schematici dalla rete impiantistica.
+      en: Creates schematic single-line and riser diagrams from the MEP network.
+  - code: DES-STRUCT-MEP-OPENINGS
+    note:
+      de: Durchbruchsplanung im TGA-Modell mit IFC-Export der Durchbruchsvorschläge.
+      fr: Planification des percements dans le modèle CVCSE avec export IFC des propositions de réservations.
+      it: Pianificazione delle forometrie nel modello MEP con esportazione IFC delle proposte di apertura.
+      en: Opening planning in the MEP model with IFC export of the opening proposals.
+  - code: QAS-MEP-DETAIL
+    note:
+      de: Ausführungsnahe 3D-Planung mit Herstellerbauteilen und Konfliktprüfung.
+      fr: Planification 3D proche de l'exécution avec composants de fabricants et détection des conflits.
+      it: Progettazione 3D esecutiva con componenti dei produttori e controllo delle interferenze.
+      en: Execution-level 3D design with manufacturer components and clash detection.
+recommendations: []
+own: false
+status: editorial
+source: https://www.trimble.com/de/products/trimble-nova
+published: true
+last_checked: "2026-10-17"

@@ -11,12 +11,17 @@ description:
   it: Pianificazione dei costi, appalti e gestione del progetto basati sul modello (5D).
   en: Model-based cost planning, tendering and project control (5D).
 use_cases:
+  - code: BES-CONCRETE-TENDER
   - code: BES-ELEMENT-COST-POSTCALC
   - code: BES-ELEMENT-TENDER
+  - code: BES-IPD
   - code: CON-FINAL-MEASUREMENT
+  - code: CON-PRECAST-ORDER
   - code: DES-ELEMENT-COST-EARLY
   - code: DES-ELEMENT-COST-LATE
+  - code: DES-KV
   - code: QAS-COST-PLAUS
+recommendations: []
 own: false
 status: editorial
 source: https://www.rib-software.com

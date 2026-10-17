@@ -12,6 +12,8 @@ description:
   en: Design of Sikla mounting systems (siFramo) for services suspensions.
 use_cases:
   - code: BES-SEISMIC-MEP
+  - code: CON-FASTEN-SUSP
+recommendations: []
 own: false
 status: editorial
 source: https://www.sikla.com

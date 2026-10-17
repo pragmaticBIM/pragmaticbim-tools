@@ -14,6 +14,7 @@ use_cases:
   - code: DES-STRUCT-MASONRY
   - code: OPR-FM-ARCH
   - code: QAS-ARCH-STRUCT-ADOPT
+recommendations: []
 own: false
 status: editorial
 source: https://speckle.systems

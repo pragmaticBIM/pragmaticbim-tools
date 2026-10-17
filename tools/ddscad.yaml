@@ -12,8 +12,12 @@ description:
   en: Building services design for electrical, plumbing, heating and ventilation with IFC exchange.
 use_cases:
   - code: DES-BASIC-PIPING
+  - code: DES-FIRE-MATRIX
+  - code: DES-MEP-SCHEM
   - code: DES-SANITARY-FIXTURE-COORD
   - code: DES-UNDERFLOOR-HEATING
+  - code: QAS-MEP-DETAIL
+recommendations: []
 own: false
 status: editorial
 source: https://www.graphisoft.com/plans-and-products/ddscad/

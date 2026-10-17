@@ -12,6 +12,7 @@ description:
   en: Compact BLK-series laser scanners for capturing buildings as point clouds.
 use_cases:
   - code: BES-EXISTING-POINT-CLOUD
+recommendations: []
 own: false
 status: editorial
 source: https://leica-geosystems.com

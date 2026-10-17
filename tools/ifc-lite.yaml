@@ -1,0 +1,59 @@
+id: ifc-lite
+name: IFC-Lite
+vendor: LTplus AG
+url: https://www.ifclite.com
+category: model-checking
+pricing: open-source
+countries: [ch, de, at]
+description:
+  de: Open-Source-IFC-Toolkit im Browser, auf dem Server und als CLI zum Anzeigen, Abfragen, Prüfen, Bearbeiten und Exportieren.
+  fr: Boîte à outils IFC open source (navigateur, serveur et CLI) pour visualiser, interroger, contrôler, éditer et exporter.
+  it: Toolkit IFC open source per browser, server e CLI per visualizzare, interrogare, verificare, modificare ed esportare.
+  en: Open-source IFC toolkit for browser, server and CLI to view, query, validate, edit and export models.
+use_cases:
+  - code: BES-AWARD-INTERFACE
+  - code: BES-COST-INTERFACE
+  - code: CON-REINF-EXEC
+  - code: DES-ARCH-MEP-COORD
+  - code: DES-DRAWINGS
+  - code: DES-FIRE-CONCEPT
+  - code: DES-KV
+  - code: DES-PLANNING-INTERFACE
+  - code: DES-WALL-REQUIREMENTS
+  - code: OPR-FM-ARCH
+    note:
+      de: Direktes Bearbeiten, Abfragen und Re-Exportieren von IFC-Modellen im Browser oder per CLI.
+      fr: Édition directe, interrogation et réexport de modèles IFC dans le navigateur ou via CLI.
+      it: Modifica diretta, interrogazione e riesportazione di modelli IFC nel browser o tramite CLI.
+      en: Direct editing, querying and re-export of IFC models in the browser or via CLI.
+  - code: QAS-ACCESS-SIA500
+  - code: QAS-ACOUSTIC
+  - code: QAS-ARCH-STRUCT-COORD
+  - code: QAS-COORD-ZONE
+  - code: QAS-EARLY-COORD
+  - code: QAS-ELEMENT-PERF
+    note:
+      de: IDS-Prüfung, regelbasierte 3D-Einfärbung (Lens), Kollisionsprüfung und BCF-Issues direkt im Browser.
+      fr: Contrôle IDS, coloration 3D par règles (Lens), détection de collisions et issues BCF dans le navigateur.
+      it: Verifica IDS, colorazione 3D basata su regole (Lens), controllo collisioni e issue BCF nel browser.
+      en: IDS validation, rule-based 3D colouring (Lens), clash detection and BCF issues directly in the browser.
+  - code: QAS-EXCL-ZONE
+  - code: QAS-FIRE
+recommendations:
+  - by:
+      name: Simon Dilhas
+      role: Herausgeber pragmaticBIM
+      organisation: abstract ag
+    affiliation: customer
+    why:
+      de: Wird immer öfter mein Standard-Viewer im Browser, vor allem wenn ich schnell einen Wert im IFC anpassen will.
+      fr: Devient de plus en plus ma visionneuse par défaut dans le navigateur, surtout pour corriger vite une valeur dans l'IFC.
+      it: Diventa sempre più il mio visualizzatore predefinito nel browser, soprattutto per correggere al volo un valore nell'IFC.
+      en: Increasingly my default viewer in the browser, especially when I want to change a value in the IFC quickly.
+    date: "2026-10-17"
+    consent: true
+own: false
+status: editorial
+source: https://ifclite.dev/docs/
+published: true
+last_checked: "2026-10-17"

@@ -12,6 +12,7 @@ description:
   en: Timber construction design based on AutoCAD and Revit with detailing and production data.
 use_cases:
   - code: BES-TIMBER-CONTRACTOR
+recommendations: []
 own: false
 status: editorial
 source: https://www.hsbcad.com
