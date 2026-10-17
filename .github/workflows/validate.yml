@@ -12,11 +12,11 @@ jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
         with:
           fetch-depth: 0
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -52,6 +52,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.PUBLISHING_DISPATCH_TOKEN }}
         run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Secret PUBLISHING_DISPATCH_TOKEN is missing; the website build was not triggered."
+            exit 1
+          fi
           gh api repos/pragmaticBIM/pragmaticbim-publishing/dispatches \
             -f event_type=tools-updated \
             -f "client_payload[repository]=${{ github.repository }}" \
