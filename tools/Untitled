@@ -1,0 +1,11 @@
+code: DES-LAYOUT
+  - code: DES-PERMIT
+  - code: DES-SIA416
+  - code: HOV-NATIVE
+  - code: QAS-ARCH-STRUCT-ADOPT
+  - code: QAS-DET-REF
+  - code: QAS-VORSATZ
+own: false
+status: editorial
+source: https://graphisoft.com/solutions/archicad
+published: false
