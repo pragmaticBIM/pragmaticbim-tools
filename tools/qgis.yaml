@@ -1,0 +1,20 @@
+id: qgis
+name: QGIS
+vendor: QGIS.org
+url: https://qgis.org
+category: gis-and-geodata
+pricing: open-source
+countries: [ch]
+description:
+  de: Open-Source-GIS zum Laden, Bearbeiten und Analysieren von Geodaten wie amtlicher Vermessung und Kataster.
+use_cases:
+  - code: BES-EXISTING-SITE
+  - code: DES-PARCELS
+  - code: DES-UVP
+  - code: LAN-SPONGE-CITY
+  - code: QAS-TREE-PRESERVE
+own: false
+status: editorial
+source: https://qgis.org
+published: false
+last_checked: "2026-10-17"

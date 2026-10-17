@@ -1,0 +1,18 @@
+id: fieldwire
+name: Fieldwire
+vendor: Hilti
+url: https://www.fieldwire.com
+category: field-and-defects
+pricing: freemium
+countries: [ch]
+description:
+  de: Baustellen-App für Aufgaben, Mängel, Checklisten und Pläne, mit Vorlage für Brandschutzdokumentation.
+use_cases:
+  - code: CON-DEFECT-MGMT
+  - code: QAS-FUNCTIONAL-ACCEPTANCE
+  - code: OPR-FIRESTOP-MAINT
+own: false
+status: editorial
+source: https://help.fieldwire.com/hc/en-us/articles/24193589901457-Practical-Guide-How-to-Use-Fieldwire-for-Fire-Protection-Documentation
+published: false
+last_checked: "2026-10-17"

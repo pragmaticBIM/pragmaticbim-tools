@@ -1,0 +1,16 @@
+id: pointly
+name: Pointly
+vendor: Pointly
+url: https://pointly.ai
+category: reality-capture
+pricing: commercial
+countries: [ch]
+description:
+  de: Webbasierte Klassifizierung von Punktwolken mit KI-Unterstützung.
+use_cases:
+  - code: OPR-FM-PC
+own: false
+status: editorial
+source: https://pointly.ai
+published: false
+last_checked: "2026-10-17"

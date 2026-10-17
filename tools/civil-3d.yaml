@@ -1,0 +1,19 @@
+id: civil-3d
+name: Civil 3D
+vendor: Autodesk
+url: https://www.autodesk.com/products/civil-3d
+category: authoring
+pricing: commercial
+countries: [ch]
+description:
+  de: Tiefbau- und Geländeplanung mit digitalen Geländemodellen sowie Aushub- und Auftragsmengen.
+use_cases:
+  - code: BES-EXISTING-SITE
+  - code: DES-HUMUS
+  - code: DES-TERRAIN
+  - code: LAN-SPONGE-CITY
+own: false
+status: editorial
+source: https://www.autodesk.com/products/civil-3d
+published: false
+last_checked: "2026-10-17"

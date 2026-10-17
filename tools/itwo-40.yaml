@@ -1,0 +1,21 @@
+id: itwo-40
+name: iTWO 4.0
+vendor: RIB Software
+url: https://www.rib-software.com
+category: cost-and-tendering
+pricing: commercial
+countries: [ch]
+description:
+  de: Modellbasierte Kostenplanung, Ausschreibung und Projektsteuerung (5D).
+use_cases:
+  - code: BES-ELEMENT-COST-POSTCALC
+  - code: BES-ELEMENT-TENDER
+  - code: CON-FINAL-MEASUREMENT
+  - code: DES-ELEMENT-COST-EARLY
+  - code: DES-ELEMENT-COST-LATE
+  - code: QAS-COST-PLAUS
+own: false
+status: editorial
+source: https://www.rib-software.com
+published: false
+last_checked: "2026-10-17"

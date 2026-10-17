@@ -1,0 +1,20 @@
+id: dalux-box
+name: Dalux Box
+vendor: Dalux
+url: https://www.dalux.com
+category: cde
+pricing: commercial
+countries: [ch]
+description:
+  de: Gemeinsame Datenumgebung mit BIM-Viewer, Dokumentenverwaltung und Modellkoordination.
+use_cases:
+  - code: BES-OWNER-CDE
+  - code: DES-ARCH-MEP-COORD
+  - code: DES-CRIT-INSERT
+  - code: QAS-DESIGN-REVIEW
+  - code: QAS-EARLY-COORD
+own: false
+status: editorial
+source: https://www.dalux.com
+published: false
+last_checked: "2026-10-17"

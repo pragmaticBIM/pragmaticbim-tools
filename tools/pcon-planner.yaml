@@ -1,0 +1,17 @@
+id: pcon-planner
+name: pCon.planner
+vendor: EasternGraphics
+url: https://pcon-solutions.com/planner/
+category: product-data
+pricing: freemium
+countries: [ch]
+description:
+  de: Einrichtungsplanung mit Möbeldaten von Herstellern, Stücklisten und 3D-Darstellung.
+use_cases:
+  - code: DES-FURNITURE
+  - code: QAS-FURNISHABILITY
+own: false
+status: editorial
+source: https://pcon-solutions.com/planner/
+published: false
+last_checked: "2026-10-17"

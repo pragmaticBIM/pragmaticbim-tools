@@ -1,0 +1,21 @@
+id: dalux-field
+name: Dalux Field
+vendor: Dalux
+url: https://www.dalux.com
+category: field-and-defects
+pricing: commercial
+countries: [ch]
+description:
+  de: Baustellen-App für Mängel, Checklisten, Pläne und Modelle vor Ort, auch mit 360°-Aufnahmen.
+use_cases:
+  - code: BES-PLAN-BOX
+  - code: CON-DEFECT-MGMT
+  - code: CON-PROGRESS-DOC
+  - code: CON-ROOM-LABEL
+  - code: QAS-FUNCTIONAL-ACCEPTANCE
+  - code: QAS-HAZMAT-CHECK
+own: false
+status: editorial
+source: https://www.dalux.com
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,16 @@
+id: openspace
+name: OpenSpace
+vendor: OpenSpace
+url: https://www.openspace.ai
+category: reality-capture
+pricing: commercial
+countries: [ch]
+description:
+  de: 360°-Baustellenerfassung beim Begehen, automatisch auf dem Plan verortet.
+use_cases:
+  - code: CON-PROGRESS-DOC
+own: false
+status: editorial
+source: https://www.openspace.ai
+published: false
+last_checked: "2026-10-17"

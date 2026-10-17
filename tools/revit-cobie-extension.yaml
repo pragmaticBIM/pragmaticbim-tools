@@ -1,0 +1,16 @@
+id: revit-cobie-extension
+name: COBie Extension for Revit
+vendor: Autodesk
+url: https://www.autodesk.com/products/revit
+category: facility-management
+pricing: free
+countries: [ch]
+description:
+  de: Erweiterung für Revit zum Erfassen und Exportieren von Betriebsdaten im COBie-Format.
+use_cases:
+  - code: HOV-COBIE
+own: false
+status: editorial
+source: https://www.autodesk.com/products/revit
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,17 @@
+id: crb-webservice-ifc-lv
+name: CRB-Webservice IFC zu NPK-LV
+vendor: CRB
+url: https://www.crb.ch/de/aktuelles/modellbasierte-ausschreibungen-1
+category: cost-and-tendering
+pricing: commercial
+countries: [ch]
+description:
+  de: Erzeugt aus IFC-Modell und CRB-IDS ein vorläufiges NPK-Leistungsverzeichnis zur Fertigstellung in der AVA.
+use_cases:
+  - code: BES-ELEMENT-TENDER
+  - code: BES-MASONRY-TENDER
+own: false
+status: editorial
+source: https://www.crb.ch/_Resources/Persistent/1/d/4/e/1d4e24c730533b2904db8c0d60415de50d0bdc99/Whitepaper_Modellbasierte_Ausschreibungen_DE.pdf
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,27 @@
+id: lesosai
+name: Lesosai
+vendor: E4tech Software SA
+url: https://www.lesosai.com
+category: energy-and-simulation
+pricing: commercial
+countries: [ch]
+description:
+  de: Energie- und Ökobilanzsoftware für SIA 380/1, Minergie und graue Energie nach SIA 2032, mit IFC- und gbXML-Import.
+use_cases:
+  - code: DES-ABSTRACTBIM-BPS
+    note:
+      de: Heizwärmebedarf nach SIA 380/1 aus importiertem IFC oder gbXML.
+  - code: DES-LCA
+    note:
+      de: Graue Energie und Treibhausgase nach SIA 2032 mit KBOB-Daten.
+  - code: DES-PHYSICS
+    note:
+      de: Wärmeschutz und U-Werte nach SIA 180; Schallschutz nicht abgedeckt.
+  - code: QAS-ACOUSTIC
+    note:
+      de: Prüft nur den Wärmeschutz (U-Werte); Schallschutz nicht abgedeckt.
+own: false
+status: editorial
+source: https://lesosai.com/logiciel/?lang=de
+published: true
+last_checked: "2026-10-17"

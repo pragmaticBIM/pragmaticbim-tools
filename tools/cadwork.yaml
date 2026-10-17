@@ -1,0 +1,16 @@
+id: cadwork
+name: cadwork
+vendor: cadwork informatik
+url: https://cadwork.ch
+category: structure-and-timber
+pricing: commercial
+countries: [ch]
+description:
+  de: CAD/CAM für den Holzbau mit 3D-Konstruktion, Abbund und Produktionsdaten.
+use_cases:
+  - code: BES-TIMBER-CONTRACTOR
+own: false
+status: editorial
+source: https://cadwork.ch
+published: false
+last_checked: "2026-10-17"

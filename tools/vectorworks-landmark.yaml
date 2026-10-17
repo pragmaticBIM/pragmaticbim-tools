@@ -1,0 +1,19 @@
+id: vectorworks-landmark
+name: Vectorworks Landmark
+vendor: Vectorworks (Nemetschek)
+url: https://www.vectorworks.net
+category: authoring
+pricing: commercial
+countries: [ch]
+description:
+  de: CAD- und BIM-Werkzeug für Landschaftsarchitektur mit Geländemodell, Pflanzen und Bäumen.
+use_cases:
+  - code: DES-HUMUS
+  - code: DES-TERRAIN
+  - code: LAN-SPONGE-CITY
+  - code: QAS-TREE-PRESERVE
+own: false
+status: editorial
+source: https://www.vectorworks.net
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,19 @@
+id: chaos-vantage
+name: Chaos Vantage
+vendor: Chaos
+url: https://www.chaos.com
+category: visualisation
+pricing: commercial
+countries: [ch]
+description:
+  de: Echtzeit-Visualisierung mit Raytracing für grosse Szenen aus 3D- und BIM-Modellen.
+use_cases:
+  - code: DES-MODEL-VIS
+  - code: QAS-DECISION-VIS
+  - code: QAS-FURNISHABILITY
+  - code: QAS-SPECIAL-ROOM-USER
+own: false
+status: editorial
+source: https://www.chaos.com
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,16 @@
+id: hilti-profis-installation
+name: Hilti PROFIS Installation
+vendor: Hilti
+url: https://www.hilti.ch
+category: mep-design
+pricing: free
+countries: [ch]
+description:
+  de: Bemessung von Installationsabhängungen mit Hilti-Montagesystemen.
+use_cases:
+  - code: BES-SEISMIC-MEP
+own: false
+status: editorial
+source: https://www.hilti.ch
+published: false
+last_checked: "2026-10-17"

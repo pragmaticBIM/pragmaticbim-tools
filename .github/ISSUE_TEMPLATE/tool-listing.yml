@@ -1,0 +1,66 @@
+name: Tool listing
+description: Propose a tool for the registry without opening a pull request.
+title: "Tool listing: "
+labels: ["tool-listing"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        A maintainer will turn this into an entry in `tools/`. See [CONTRIBUTING.md](https://github.com/pragmaticBIM/pragmaticbim-tools/blob/main/CONTRIBUTING.md) for the listing criteria.
+  - type: input
+    id: name
+    attributes:
+      label: Tool name
+    validations:
+      required: true
+  - type: input
+    id: vendor
+    attributes:
+      label: Vendor
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Official product page (URL)
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: use_cases
+    attributes:
+      label: Use case codes
+      description: Codes from the pragmaticBIM Reference, one per line, with a short note on how the tool covers each.
+      placeholder: |
+        DES-LCA – grey energy with KBOB data
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Short description
+      description: Neutral and factual, at most 140 characters, preferably in German.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Documentation page that confirms the function
+      placeholder: https://
+  - type: dropdown
+    id: affiliation
+    attributes:
+      label: Are you affiliated with the vendor?
+      options:
+        - "Yes"
+        - "No"
+    validations:
+      required: true
+  - type: input
+    id: contact
+    attributes:
+      label: Contact
+      description: For questions about this listing. Issues are public; to share an email address privately, write to info@abstract.build instead.
+      placeholder: GitHub handle or email
+    validations:
+      required: true

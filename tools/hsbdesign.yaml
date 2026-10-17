@@ -1,0 +1,16 @@
+id: hsbdesign
+name: hsbDesign
+vendor: hsbcad
+url: https://www.hsbcad.com
+category: structure-and-timber
+pricing: commercial
+countries: [ch]
+description:
+  de: Holzbauplanung auf Basis von AutoCAD und Revit mit Detaillierung und Produktionsdaten.
+use_cases:
+  - code: BES-TIMBER-CONTRACTOR
+own: false
+status: editorial
+source: https://www.hsbcad.com
+published: false
+last_checked: "2026-10-17"

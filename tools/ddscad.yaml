@@ -1,0 +1,18 @@
+id: ddscad
+name: DDScad
+vendor: Graphisoft (Nemetschek)
+url: https://www.graphisoft.com/plans-and-products/ddscad/
+category: mep-design
+pricing: commercial
+countries: [ch]
+description:
+  de: Gebäudetechnik-Planung für Elektro, Sanitär, Heizung und Lüftung mit IFC-Austausch.
+use_cases:
+  - code: DES-BASIC-PIPING
+  - code: DES-SANITARY-FIXTURE-COORD
+  - code: DES-UNDERFLOOR-HEATING
+own: false
+status: editorial
+source: https://www.graphisoft.com/plans-and-products/ddscad/
+published: false
+last_checked: "2026-10-17"

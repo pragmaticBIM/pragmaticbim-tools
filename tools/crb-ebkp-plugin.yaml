@@ -1,0 +1,18 @@
+id: crb-ebkp-plugin
+name: CRB eBKP-Plugin
+vendor: CRB
+url: https://www.crb.ch/de/normen-standards/baukostenplane
+category: classification
+pricing: commercial
+countries: [ch]
+description:
+  de: Klassifiziert Bauteile in Revit nach eBKP-H und eBKP-T und schreibt die Zuordnung in den IFC-Export.
+use_cases:
+  - code: DES-EBKP-H
+    note:
+      de: eBKP-H-Zuordnung im Autorenwerkzeug, als IfcClassificationReference exportiert.
+own: false
+status: editorial
+source: https://www.crb.ch/_Resources/Persistent/7/c/1/3/7c1336ad90cb276a5f2a7a0c0e79755e90f4f726/CRB_Produktblatt_eBKP-Plugin_2025_A4_FR.pdf
+published: true
+last_checked: "2026-10-17"

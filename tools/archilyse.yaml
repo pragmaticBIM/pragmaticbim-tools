@@ -1,0 +1,20 @@
+id: archilyse
+name: Archilyse
+vendor: Archilyse (Dr. Matthias Standfest)
+url: https://www.archilyse.com
+category: feasibility-and-massing
+pricing: open-source
+countries: [ch]
+description:
+  de: Pipeline und Datensätze, die Grundrisse in Raumgraphen mit Simulationswerten zu Tageslicht, Sicht und Lärm umwandeln.
+use_cases:
+  - code: BES-ABSTRACTBIM-COMP
+  - code: BES-FUNCTIONAL-BRIEF
+  - code: DES-APT-SCHEDULE
+  - code: QAS-BENCHMARK
+  - code: QAS-FURNISHABILITY
+own: false
+status: editorial
+source: https://www.archilyse.com
+published: false
+last_checked: "2026-10-17"

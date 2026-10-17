@@ -1,0 +1,17 @@
+id: simap
+name: simap.ch
+vendor: Verein simap.ch
+url: https://www.simap.ch
+category: procurement
+pricing: free
+countries: [ch]
+description:
+  de: "Plattform für öffentliche Beschaffungen in der Schweiz: Ausschreibungen publizieren und Unterlagen bereitstellen."
+use_cases:
+  - code: BES-DESIGN-BUILD
+  - code: BES-DESIGNER-PROCUREMENT
+own: false
+status: editorial
+source: https://www.simap.ch
+published: false
+last_checked: "2026-10-17"

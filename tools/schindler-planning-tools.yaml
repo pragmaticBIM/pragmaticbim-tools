@@ -1,0 +1,16 @@
+id: schindler-planning-tools
+name: Schindler Planungstools und BIM-Daten
+vendor: Schindler
+url: https://www.schindler.ch
+category: product-data
+pricing: free
+countries: [ch]
+description:
+  de: Online-Planungshilfen und BIM-Daten für Schindler-Aufzüge zur Schachtplanung.
+use_cases:
+  - code: BES-ELEVATOR-EARLY
+own: false
+status: editorial
+source: https://www.schindler.ch
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,21 @@
+id: revizto
+name: Revizto
+vendor: Revizto
+url: https://revizto.com
+category: coordination
+pricing: commercial
+countries: [ch]
+description:
+  de: Koordinations- und Issue-Plattform für föderierte BIM-Modelle und Pläne mit Kollisionsprüfung.
+use_cases:
+  - code: DES-ARCH-MEP-COORD
+  - code: QAS-ARCH-STRUCT-COORD
+  - code: QAS-CONTRACTOR-DESIGN
+  - code: QAS-COORD-ZONE
+  - code: QAS-DESIGN-REVIEW
+  - code: QAS-EARLY-COORD
+own: false
+status: editorial
+source: https://revizto.com
+published: false
+last_checked: "2026-10-17"

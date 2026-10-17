@@ -1,0 +1,16 @@
+id: leica-blk
+name: Leica BLK
+vendor: Leica Geosystems (Hexagon)
+url: https://leica-geosystems.com
+category: reality-capture
+pricing: commercial
+countries: [ch]
+description:
+  de: Kompakte Laserscanner der BLK-Serie zur Erfassung von Gebäuden als Punktwolke.
+use_cases:
+  - code: BES-EXISTING-POINT-CLOUD
+own: false
+status: editorial
+source: https://leica-geosystems.com
+published: false
+last_checked: "2026-10-17"

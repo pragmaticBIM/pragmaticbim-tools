@@ -1,0 +1,24 @@
+id: magicad
+name: MagiCAD
+vendor: MagiCAD Group
+url: https://www.magicad.com
+category: mep-design
+pricing: commercial
+countries: [ch]
+description:
+  de: Gebäudetechnik-Planung in Revit und AutoCAD mit Berechnungen und Produktdaten von Herstellern.
+use_cases:
+  - code: BES-EXISTING-BUILDING-MEP
+  - code: BES-FIRESTOP-TENDER
+  - code: DES-BASIC-PIPING
+  - code: DES-CEILING-MIRROR
+  - code: DES-LIGHTING-COORD
+  - code: DES-MEP-USAGE-AGREEMENT
+  - code: DES-SANITARY-FIXTURE-COORD
+  - code: DES-UNDERFLOOR-HEATING
+  - code: QAS-MAINT-SPACE
+own: false
+status: editorial
+source: https://www.magicad.com
+published: false
+last_checked: "2026-10-17"

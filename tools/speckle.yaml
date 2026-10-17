@@ -1,0 +1,18 @@
+id: speckle
+name: Speckle
+vendor: Speckle Systems
+url: https://speckle.systems
+category: coordination
+pricing: open-source
+countries: [ch]
+description:
+  de: Plattform für Austausch und Versionierung von Modelldaten zwischen Revit, Rhino, Archicad und weiteren Werkzeugen.
+use_cases:
+  - code: DES-STRUCT-MASONRY
+  - code: OPR-FM-ARCH
+  - code: QAS-ARCH-STRUCT-ADOPT
+own: false
+status: editorial
+source: https://speckle.systems
+published: false
+last_checked: "2026-10-17"

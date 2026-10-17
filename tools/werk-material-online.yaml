@@ -1,0 +1,27 @@
+id: werk-material-online
+name: werk-material.online
+vendor: CRB
+url: https://werk-material.online
+category: cost-and-tendering
+pricing: commercial
+countries: [ch]
+description:
+  de: Kennwerte von über 1000 abgerechneten Schweizer Bauten nach eBKP-H, BKP und SIA 416, mit Objektvergleich.
+use_cases:
+  - code: BES-ELEMENT-COST-POSTCALC
+    note:
+      de: Eigene Projekte erfassen und auswerten; BKP-Kosten auf eBKP-H umschlüsseln.
+  - code: DES-ELEMENT-COST-EARLY
+    note:
+      de: Kosten aus dem 3D-Modell mit eBKP-H-Kalkulator und BFS-Kennwerten.
+  - code: QAS-BENCHMARK
+    note:
+      de: Vergleich mit abgerechneten Objekten nach Kosten-, Flächen- und Energiekennwerten.
+  - code: QAS-COST-PLAUS
+    note:
+      de: NPK-Einheitspreise und Elementkennwerte des BFS als Vergleichswerte.
+own: false
+status: editorial
+source: https://www.crb.ch/de/normen-standards/kennwerte-objektarten/web-applikation-werk-material-online
+published: true
+last_checked: "2026-10-17"

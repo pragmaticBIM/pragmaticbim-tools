@@ -1,0 +1,25 @@
+id: messerli-bauad
+name: Messerli BauAD
+vendor: Messerli Informatik
+url: https://www.messerli.ch
+category: authoring
+pricing: commercial
+countries: [ch]
+description:
+  de: CAD für Bauplanung mit Mengenermittlung zur Übergabe an die AVA.
+use_cases:
+  - code: BES-DOOR-TENDER
+  - code: BES-DRYWALL-TENDER
+  - code: BES-ELEMENT-TENDER
+  - code: BES-FLOORING-TENDER
+  - code: BES-MASONRY-TENDER
+  - code: BES-PAINTING-TENDER
+  - code: BES-STEELWORK-TENDER
+  - code: BES-TILING-TENDER
+  - code: BES-WINDOW-TENDER
+  - code: CON-FINAL-MEASUREMENT
+own: false
+status: editorial
+source: https://www.messerli.ch
+published: false
+last_checked: "2026-10-17"

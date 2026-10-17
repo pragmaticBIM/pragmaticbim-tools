@@ -1,0 +1,17 @@
+id: tekla-structures
+name: Tekla Structures
+vendor: Trimble
+url: https://www.tekla.com
+category: structure-and-timber
+pricing: commercial
+countries: [ch]
+description:
+  de: Tragwerksmodellierung für Stahl-, Beton- und Holzbau mit Werkstatt- und Bewehrungsdetails.
+use_cases:
+  - code: BES-STEELWORK-TENDER
+  - code: DES-EMBED-REINF
+own: false
+status: editorial
+source: https://www.tekla.com
+published: false
+last_checked: "2026-10-17"

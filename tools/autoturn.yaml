@@ -1,0 +1,17 @@
+id: autoturn
+name: AutoTURN
+vendor: Transoft Solutions
+url: https://www.transoftsolutions.com
+category: swept-path-and-parking
+pricing: commercial
+countries: [ch]
+description:
+  de: Schleppkurven- und Wendeanalyse für Fahrzeuge in CAD-Programmen.
+use_cases:
+  - code: DES-PARKING
+  - code: DES-TRAFFIC
+own: false
+status: editorial
+source: https://www.transoftsolutions.com
+published: false
+last_checked: "2026-10-17"

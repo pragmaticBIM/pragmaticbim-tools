@@ -1,0 +1,16 @@
+id: faro-scene
+name: FARO SCENE
+vendor: FARO
+url: https://www.faro.com
+category: reality-capture
+pricing: commercial
+countries: [ch]
+description:
+  de: Software zur Registrierung und Aufbereitung von Laserscans zu Punktwolken.
+use_cases:
+  - code: BES-EXISTING-POINT-CLOUD
+own: false
+status: editorial
+source: https://www.faro.com
+published: false
+last_checked: "2026-10-17"

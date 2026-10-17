@@ -1,0 +1,16 @@
+id: faro-focus
+name: FARO Focus
+vendor: FARO
+url: https://www.faro.com
+category: reality-capture
+pricing: commercial
+countries: [ch]
+description:
+  de: Terrestrischer Laserscanner zur Aufnahme von Gebäuden und Gelände als Punktwolke.
+use_cases:
+  - code: BES-EXISTING-POINT-CLOUD
+own: false
+status: editorial
+source: https://www.faro.com
+published: false
+last_checked: "2026-10-17"

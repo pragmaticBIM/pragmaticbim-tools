@@ -1,0 +1,18 @@
+id: oereb-kataster
+name: ÖREB-Kataster
+vendor: swisstopo / Kantone
+url: https://www.cadastre.ch
+category: gis-and-geodata
+pricing: free
+countries: [ch]
+description:
+  de: Kataster der öffentlich-rechtlichen Eigentumsbeschränkungen je Grundstück, mit amtlichem Auszug.
+use_cases:
+  - code: BES-EXISTING-SITE
+  - code: DES-PARCELS
+  - code: QAS-CONSTRAINT
+own: false
+status: editorial
+source: https://www.cadastre.ch
+published: false
+last_checked: "2026-10-17"

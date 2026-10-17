@@ -1,0 +1,16 @@
+id: kone-planning-tools
+name: KONE Planungstools und BIM-Modelle
+vendor: KONE
+url: https://www.kone.ch
+category: product-data
+pricing: free
+countries: [ch]
+description:
+  de: Online-Planungshilfen und BIM-Objekte für KONE-Aufzüge zur Schachtdimensionierung.
+use_cases:
+  - code: BES-ELEVATOR-EARLY
+own: false
+status: editorial
+source: https://www.kone.ch
+published: false
+last_checked: "2026-10-17"

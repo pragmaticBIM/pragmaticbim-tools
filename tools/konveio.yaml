@@ -1,0 +1,16 @@
+id: konveio
+name: Konveio
+vendor: Konveio
+url: https://www.konveio.com
+category: participation
+pricing: commercial
+countries: [ch]
+description:
+  de: Online-Plattform zum Kommentieren von Dokumenten und Plänen in Beteiligungsverfahren.
+use_cases:
+  - code: COM-STAKEHOLDER-DIALOG
+own: false
+status: editorial
+source: https://www.konveio.com
+published: false
+last_checked: "2026-10-17"

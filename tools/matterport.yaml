@@ -1,0 +1,17 @@
+id: matterport
+name: Matterport
+vendor: Matterport (CoStar)
+url: https://matterport.com
+category: reality-capture
+pricing: freemium
+countries: [ch]
+description:
+  de: Erfassung von Innenräumen als begehbares 3D-Modell mit Messfunktionen und Punktwolkenexport.
+use_cases:
+  - code: BES-EXISTING-POINT-CLOUD
+  - code: OPR-FM-PC
+own: false
+status: editorial
+source: https://matterport.com
+published: false
+last_checked: "2026-10-17"

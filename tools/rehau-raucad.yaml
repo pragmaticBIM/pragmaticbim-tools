@@ -1,0 +1,16 @@
+id: rehau-raucad
+name: REHAU RAUCAD
+vendor: REHAU
+url: https://www.rehau.com
+category: mep-design
+pricing: free
+countries: [ch]
+description:
+  de: CAD-Planungssoftware für Flächenheizungen und Installationssysteme von REHAU.
+use_cases:
+  - code: DES-UNDERFLOOR-HEATING
+own: false
+status: editorial
+source: https://www.rehau.com
+published: false
+last_checked: "2026-10-17"

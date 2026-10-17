@@ -1,0 +1,17 @@
+id: vectorworks-architect
+name: Vectorworks Architect
+vendor: Vectorworks (Nemetschek)
+url: https://www.vectorworks.net
+category: authoring
+pricing: commercial
+countries: [ch]
+description:
+  de: BIM- und CAD-Autorenwerkzeug für Architektur mit Plänen aus dem Modell.
+use_cases:
+  - code: DES-DRAWINGS
+  - code: DES-PERMIT
+own: false
+status: editorial
+source: https://www.vectorworks.net
+published: false
+last_checked: "2026-10-17"

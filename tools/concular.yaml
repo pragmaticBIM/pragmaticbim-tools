@@ -1,0 +1,17 @@
+id: concular
+name: Concular
+vendor: Concular
+url: https://concular.de
+category: material-passport-and-reuse
+pricing: commercial
+countries: [ch]
+description:
+  de: Materialpässe und Vermittlung wiederverwendbarer Bauteile aus Bestandsgebäuden.
+use_cases:
+  - code: BES-EXISTING-CIRCULARITY
+  - code: DES-MATERIAL-PASS
+own: false
+status: editorial
+source: https://concular.de
+published: false
+last_checked: "2026-10-17"

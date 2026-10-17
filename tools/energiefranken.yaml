@@ -1,0 +1,16 @@
+id: energiefranken
+name: Energiefranken
+vendor: Energiefranken
+url: https://www.energiefranken.ch
+category: other
+pricing: free
+countries: [ch]
+description:
+  de: Suchportal für Förderprogramme zu Energie und Gebäuden je Postleitzahl in der Schweiz.
+use_cases:
+  - code: QAS-FUND
+own: false
+status: editorial
+source: https://www.energiefranken.ch
+published: false
+last_checked: "2026-10-17"

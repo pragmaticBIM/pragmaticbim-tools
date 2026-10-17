@@ -1,0 +1,18 @@
+id: desite
+name: DESITE BIM
+vendor: thinkproject
+url: https://www.thinkproject.com
+category: model-checking
+pricing: commercial
+countries: [ch]
+description:
+  de: Modellprüfung und -auswertung mit Einfärbung nach Eigenschaften und Mengenermittlung.
+use_cases:
+  - code: BES-AWARD-INTERFACE
+  - code: BES-COST-INTERFACE
+  - code: DES-PLANNING-INTERFACE
+own: false
+status: editorial
+source: https://www.thinkproject.com
+published: false
+last_checked: "2026-10-17"

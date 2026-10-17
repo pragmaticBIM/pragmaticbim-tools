@@ -1,0 +1,17 @@
+id: dialux-evo
+name: DIALux evo
+vendor: DIAL
+url: https://www.dialux.com
+category: daylight-and-lighting
+pricing: freemium
+countries: [ch]
+description:
+  de: Licht- und Tageslichtplanung mit Leuchtendaten von Herstellern, Berechnung und Visualisierung.
+use_cases:
+  - code: DES-LIGHTING-COORD
+  - code: QAS-DAYLIGHT
+own: false
+status: editorial
+source: https://www.dialux.com
+published: false
+last_checked: "2026-10-17"

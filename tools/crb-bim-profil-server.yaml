@@ -1,0 +1,18 @@
+id: crb-bim-profil-server
+name: CRB BIM-Profil-Server
+vendor: CRB
+url: https://bim-profil-server.crb.ch
+category: other
+pricing: commercial
+countries: [ch]
+description:
+  de: Web-Applikation zur Definition von Informationsanforderungen nach IFC und zum Export als IDS.
+use_cases:
+  - code: BES-DESIGNER-PROCUREMENT
+    note:
+      de: Informationsanforderungen als IDS für die Bestellung von Planungsleistungen festlegen.
+own: false
+status: editorial
+source: https://www.crb.ch/_Resources/Persistent/1/d/4/e/1d4e24c730533b2904db8c0d60415de50d0bdc99/Whitepaper_Modellbasierte_Ausschreibungen_DE.pdf
+published: true
+last_checked: "2026-10-17"

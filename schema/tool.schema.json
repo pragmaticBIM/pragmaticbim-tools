@@ -1,0 +1,407 @@
+{
+    "$defs": {
+        "CategoryEnum": {
+            "description": "",
+            "enum": [
+                "authoring",
+                "model-checking",
+                "coordination",
+                "cde",
+                "field-and-defects",
+                "reality-capture",
+                "scan-to-bim",
+                "cost-and-tendering",
+                "classification",
+                "energy-and-simulation",
+                "daylight-and-lighting",
+                "lca",
+                "material-passport-and-reuse",
+                "room-data-and-briefing",
+                "feasibility-and-massing",
+                "gis-and-geodata",
+                "swept-path-and-parking",
+                "mep-design",
+                "structure-and-timber",
+                "visualisation",
+                "4d-and-logistics",
+                "facility-management",
+                "building-operation",
+                "participation",
+                "procurement",
+                "product-data",
+                "other"
+            ],
+            "title": "CategoryEnum",
+            "type": "string"
+        },
+        "LocalizedText": {
+            "additionalProperties": false,
+            "description": "Short text per language, at most 140 characters each.",
+            "properties": {
+                "de": {
+                    "pattern": "^.{1,140}$",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "en": {
+                    "pattern": "^.{1,140}$",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "fr": {
+                    "pattern": "^.{1,140}$",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "it": {
+                    "pattern": "^.{1,140}$",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "title": "LocalizedText",
+            "type": "object"
+        },
+        "PricingEnum": {
+            "description": "",
+            "enum": [
+                "free",
+                "freemium",
+                "commercial",
+                "open-source"
+            ],
+            "title": "PricingEnum",
+            "type": "string"
+        },
+        "StatusEnum": {
+            "description": "",
+            "enum": [
+                "editorial",
+                "self-declared",
+                "verified"
+            ],
+            "title": "StatusEnum",
+            "type": "string"
+        },
+        "Tool": {
+            "additionalProperties": false,
+            "allOf": [
+                {
+                    "if": {
+                        "properties": {
+                            "status": {
+                                "const": "editorial"
+                            }
+                        },
+                        "required": [
+                            "status"
+                        ]
+                    },
+                    "then": {
+                        "properties": {
+                            "source": {}
+                        },
+                        "required": [
+                            "source"
+                        ]
+                    }
+                },
+                {
+                    "if": {
+                        "properties": {
+                            "status": {
+                                "const": "verified"
+                            }
+                        },
+                        "required": [
+                            "status"
+                        ]
+                    },
+                    "then": {
+                        "properties": {
+                            "verified_on": {},
+                            "verified_version": {}
+                        },
+                        "required": [
+                            "verified_on",
+                            "verified_version"
+                        ]
+                    }
+                }
+            ],
+            "description": "One software tool or own action, with the use cases it serves.",
+            "properties": {
+                "category": {
+                    "$ref": "#/$defs/CategoryEnum"
+                },
+                "countries": {
+                    "items": {
+                        "pattern": "^[a-z]{2}$",
+                        "type": "string"
+                    },
+                    "type": "array"
+                },
+                "description": {
+                    "$ref": "#/$defs/LocalizedText"
+                },
+                "id": {
+                    "description": "Stable id; equals the file name; never changes or gets reused.",
+                    "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+                    "type": "string"
+                },
+                "last_checked": {
+                    "format": "date",
+                    "type": "string"
+                },
+                "name": {
+                    "type": "string"
+                },
+                "own": {
+                    "description": "True only for tools and actions by abstract ag.",
+                    "type": "boolean"
+                },
+                "pricing": {
+                    "$ref": "#/$defs/PricingEnum"
+                },
+                "published": {
+                    "type": "boolean"
+                },
+                "source": {
+                    "format": "uri",
+                    "pattern": "^https://",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "status": {
+                    "$ref": "#/$defs/StatusEnum"
+                },
+                "url": {
+                    "description": "Product page; for own tools, the action page.",
+                    "format": "uri",
+                    "pattern": "^https://",
+                    "type": "string"
+                },
+                "use_cases": {
+                    "items": {
+                        "$ref": "#/$defs/UseCaseLink"
+                    },
+                    "minItems": 1,
+                    "type": "array"
+                },
+                "vendor": {
+                    "type": "string"
+                },
+                "verified_on": {
+                    "format": "date",
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "verified_version": {
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                }
+            },
+            "required": [
+                "id",
+                "name",
+                "vendor",
+                "url",
+                "category",
+                "pricing",
+                "countries",
+                "description",
+                "use_cases",
+                "own",
+                "status",
+                "published",
+                "last_checked"
+            ],
+            "title": "Tool",
+            "type": "object"
+        },
+        "UseCaseLink": {
+            "additionalProperties": false,
+            "description": "A use case the tool serves, with an optional note on how.",
+            "properties": {
+                "code": {
+                    "pattern": "^[A-Z]{2,5}(-[A-Z0-9]+)+$",
+                    "type": "string"
+                },
+                "note": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/$defs/LocalizedText"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ]
+                }
+            },
+            "required": [
+                "code"
+            ],
+            "title": "UseCaseLink",
+            "type": "object"
+        }
+    },
+    "$id": "https://pragmaticbim.ch/schema/tools",
+    "$schema": "https://json-schema.org/draft/2019-09/schema",
+    "additionalProperties": true,
+    "allOf": [
+        {
+            "if": {
+                "properties": {
+                    "status": {
+                        "const": "editorial"
+                    }
+                },
+                "required": [
+                    "status"
+                ]
+            },
+            "then": {
+                "properties": {
+                    "source": {}
+                },
+                "required": [
+                    "source"
+                ]
+            }
+        },
+        {
+            "if": {
+                "properties": {
+                    "status": {
+                        "const": "verified"
+                    }
+                },
+                "required": [
+                    "status"
+                ]
+            },
+            "then": {
+                "properties": {
+                    "verified_on": {},
+                    "verified_version": {}
+                },
+                "required": [
+                    "verified_on",
+                    "verified_version"
+                ]
+            }
+        }
+    ],
+    "description": "One software tool or own action, with the use cases it serves.",
+    "metamodel_version": "1.12.0",
+    "properties": {
+        "category": {
+            "$ref": "#/$defs/CategoryEnum"
+        },
+        "countries": {
+            "items": {
+                "pattern": "^[a-z]{2}$",
+                "type": "string"
+            },
+            "type": "array"
+        },
+        "description": {
+            "$ref": "#/$defs/LocalizedText"
+        },
+        "id": {
+            "description": "Stable id; equals the file name; never changes or gets reused.",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+            "type": "string"
+        },
+        "last_checked": {
+            "format": "date",
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        },
+        "own": {
+            "description": "True only for tools and actions by abstract ag.",
+            "type": "boolean"
+        },
+        "pricing": {
+            "$ref": "#/$defs/PricingEnum"
+        },
+        "published": {
+            "type": "boolean"
+        },
+        "source": {
+            "format": "uri",
+            "pattern": "^https://",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "status": {
+            "$ref": "#/$defs/StatusEnum"
+        },
+        "url": {
+            "description": "Product page; for own tools, the action page.",
+            "format": "uri",
+            "pattern": "^https://",
+            "type": "string"
+        },
+        "use_cases": {
+            "items": {
+                "$ref": "#/$defs/UseCaseLink"
+            },
+            "minItems": 1,
+            "type": "array"
+        },
+        "vendor": {
+            "type": "string"
+        },
+        "verified_on": {
+            "format": "date",
+            "type": [
+                "string",
+                "null"
+            ]
+        },
+        "verified_version": {
+            "type": [
+                "string",
+                "null"
+            ]
+        }
+    },
+    "required": [
+        "id",
+        "name",
+        "vendor",
+        "url",
+        "category",
+        "pricing",
+        "countries",
+        "description",
+        "use_cases",
+        "own",
+        "status",
+        "published",
+        "last_checked"
+    ],
+    "title": "pragmaticbim-tools",
+    "type": "object",
+    "version": "1.0.0"
+}
+

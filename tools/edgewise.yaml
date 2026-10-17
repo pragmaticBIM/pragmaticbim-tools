@@ -1,0 +1,17 @@
+id: edgewise
+name: EdgeWise
+vendor: ClearEdge3D (Trimble)
+url: https://www.clearedge3d.com
+category: scan-to-bim
+pricing: commercial
+countries: [ch]
+description:
+  de: Halbautomatische Modellierung von Bauteilen und Leitungen aus Punktwolken für Revit.
+use_cases:
+  - code: BES-EXISTING-BUILDING-MEP
+  - code: BES-EXISTING-STRUCTURE
+own: false
+status: editorial
+source: https://www.clearedge3d.com
+published: false
+last_checked: "2026-10-17"

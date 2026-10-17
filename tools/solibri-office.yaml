@@ -1,0 +1,40 @@
+id: solibri-office
+name: Solibri Office
+vendor: Solibri (Nemetschek)
+url: https://www.solibri.com
+category: model-checking
+pricing: commercial
+countries: [ch]
+description:
+  de: Regelbasierte Prüfung von IFC-Modellen auf Kollisionen, Modellqualität und Anforderungen.
+use_cases:
+  - code: BES-AWARD-INTERFACE
+  - code: BES-COST-INTERFACE
+  - code: BES-FIRESTOP-TENDER
+  - code: DES-ARCH-MEP-COORD
+  - code: DES-FIRE-CONCEPT
+  - code: DES-PHYSICS
+  - code: DES-PLANNING-INTERFACE
+  - code: DES-USAGE-AGREEMENT
+  - code: DES-WALL-REQUIREMENTS
+  - code: QAS-ACCESS-SIA500
+  - code: QAS-ACOUSTIC
+  - code: QAS-ARCH-STRUCT-COORD
+  - code: QAS-BUILD-SEC
+  - code: QAS-CONSTRAINT
+  - code: QAS-CONTRACTOR-DESIGN
+  - code: QAS-DET-REF
+  - code: QAS-ELEMENT-PERF
+  - code: QAS-FALL-PROTECTION
+  - code: QAS-FIRE
+  - code: QAS-INSTALL-PATH
+  - code: QAS-MAINT-SPACE
+  - code: QAS-ROOM-PROGRAM
+  - code: QAS-TREE-PRESERVE
+  - code: QAS-USAGE-AGREEMENT
+  - code: QAS-VORSATZ
+own: false
+status: editorial
+source: https://www.solibri.com
+published: false
+last_checked: "2026-10-17"

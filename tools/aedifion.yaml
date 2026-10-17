@@ -1,0 +1,16 @@
+id: aedifion
+name: aedifion
+vendor: aedifion
+url: https://www.aedifion.com
+category: building-operation
+pricing: commercial
+countries: [ch]
+description:
+  de: Cloud-Plattform zur Analyse und Optimierung des Gebäudebetriebs aus Mess- und Anlagendaten.
+use_cases:
+  - code: OPR-BUILDING-PERFORMANCE
+own: false
+status: editorial
+source: https://www.aedifion.com
+published: false
+last_checked: "2026-10-17"

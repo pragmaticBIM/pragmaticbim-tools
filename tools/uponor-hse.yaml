@@ -1,0 +1,16 @@
+id: uponor-hse
+name: Uponor HSE
+vendor: Uponor
+url: https://www.uponor.com
+category: mep-design
+pricing: free
+countries: [ch]
+description:
+  de: Planungssoftware für Flächenheizung und Trinkwasserinstallationen mit Uponor-Systemen.
+use_cases:
+  - code: DES-UNDERFLOOR-HEATING
+own: false
+status: editorial
+source: https://www.uponor.com
+published: false
+last_checked: "2026-10-17"

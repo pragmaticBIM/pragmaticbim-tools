@@ -1,0 +1,18 @@
+id: arcgis-urban
+name: ArcGIS Urban
+vendor: Esri
+url: https://www.esri.com/en-us/arcgis/products/arcgis-urban/overview
+category: feasibility-and-massing
+pricing: commercial
+countries: [ch]
+description:
+  de: Webbasierte 3D-Stadtplanung mit Zonierung, Szenarien und Kennzahlen auf GIS-Basis.
+use_cases:
+  - code: DES-URBAN-MASS
+  - code: DES-UVP
+  - code: QAS-CONSTRAINT
+own: false
+status: editorial
+source: https://www.esri.com/en-us/arcgis/products/arcgis-urban/overview
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,27 @@
+id: madaster
+name: Madaster
+vendor: Madaster Schweiz
+url: https://madaster.ch
+category: material-passport-and-reuse
+pricing: commercial
+countries: [ch]
+description:
+  de: Plattform für Gebäuderessourcenpässe aus IFC oder Excel, mit Angaben zu Trennbarkeit, CO2 und Wiederverwendung.
+use_cases:
+  - code: BES-EXISTING-CIRCULARITY
+    note:
+      de: Bestandsobjekte erfassen und Wiederverwendbarkeit der Bauteile auswerten.
+  - code: DES-MATERIAL-PASS
+    note:
+      de: Gebäuderessourcenpass aus dem IFC-Modell.
+  - code: HOV-PRODUCT-PASS-GTIN
+    note:
+      de: Übernimmt die GTIN je Bauteil aus dem IFC-Import.
+  - code: HOV-PRODUCT-PASS-SERIAL
+    note:
+      de: Übernimmt GTIN und Seriennummer je Bauteil aus dem IFC-Import.
+own: false
+status: editorial
+source: https://madaster.ch
+published: true
+last_checked: "2026-10-17"

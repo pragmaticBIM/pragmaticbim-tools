@@ -1,0 +1,25 @@
+id: drofus
+name: dRofus
+vendor: dRofus (Nemetschek)
+url: https://www.drofus.com
+category: room-data-and-briefing
+pricing: commercial
+countries: [ch]
+description:
+  de: Datenbank für Raumprogramm, Raumanforderungen und Ausstattung, abgeglichen mit BIM-Modellen.
+use_cases:
+  - code: BES-FUNCTIONAL-BRIEF
+  - code: BES-ROOM-PROGRAM
+  - code: DES-DOOR
+  - code: DES-MEP-USAGE-AGREEMENT
+  - code: DES-USAGE-AGREEMENT
+  - code: QAS-BUILD-SEC
+  - code: QAS-OUTLET-USER
+  - code: QAS-ROOM-PROGRAM
+  - code: QAS-SPECIAL-ROOM-USER
+  - code: QAS-USAGE-AGREEMENT
+own: false
+status: editorial
+source: https://www.drofus.com
+published: false
+last_checked: "2026-10-17"

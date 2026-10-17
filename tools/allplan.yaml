@@ -1,0 +1,19 @@
+id: allplan
+name: Allplan
+vendor: Allplan (Nemetschek)
+url: https://www.allplan.com
+category: authoring
+pricing: commercial
+countries: [ch]
+description:
+  de: BIM-Autorenwerkzeug für Architektur und Ingenieurbau mit Schal- und Bewehrungsplanung.
+use_cases:
+  - code: DES-DRAWINGS
+  - code: DES-EMBED-REINF
+  - code: DES-STRUCT-MASONRY
+  - code: QAS-ARCH-STRUCT-ADOPT
+own: false
+status: editorial
+source: https://www.allplan.com
+published: false
+last_checked: "2026-10-17"

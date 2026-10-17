@@ -1,0 +1,29 @@
+id: bimcollab-zoom
+name: BIMcollab Zoom
+vendor: BIMcollab
+url: https://www.bimcollab.com
+category: model-checking
+pricing: freemium
+countries: [ch]
+description:
+  de: IFC-Viewer und Modellprüfung mit Regeln, Einfärbung nach Eigenschaften und BCF-Issues.
+use_cases:
+  - code: BES-AWARD-INTERFACE
+  - code: BES-COST-INTERFACE
+  - code: DES-ARCH-MEP-COORD
+  - code: DES-FIRE-CONCEPT
+  - code: DES-PLANNING-INTERFACE
+  - code: OPR-FM-ARCH
+  - code: QAS-ACCESS-SIA500
+  - code: QAS-ACOUSTIC
+  - code: QAS-ARCH-STRUCT-COORD
+  - code: QAS-COORD-ZONE
+  - code: QAS-EARLY-COORD
+  - code: QAS-ELEMENT-PERF
+  - code: QAS-FIRE
+  - code: QAS-HAZMAT-CHECK
+own: false
+status: editorial
+source: https://www.bimcollab.com
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,18 @@
+id: navvis-ivion
+name: NavVis IVION
+vendor: NavVis
+url: https://www.navvis.com
+category: reality-capture
+pricing: commercial
+countries: [ch]
+description:
+  de: Webplattform zum Betrachten, Teilen und Nutzen von Punktwolken und 360°-Bildern.
+use_cases:
+  - code: BES-EXISTING-BUILDING-MEP
+  - code: BES-EXISTING-POINT-CLOUD
+  - code: OPR-FM-PC
+own: false
+status: editorial
+source: https://www.navvis.com
+published: false
+last_checked: "2026-10-17"

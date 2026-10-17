@@ -1,0 +1,17 @@
+id: capmo
+name: Capmo
+vendor: Capmo
+url: https://www.capmo.com
+category: field-and-defects
+pricing: commercial
+countries: [ch]
+description:
+  de: Bauprojektmanagement mit Mängeln, Aufgaben, Bautagebuch und Plänen in einer App.
+use_cases:
+  - code: CON-DEFECT-MGMT
+  - code: CON-ROOM-LABEL
+own: false
+status: editorial
+source: https://www.capmo.com
+published: false
+last_checked: "2026-10-17"

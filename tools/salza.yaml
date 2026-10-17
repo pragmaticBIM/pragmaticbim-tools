@@ -1,0 +1,16 @@
+id: salza
+name: salza
+vendor: salza
+url: https://salza.ch
+category: material-passport-and-reuse
+pricing: commercial
+countries: [ch]
+description:
+  de: Online-Marktplatz für wiederverwendbare Bauteile und Baumaterialien in der Schweiz.
+use_cases:
+  - code: BES-EXISTING-CIRCULARITY
+own: false
+status: editorial
+source: https://salza.ch
+published: false
+last_checked: "2026-10-17"

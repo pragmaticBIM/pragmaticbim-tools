@@ -1,0 +1,17 @@
+id: geberit-proplanner
+name: Geberit ProPlanner
+vendor: Geberit
+url: https://www.geberit.ch
+category: mep-design
+pricing: free
+countries: [ch]
+description:
+  de: Planungssoftware für Sanitärinstallationen mit Geberit-Systemen, Stücklisten und BIM-Daten.
+use_cases:
+  - code: DES-BASIC-PIPING
+  - code: DES-SANITARY-FIXTURE-COORD
+own: false
+status: editorial
+source: https://www.geberit.ch
+published: false
+last_checked: "2026-10-17"

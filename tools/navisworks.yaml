@@ -1,0 +1,25 @@
+id: navisworks
+name: Navisworks
+vendor: Autodesk
+url: https://www.autodesk.com/products/navisworks
+category: coordination
+pricing: commercial
+countries: [ch]
+description:
+  de: Föderierte Modellprüfung mit Kollisionsprüfung, 4D-Simulation und Mengenermittlung.
+use_cases:
+  - code: BES-AWARD-INTERFACE
+  - code: DES-ARCH-MEP-COORD
+  - code: DES-COMPLEX-ASSEMBLY
+  - code: QAS-ARCH-STRUCT-COORD
+  - code: QAS-COORD-ZONE
+  - code: QAS-EARLY-COORD
+  - code: QAS-FALL-PROTECTION
+  - code: QAS-INSTALL-PATH
+  - code: QAS-MAINT-SPACE
+  - code: QAS-SITE-LOGISTICS
+own: false
+status: editorial
+source: https://www.autodesk.com/products/navisworks
+published: false
+last_checked: "2026-10-17"

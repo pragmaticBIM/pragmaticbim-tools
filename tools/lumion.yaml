@@ -1,0 +1,17 @@
+id: lumion
+name: Lumion
+vendor: Act-3D
+url: https://lumion.com
+category: visualisation
+pricing: commercial
+countries: [ch]
+description:
+  de: Echtzeit-Visualisierung und Rendering von Architekturmodellen mit Material- und Vegetationsbibliothek.
+use_cases:
+  - code: DES-MODEL-VIS
+  - code: QAS-DECISION-VIS
+own: false
+status: editorial
+source: https://lumion.com
+published: false
+last_checked: "2026-10-17"

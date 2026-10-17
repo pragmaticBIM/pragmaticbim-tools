@@ -1,0 +1,106 @@
+id: https://pragmaticbim.ch/schema/tools
+name: pragmaticbim-tools
+title: pragmaticBIM tool registry
+description: >-
+  Software tools that help carry out use cases of the pragmaticBIM reference.
+  One file per tool. Listings are not endorsements unless the status is verified.
+version: 1.0.0
+license: PragmaticBIM Standard License
+prefixes:
+  linkml: https://w3id.org/linkml/
+  pbt: https://pragmaticbim.ch/schema/tools/
+  pb: https://pragmaticbim.ch/
+  schema: http://schema.org/
+default_prefix: pbt
+default_range: string
+imports:
+  - linkml:types
+classes:
+  Tool:
+    tree_root: true
+    class_uri: schema:SoftwareApplication
+    description: One software tool or own action, with the use cases it serves.
+    slots: [id, name, vendor, url, category, pricing, countries, description, use_cases,
+            own, status, source, verified_on, verified_version, published, last_checked]
+    rules:
+      - description: Editorial entries need a source page.
+        preconditions:
+          slot_conditions:
+            status: {equals_string: editorial}
+        postconditions:
+          slot_conditions:
+            source: {required: true}
+      - description: Verified entries need date and product version.
+        preconditions:
+          slot_conditions:
+            status: {equals_string: verified}
+        postconditions:
+          slot_conditions:
+            verified_on: {required: true}
+            verified_version: {required: true}
+  UseCaseLink:
+    description: A use case the tool serves, with an optional note on how.
+    slots: [code, note]
+  LocalizedText:
+    description: Short text per language, at most 140 characters each.
+    slots: [de, fr, it, en]
+slots:
+  id: {identifier: true, pattern: "^[a-z0-9]+(-[a-z0-9]+)*$", description: "Stable id; equals the file name; never changes or gets reused."}
+  name: {required: true, slot_uri: "schema:name"}
+  vendor: {required: true, slot_uri: "schema:provider"}
+  url: {required: true, range: uri, slot_uri: "schema:url", pattern: "^https://", description: "Product page; for own tools, the action page."}
+  category: {required: true, range: CategoryEnum}
+  pricing: {required: true, range: PricingEnum}
+  countries: {required: true, multivalued: true, pattern: "^[a-z]{2}$"}
+  description: {required: true, range: LocalizedText, inlined: true, slot_uri: "schema:description"}
+  use_cases: {required: true, multivalued: true, range: UseCaseLink, inlined_as_list: true, minimum_cardinality: 1}
+  code: {required: true, pattern: "^[A-Z]{2,5}(-[A-Z0-9]+)+$"}
+  note: {range: LocalizedText, inlined: true}
+  own: {required: true, range: boolean, description: "True only for tools and actions by abstract ag."}
+  status: {required: true, range: StatusEnum}
+  source: {range: uri, pattern: "^https://"}
+  verified_on: {range: date}
+  verified_version: {}
+  published: {required: true, range: boolean}
+  last_checked: {required: true, range: date}
+  de: {pattern: "^.{1,140}$"}
+  fr: {pattern: "^.{1,140}$"}
+  it: {pattern: "^.{1,140}$"}
+  en: {pattern: "^.{1,140}$"}
+enums:
+  StatusEnum:
+    permissible_values:
+      editorial: {description: "Added by pragmaticBIM; function confirmed from the vendor's documentation."}
+      self-declared: {description: "Submitted by the vendor; not tested."}
+      verified: {description: "Tested by pragmaticBIM against the use case's checks."}
+  PricingEnum:
+    permissible_values: {free: {}, freemium: {}, commercial: {}, open-source: {}}
+  CategoryEnum:
+    permissible_values:
+      authoring: {}
+      model-checking: {}
+      coordination: {}
+      cde: {}
+      field-and-defects: {}
+      reality-capture: {}
+      scan-to-bim: {}
+      cost-and-tendering: {}
+      classification: {}
+      energy-and-simulation: {}
+      daylight-and-lighting: {}
+      lca: {}
+      material-passport-and-reuse: {}
+      room-data-and-briefing: {}
+      feasibility-and-massing: {}
+      gis-and-geodata: {}
+      swept-path-and-parking: {}
+      mep-design: {}
+      structure-and-timber: {}
+      visualisation: {}
+      4d-and-logistics: {}
+      facility-management: {}
+      building-operation: {}
+      participation: {}
+      procurement: {}
+      product-data: {}
+      other: {}

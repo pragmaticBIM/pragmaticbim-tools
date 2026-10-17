@@ -1,0 +1,16 @@
+id: reluxdesktop
+name: ReluxDesktop
+vendor: Relux Informatik
+url: https://relux.com
+category: daylight-and-lighting
+pricing: free
+countries: [ch]
+description:
+  de: Licht- und Tageslichtplanung mit Leuchtendaten von Herstellern.
+use_cases:
+  - code: DES-LIGHTING-COORD
+own: false
+status: editorial
+source: https://relux.com
+published: false
+last_checked: "2026-10-17"

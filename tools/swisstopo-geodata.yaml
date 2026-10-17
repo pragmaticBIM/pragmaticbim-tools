@@ -1,0 +1,17 @@
+id: swisstopo-geodata
+name: swisstopo Geodaten (swissALTI3D, swissBUILDINGS3D)
+vendor: swisstopo
+url: https://www.swisstopo.admin.ch
+category: gis-and-geodata
+pricing: free
+countries: [ch]
+description:
+  de: Frei verfügbare Höhen- und 3D-Gebäudemodelle der Schweiz zum Download.
+use_cases:
+  - code: BES-EXISTING-SITE
+  - code: DES-TERRAIN
+own: false
+status: editorial
+source: https://www.swisstopo.admin.ch
+published: false
+last_checked: "2026-10-17"

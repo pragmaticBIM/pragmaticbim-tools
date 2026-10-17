@@ -1,0 +1,27 @@
+id: abstractbim
+name: abstractBIM
+vendor: abstract ag
+url: https://www.abstractbim.com
+category: other
+pricing: freemium
+countries: [ch]
+description:
+  de: Leitet aus Räumen, Fenstern und Türen eines IFC-Modells bereinigte Geometrie, Mengen und gbXML ab.
+use_cases:
+  - code: BES-ABSTRACTBIM-COMP
+    note:
+      de: Führt die Raummodelle aller Wettbewerbsbeiträge zu einem einheitlichen Datensatz zusammen.
+  - code: DES-ABSTRACTBIM-BPS
+    note:
+      de: Erzeugt gbXML und IFC für Lesosai, IDA ICE und weitere Energiewerkzeuge.
+  - code: DES-WALL-REQUIREMENTS
+    note:
+      de: Ordnet jeder Wand die angrenzenden Räume zu und leitet Anforderungen regelbasiert ab.
+  - code: QAS-BENCHMARK
+    note:
+      de: Vergleich mit Kennwerten aus über 3000 Modellen; Vergleichsgruppe nach Angebot.
+own: true
+status: editorial
+source: https://www.abstractbim.com
+published: true
+last_checked: "2026-10-17"

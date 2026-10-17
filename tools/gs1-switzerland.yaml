@@ -1,0 +1,17 @@
+id: gs1-switzerland
+name: GS1 GTIN und Digital Link
+vendor: GS1 Switzerland
+url: https://www.gs1.ch
+category: product-data
+pricing: commercial
+countries: [ch]
+description:
+  de: Vergabe von GTIN und GS1 Digital Link zur eindeutigen Identifikation von Produkten.
+use_cases:
+  - code: HOV-PRODUCT-PASS-GTIN
+  - code: HOV-PRODUCT-PASS-SERIAL
+own: false
+status: editorial
+source: https://www.gs1.ch
+published: false
+last_checked: "2026-10-17"

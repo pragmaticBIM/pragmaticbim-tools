@@ -1,0 +1,18 @@
+id: oneclicklca
+name: One Click LCA
+vendor: One Click LCA Ltd
+url: https://www.oneclicklca.com
+category: lca
+pricing: commercial
+countries: [ch]
+description:
+  de: Ökobilanz und graue Energie mit KBOB-Daten, Minergie-akkreditiert.
+use_cases:
+  - code: DES-LCA
+    note:
+      de: Graue Energie nach Minergie mit KBOB-Daten.
+own: false
+status: editorial
+source: https://help.oneclicklca.com/en/articles/663332
+published: true
+last_checked: "2026-10-17"

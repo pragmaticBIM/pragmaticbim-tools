@@ -1,0 +1,18 @@
+id: fuzor
+name: Fuzor
+vendor: Kalloc Studios
+url: https://www.kalloctech.com
+category: 4d-and-logistics
+pricing: commercial
+countries: [ch]
+description:
+  de: VR- und 4D-Bauablaufsimulation mit Live-Verbindung zu Revit und Archicad.
+use_cases:
+  - code: DES-COMPLEX-ASSEMBLY
+  - code: QAS-INSTALL-PATH
+  - code: QAS-SITE-LOGISTICS
+own: false
+status: editorial
+source: https://www.kalloctech.com
+published: false
+last_checked: "2026-10-17"

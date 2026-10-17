@@ -1,0 +1,16 @@
+id: maptionnaire
+name: Maptionnaire
+vendor: Maptionnaire
+url: https://maptionnaire.com
+category: participation
+pricing: commercial
+countries: [ch]
+description:
+  de: Kartenbasierte Online-Umfragen und Beteiligungsplattform für Planungsverfahren.
+use_cases:
+  - code: COM-STAKEHOLDER-DIALOG
+own: false
+status: editorial
+source: https://maptionnaire.com
+published: false
+last_checked: "2026-10-17"

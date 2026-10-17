@@ -1,0 +1,17 @@
+id: vehicle-tracking
+name: Vehicle Tracking
+vendor: Autodesk
+url: https://www.autodesk.com/products/vehicle-tracking
+category: swept-path-and-parking
+pricing: commercial
+countries: [ch]
+description:
+  de: Schleppkurvenanalyse und Parkplatzplanung in AutoCAD und Civil 3D.
+use_cases:
+  - code: DES-PARKING
+  - code: DES-TRAFFIC
+own: false
+status: editorial
+source: https://www.autodesk.com/products/vehicle-tracking
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,17 @@
+id: logikal
+name: LogiKal
+vendor: Orgadata
+url: https://www.logikal-software.com
+category: other
+pricing: commercial
+countries: [ch]
+description:
+  de: Planung und Kalkulation von Fenster-, Tür- und Fassadenkonstruktionen aus Profilsystemen.
+use_cases:
+  - code: BES-WINDOW-TENDER
+  - code: DES-FACADE
+own: false
+status: editorial
+source: https://www.logikal-software.com
+published: false
+last_checked: "2026-10-17"

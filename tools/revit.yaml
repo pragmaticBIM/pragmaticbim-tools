@@ -1,0 +1,41 @@
+id: revit
+name: Revit
+vendor: Autodesk
+url: https://www.autodesk.com/products/revit
+category: authoring
+pricing: commercial
+countries: [ch]
+description:
+  de: BIM-Autorenwerkzeug für Architektur, Tragwerk und Gebäudetechnik mit Plänen und Mengen aus dem Modell.
+use_cases:
+  - code: BES-DOOR-TENDER
+  - code: BES-DRYWALL-TENDER
+  - code: BES-EXISTING-STRUCTURE
+  - code: BES-FLOORING-TENDER
+  - code: BES-MASONRY-TENDER
+  - code: BES-PAINTING-TENDER
+  - code: BES-TILING-TENDER
+  - code: BES-WINDOW-TENDER
+  - code: DES-CEILING-MIRROR
+  - code: DES-D0165
+  - code: DES-DOOR
+  - code: DES-DRAWINGS
+  - code: DES-DRYWALL-REINF
+  - code: DES-EMBED-REINF
+  - code: DES-FACADE
+  - code: DES-FLOORING
+  - code: DES-FURNITURE
+  - code: DES-GFA
+  - code: DES-LAYOUT
+  - code: DES-PERMIT
+  - code: DES-SIA416
+  - code: DES-STRUCT-MASONRY
+  - code: HOV-NATIVE
+  - code: QAS-ARCH-STRUCT-ADOPT
+  - code: QAS-DET-REF
+  - code: QAS-VORSATZ
+own: false
+status: editorial
+source: https://www.autodesk.com/products/revit
+published: false
+last_checked: "2026-10-17"

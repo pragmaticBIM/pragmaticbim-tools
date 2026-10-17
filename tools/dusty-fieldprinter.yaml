@@ -1,0 +1,16 @@
+id: dusty-fieldprinter
+name: Dusty Robotics FieldPrinter
+vendor: Dusty Robotics
+url: https://www.dustyrobotics.com
+category: other
+pricing: commercial
+countries: [ch]
+description:
+  de: Roboter, der Grundrisslayouts aus BIM- oder CAD-Daten auf die Rohdecke druckt.
+use_cases:
+  - code: CON-ROBOT-LAYOUT
+own: false
+status: editorial
+source: https://www.dustyrobotics.com
+published: false
+last_checked: "2026-10-17"

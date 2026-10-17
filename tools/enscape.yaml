@@ -1,0 +1,19 @@
+id: enscape
+name: Enscape
+vendor: Chaos
+url: https://www.chaos.com
+category: visualisation
+pricing: commercial
+countries: [ch]
+description:
+  de: Echtzeit-Rendering als Plug-in für Revit, Archicad, SketchUp, Rhino und Vectorworks.
+use_cases:
+  - code: DES-MODEL-VIS
+  - code: QAS-DECISION-VIS
+  - code: QAS-FURNISHABILITY
+  - code: QAS-SPECIAL-ROOM-USER
+own: false
+status: editorial
+source: https://www.chaos.com
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,17 @@
+id: thinkproject
+name: thinkproject
+vendor: thinkproject
+url: https://www.thinkproject.com
+category: cde
+pricing: commercial
+countries: [ch]
+description:
+  de: Gemeinsame Datenumgebung für Dokumente, Pläne und Prozesse mit Rechteverwaltung.
+use_cases:
+  - code: BES-OWNER-CDE
+  - code: DES-CRIT-INSERT
+own: false
+status: editorial
+source: https://www.thinkproject.com
+published: false
+last_checked: "2026-10-17"

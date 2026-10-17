@@ -1,0 +1,16 @@
+id: climatestudio
+name: ClimateStudio
+vendor: Solemma
+url: https://www.solemma.com
+category: daylight-and-lighting
+pricing: commercial
+countries: [ch]
+description:
+  de: Tageslicht-, Blendungs- und Energiesimulation als Plug-in für Rhino.
+use_cases:
+  - code: QAS-DAYLIGHT
+own: false
+status: editorial
+source: https://www.solemma.com
+published: false
+last_checked: "2026-10-17"

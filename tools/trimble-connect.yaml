@@ -1,0 +1,16 @@
+id: trimble-connect
+name: Trimble Connect
+vendor: Trimble
+url: https://connect.trimble.com
+category: cde
+pricing: freemium
+countries: [ch]
+description:
+  de: Cloud-Plattform zum Teilen und Koordinieren von Modellen, Plänen und Aufgaben.
+use_cases:
+  - code: BES-OWNER-CDE
+own: false
+status: editorial
+source: https://connect.trimble.com
+published: false
+last_checked: "2026-10-17"

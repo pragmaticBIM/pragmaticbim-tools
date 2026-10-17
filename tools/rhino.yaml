@@ -1,0 +1,17 @@
+id: rhino
+name: Rhino
+vendor: Robert McNeel & Associates
+url: https://www.rhino3d.com
+category: authoring
+pricing: commercial
+countries: [ch]
+description:
+  de: 3D-Freiformmodellierung mit integriertem Grasshopper für parametrische Geometrie.
+use_cases:
+  - code: DES-FACADE
+  - code: DES-URBAN-MASS
+own: false
+status: editorial
+source: https://www.rhino3d.com
+published: false
+last_checked: "2026-10-17"

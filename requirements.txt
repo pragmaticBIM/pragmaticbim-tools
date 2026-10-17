@@ -1,0 +1,4 @@
+# Pinned: tool.schema.json embeds the LinkML metamodel version, so the drift check needs a fixed version.
+linkml==1.11.1
+linkml-runtime==1.12.1
+PyYAML>=6.0

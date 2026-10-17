@@ -1,0 +1,18 @@
+id: label-plattform
+name: Label-Plattform
+vendor: Minergie Schweiz
+url: https://www.label-plattform.ch
+category: other
+pricing: commercial
+countries: [ch]
+description:
+  de: Online-Plattform für Nachweis und Zertifizierung von Minergie-Gebäuden, mit Dokumentenablage je Projekt.
+use_cases:
+  - code: QAS-FUND
+    note:
+      de: Führt Minergie-Nachweise und -Zertifikate bis zur definitiven Zertifizierung.
+own: false
+status: editorial
+source: https://www.minergie.ch/de/zertifizieren/ablauf/
+published: true
+last_checked: "2026-10-17"

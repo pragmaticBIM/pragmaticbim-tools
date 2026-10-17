@@ -1,0 +1,6 @@
+.cache/
+__pycache__/
+.venv/
+*.pyc
+*.xlsx
+migration-report.md

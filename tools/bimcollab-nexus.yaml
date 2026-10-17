@@ -1,0 +1,22 @@
+id: bimcollab-nexus
+name: BIMcollab Nexus
+vendor: BIMcollab
+url: https://www.bimcollab.com
+category: coordination
+pricing: commercial
+countries: [ch]
+description:
+  de: Cloud-Plattform für BCF-Issues und Koordination über mehrere Autoren- und Prüfwerkzeuge.
+use_cases:
+  - code: BES-OWNER-CDE
+  - code: DES-ARCH-MEP-COORD
+  - code: QAS-ARCH-STRUCT-COORD
+  - code: QAS-COORD-ZONE
+  - code: QAS-DESIGN-REVIEW
+  - code: QAS-EARLY-COORD
+  - code: QAS-HAZMAT-CHECK
+own: false
+status: editorial
+source: https://www.bimcollab.com
+published: false
+last_checked: "2026-10-17"

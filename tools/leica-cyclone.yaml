@@ -1,0 +1,16 @@
+id: leica-cyclone
+name: Leica Cyclone
+vendor: Leica Geosystems (Hexagon)
+url: https://leica-geosystems.com
+category: reality-capture
+pricing: commercial
+countries: [ch]
+description:
+  de: Software zur Registrierung, Bearbeitung und Auswertung von Laserscan-Punktwolken.
+use_cases:
+  - code: BES-EXISTING-POINT-CLOUD
+own: false
+status: editorial
+source: https://leica-geosystems.com
+published: false
+last_checked: "2026-10-17"

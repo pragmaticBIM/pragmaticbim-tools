@@ -1,0 +1,16 @@
+id: ifcopenshell
+name: IfcOpenShell
+vendor: IfcOpenShell-Projekt
+url: https://ifcopenshell.org
+category: other
+pricing: open-source
+countries: [ch]
+description:
+  de: Open-Source-Bibliothek und Werkzeuge zum Lesen, Bearbeiten und Zusammenführen von IFC-Dateien.
+use_cases:
+  - code: OPR-FM-ARCH
+own: false
+status: editorial
+source: https://ifcopenshell.org
+published: false
+last_checked: "2026-10-17"

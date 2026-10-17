@@ -1,0 +1,19 @@
+id: archibus
+name: Archibus
+vendor: Eptura
+url: https://eptura.com
+category: facility-management
+pricing: commercial
+countries: [ch]
+description:
+  de: CAFM/IWMS-System für Flächen-, Anlagen- und Instandhaltungsmanagement.
+use_cases:
+  - code: HOV-COBIE
+  - code: HOV-FM-3D
+  - code: HOV-FM-MIN
+  - code: OPR-SIGNAGE-ROOM
+own: false
+status: editorial
+source: https://eptura.com
+published: false
+last_checked: "2026-10-17"

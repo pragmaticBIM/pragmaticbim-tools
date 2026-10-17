@@ -1,0 +1,20 @@
+id: testfit
+name: TestFit
+vendor: TestFit
+url: https://www.testfit.io
+category: feasibility-and-massing
+pricing: commercial
+countries: [ch]
+description:
+  de: Machbarkeitsstudien mit automatisch erzeugten Gebäude-, Wohnungs- und Parkierungslayouts.
+use_cases:
+  - code: BES-FUNCTIONAL-BRIEF
+  - code: DES-APT-SCHEDULE
+  - code: DES-LAYOUT
+  - code: DES-PARKING
+  - code: DES-URBAN-MASS
+own: false
+status: editorial
+source: https://www.testfit.io
+published: false
+last_checked: "2026-10-17"

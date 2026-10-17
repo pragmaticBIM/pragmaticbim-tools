@@ -1,0 +1,16 @@
+id: plannerly
+name: Plannerly
+vendor: Plannerly
+url: https://plannerly.com
+category: other
+pricing: freemium
+countries: [ch]
+description:
+  de: Webplattform für BIM-Anforderungen, Leistungsumfang und Verantwortlichkeiten.
+use_cases:
+  - code: BES-DESIGNER-PROCUREMENT
+own: false
+status: editorial
+source: https://plannerly.com
+published: false
+last_checked: "2026-10-17"

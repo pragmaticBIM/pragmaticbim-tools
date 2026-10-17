@@ -1,0 +1,19 @@
+id: twinmotion
+name: Twinmotion
+vendor: Epic Games
+url: https://www.twinmotion.com
+category: visualisation
+pricing: freemium
+countries: [ch]
+description:
+  de: Echtzeit-Visualisierung auf Basis der Unreal Engine mit Anbindung an gängige BIM-Autorenwerkzeuge.
+use_cases:
+  - code: COM-STAKEHOLDER-DIALOG
+  - code: DES-MODEL-VIS
+  - code: QAS-DECISION-VIS
+  - code: QAS-URBAN-AR
+own: false
+status: editorial
+source: https://www.twinmotion.com
+published: false
+last_checked: "2026-10-17"

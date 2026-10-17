@@ -1,0 +1,58 @@
+name: Validate
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Validate tool files against the LinkML schema
+        run: linkml-validate -s schema/tool.yaml -C Tool tools/*.yaml
+
+      - name: Check ids, use case codes, own entries and dates
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          REFERENCE_CACHE_DIR: ${{ runner.temp }}/reference
+          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
+          PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+        run: python scripts/check_codes.py
+
+      - name: Check that tool.schema.json is up to date
+        run: |
+          gen-json-schema schema/tool.yaml > "$RUNNER_TEMP/tool.schema.json"
+          if ! diff -u schema/tool.schema.json "$RUNNER_TEMP/tool.schema.json"; then
+            echo "::error file=schema/tool.schema.json::Out of date. Run: gen-json-schema schema/tool.yaml > schema/tool.schema.json"
+            exit 1
+          fi
+
+  trigger-website:
+    needs: validate
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger website build in pragmaticbim-publishing
+        env:
+          GH_TOKEN: ${{ secrets.PUBLISHING_DISPATCH_TOKEN }}
+        run: |
+          gh api repos/pragmaticBIM/pragmaticbim-publishing/dispatches \
+            -f event_type=tools-updated \
+            -f "client_payload[repository]=${{ github.repository }}" \
+            -f "client_payload[sha]=${{ github.sha }}"

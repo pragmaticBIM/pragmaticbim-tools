@@ -1,0 +1,18 @@
+id: hp-siteprint
+name: HP SitePrint
+vendor: HP
+url: https://www.hp.com/us-en/printers/site-print/layout-robot.html
+category: other
+pricing: commercial
+countries: [ch]
+description:
+  de: Roboter, der Layouts aus 2D-CAD-Dateien mit Hilfe einer Totalstation massstäblich auf die Rohdecke druckt.
+use_cases:
+  - code: CON-ROBOT-LAYOUT
+    note:
+      de: Druckt Layouts aus DXF; ein 3D-Modell wird vorher in 2D-DXF umgewandelt.
+own: false
+status: editorial
+source: https://www.hp.com/us-en/printers/site-print/layout-robot.html
+published: true
+last_checked: "2026-10-17"

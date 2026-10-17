@@ -1,0 +1,18 @@
+id: simplebim
+name: Simplebim
+vendor: Datacubist
+url: https://simplebim.com
+category: model-checking
+pricing: commercial
+countries: [ch]
+description:
+  de: Bearbeitung, Bereinigung und Anreicherung von IFC-Modellen mit regelbasierten Vorlagen.
+use_cases:
+  - code: DES-WALL-REQUIREMENTS
+  - code: OPR-FM-ARCH
+  - code: QAS-ELEMENT-PERF
+own: false
+status: editorial
+source: https://simplebim.com
+published: false
+last_checked: "2026-10-17"

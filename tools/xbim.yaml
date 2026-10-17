@@ -1,0 +1,16 @@
+id: xbim
+name: xBIM Toolkit
+vendor: xBIM-Projekt
+url: https://docs.xbim.net
+category: other
+pricing: open-source
+countries: [ch]
+description:
+  de: Open-Source-Bibliothek für .NET zum Lesen und Schreiben von IFC, mit COBie-Export.
+use_cases:
+  - code: HOV-COBIE
+own: false
+status: editorial
+source: https://docs.xbim.net
+published: false
+last_checked: "2026-10-17"

@@ -1,0 +1,18 @@
+id: autodesk-construction-cloud
+name: Autodesk Construction Cloud
+vendor: Autodesk
+url: https://construction.autodesk.com
+category: cde
+pricing: commercial
+countries: [ch]
+description:
+  de: Cloud-Plattform für Dokumente, Pläne, Modelle und Baustellenprozesse mit Rechteverwaltung.
+use_cases:
+  - code: BES-OWNER-CDE
+  - code: DES-CRIT-INSERT
+  - code: HOV-NATIVE
+own: false
+status: editorial
+source: https://construction.autodesk.com
+published: false
+last_checked: "2026-10-17"

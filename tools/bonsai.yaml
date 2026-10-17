@@ -1,0 +1,16 @@
+id: bonsai
+name: Bonsai
+vendor: IfcOpenShell-Projekt
+url: https://bonsaibim.org
+category: authoring
+pricing: open-source
+countries: [ch]
+description:
+  de: Open-Source-Add-on für Blender zum direkten Erstellen und Bearbeiten von IFC-Modellen.
+use_cases:
+  - code: OPR-FM-ARCH
+own: false
+status: editorial
+source: https://bonsaibim.org
+published: false
+last_checked: "2026-10-17"

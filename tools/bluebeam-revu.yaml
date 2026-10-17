@@ -1,0 +1,18 @@
+id: bluebeam-revu
+name: Bluebeam Revu
+vendor: Bluebeam (Nemetschek)
+url: https://www.bluebeam.com
+category: coordination
+pricing: commercial
+countries: [ch]
+description:
+  de: PDF-Werkzeug für Planprüfung, Markierungen, Planvergleich und Mengenermittlung mit Cloud-Zusammenarbeit.
+use_cases:
+  - code: BES-PLAN-BOX
+  - code: QAS-CONTRACTOR-DESIGN
+  - code: QAS-DESIGN-REVIEW
+own: false
+status: editorial
+source: https://www.bluebeam.com
+published: false
+last_checked: "2026-10-17"
