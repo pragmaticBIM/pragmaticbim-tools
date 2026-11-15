@@ -24,6 +24,28 @@ Entries with `published: false` are kept for review and are not shown on the web
 
 A private generator reads this registry and the latest release of the Reference. On each use case page of [pragmaticbim.ch](https://pragmaticbim.ch) it lists the published tools whose `use_cases` contain that code, with the status shown next to each tool. Every push to `main` triggers a website build.
 
+## Use with AI assistants
+
+The pragmaticBIM catalog, including this registry, is available as a public MCP server. Add it to Claude, ChatGPT or any other MCP client to query the data directly.
+
+Endpoint: `https://pragmaticbim.ch/mcp`
+
+| Tool | Purpose |
+| --- | --- |
+| `search_catalog` | Full-text search across the catalog |
+| `get_entry` | Fetch a single entry by its id or code |
+| `get_element_attributes` | List the attributes required for a building element |
+| `resolve_room_code` | Look up a room code |
+| `list_vocabulary` | List the allowed values of a vocabulary |
+
+Setup instructions for Claude, ChatGPT and other clients: [pragmaticbim.ch/de/mcp](https://pragmaticbim.ch/de/mcp).
+
+Example question:
+
+> Which tools cover the use case `QAS-BENCHMARK`, and which of them are verified?
+
+The server is read-only and serves the released version of this repository, not the current state of `main`.
+
 ## Repository layout
 
 | Path | Role |
