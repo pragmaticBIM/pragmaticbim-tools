@@ -363,7 +363,7 @@
     },
     "$id": "https://pragmaticbim.ch/schema/tools",
     "$schema": "https://json-schema.org/draft/2019-09/schema",
-    "additionalProperties": true,
+    "additionalProperties": false,
     "allOf": [
         {
             "if": {
@@ -409,7 +409,7 @@
         }
     ],
     "description": "One software tool or own action, with the use cases it serves.",
-    "metamodel_version": "1.11.0",
+    "metamodel_version": "1.12.0",
     "properties": {
         "category": {
             "$ref": "#/$defs/CategoryEnum"
