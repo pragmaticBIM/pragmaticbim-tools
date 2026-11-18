@@ -1,0 +1,119 @@
+# Example caller for pragmaticBIM/pragmaticbim-tools. Generated from templates/agent-worker.yml.
+# check_cmd mirrors the first step of validate.yml. The other steps (check_codes.py, schema freshness)
+# need PR context; move them into one script (for example scripts/check.sh) that CI and the agent both run,
+# then point check_cmd at it.
+# Confirm the required status check on main is `validate` before using merge_mode: auto.
+# Secrets: AGENT_GH_TOKEN is a fine-grained token with resource owner pragmaticBIM. Set both with secrets.sh.
+# The actions come from the private copy pragmaticBIM/agent-pipeline (see sync.sh).
+#
+# Agent worker: picks the next queued issue and works it into a PR.
+#
+# Copy to .github/workflows/agent-worker.yml in the project repo.
+#
+# Setup, once per repo (Settings > Secrets and variables > Actions):
+#   secret  CURSOR_API_KEY   Cursor API key
+#   secret  AGENT_GH_TOKEN   fine-grained token for this repo: Contents, Pull requests and
+#                            Issues read/write. Needed because PRs and merges made with
+#                            the default GITHUB_TOKEN do not start other workflows.
+# Then run bootstrap.sh from agent-pipeline once (labels and repo settings).
+#
+# Manual run: Actions > Agent worker > Run workflow. Give an issue number to work that
+# issue regardless of the queue, tick dry run to see what would be picked, or tick
+# models test to check the Cursor key and both model ids.
+
+name: Agent worker
+
+on:
+  push:
+    branches: [main]
+  issues:
+    types: [labeled, closed]
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+    inputs:
+      issue:
+        description: "Issue number to work, ignoring the queue (optional)"
+        required: false
+      dry_run:
+        description: "Only show which issue would be picked"
+        type: boolean
+        default: false
+      models_test:
+        description: "Only test the Cursor key and both models with a one-word prompt"
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+  issues: read
+
+# One run at a time. A run waiting behind another is replaced by a newer one; the
+# picker reads the queue fresh, so nothing is lost.
+concurrency:
+  group: agent-worker
+  cancel-in-progress: false
+
+env:
+  # Ids exactly as `agent models` prints them. Keep the reviewer on a different vendor.
+  WORKER_MODEL: claude-sonnet-5-5-high
+  REVIEW_MODEL: gpt-5.6-sol-high
+
+jobs:
+  pick:
+    # Label events other than `queued` are ignored.
+    if: inputs.models_test != true && (github.event_name != 'issues' || github.event.action == 'closed' || github.event.label.name == 'queued')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      issue: ${{ steps.pick.outputs.issue }}
+    steps:
+      - id: pick
+        uses: pragmaticBIM/agent-pipeline/pick@v1
+        with:
+          issue: ${{ inputs.issue }}
+
+  work:
+    needs: pick
+    if: needs.pick.outputs.issue != '' && inputs.dry_run != true
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    env:
+      GH_TOKEN: ${{ secrets.AGENT_GH_TOKEN }}
+      CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
+
+      # Setup mirrors the repo's own CI.
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+      - run: pip install -r requirements.txt
+
+      - uses: pragmaticBIM/agent-pipeline/work@v1
+        with:
+          issue: ${{ needs.pick.outputs.issue }}
+          worker_model: ${{ env.WORKER_MODEL }}
+          review_model: ${{ env.REVIEW_MODEL }}
+          base_branch: main
+          check_cmd: linkml-validate -s schema/tool.yaml -C Tool tools/*.yaml
+          instruction_files: AGENTS.md CONTRIBUTING.md
+          merge_mode: auto
+          protected_paths: |
+            ^LICENSE$
+            ^MAINTAINERS$
+
+  models:
+    if: inputs.models_test == true
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      CURSOR_API_KEY: ${{ secrets.CURSOR_API_KEY }}
+    steps:
+      - uses: pragmaticBIM/agent-pipeline/models@v1
+        with:
+          worker_model: ${{ env.WORKER_MODEL }}
+          review_model: ${{ env.REVIEW_MODEL }}
